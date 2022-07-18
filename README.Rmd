@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of finddataanalysis is to ...
+The goal of finddataanalysis is to have a collection of tools that are used for data analysis.
 
 ## Installation
 
@@ -28,6 +28,7 @@ You can install the development version of finddataanalysis from [GitHub](https:
 # install.packages("devtools")
 devtools::install_github("berkosarFIND/finddataanalysis")
 ```
+
 
 ## Performance analysis
 
@@ -70,4 +71,3 @@ forest_data %>% forestplot(mean = Sensitivity,
                           )
 
 ```
-

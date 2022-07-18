@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of finddataanalysis is to …
+The goal of finddataanalysis is to have a collection of tools that are
+used for data analysis.
 
 ## Installation
 
