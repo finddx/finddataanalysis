@@ -1,0 +1,231 @@
+---
+title: "flat_performance_evaluation.Rmd empty"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r development, include=FALSE}
+library(testthat)
+library(assertthat)
+library(dplyr)
+library(PropCIs)
+library(checkmate)
+```
+
+<!--
+ You need to run the 'description' chunk in the '0-dev_history.Rmd' file before continuing your code there.
+-->
+
+## sens_spe
+
+Calculates sensitivity and specificity of a diagnostic test.
+Results are formatted to generate a table to display.
+    
+```{r function-sens_spe}
+#' Sensitivity and specificity (Table Display)
+#' 
+#' Calculate sensitivity and specificity with confidence intervals from a data frame that contains the results of the index and the reference test. 
+#' To be used for displaying the result in a table.
+#' 
+#' @param data_var Data table containing test results
+#' @param index The index test with "Negative" and "Positive" results
+#' @param ref The reference test with "Negative" and "Positive" results
+#' @param conf.level The confidence level, 1-alpha -- default 95%
+#'
+#' @return A data table with TP/FP/TN/FN, sensitivity, specificity and confidence intervals
+#' @import dplyr
+#' @import assertthat 
+#' @import PropCIs
+#' @export
+sens_spe <- function(data_var, index, ref, conf.level = 0.95){
+  #verify that these are column names in characters
+  assert_that(is.character(index))
+  assert_that(is.character(ref))
+
+  # Calculate number of TP.
+  TP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Positive"),])
+  FP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Negative"),])
+  FN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Positive"),])
+  TN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Negative"),])
+
+  sens	<- TP / (TP + FN)
+  sens_CI	<- scoreci(x = TP, n  = (TP + FN), conf.level = conf.level)
+
+  spe		<- TN / (TN +FP)
+  spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
+
+  BA <- round((sens+spe)/2*100, 1)
+  BA_lci <- (  round(sens_CI$conf.int[1]*100, 1) + round(spe_CI$conf.int[1]*100, 1)) /2
+  BA_hci <- (round(sens_CI$conf.int[2]*100, 1) + round(spe_CI$conf.int[2]*100, 1))/2
+
+  sens_text    <- paste0(format(round(sens*100, 1), nsmall = 1))
+  sens_ci_text <- paste0('[', format(round(sens_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(sens_CI$conf.int[2]*100, 1), nsmall = 1), ']')
+  spe_text     <- paste0(format(round(spe*100, 1), nsmall = 1))
+  spe_ci_text  <- paste0('[', format(round(spe_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(spe_CI$conf.int[2]*100, 1), nsmall = 1), ']')
+  BA_ci_text   <- paste0('[', format(BA_lci, nsmall = 1), '-', format(BA_hci, nsmall = 1), ']')
+
+  PPV	<- TP / (TP + FP)
+  NPV	<- TN / (TN + FN)
+  ACC	<- (TP + TN) / (TP + FP + FN + TN)
+  N 		<- TP + TN + FP + FN
+
+  data_to_return_1	<- c(N = N, TP = TP, FP = FP, FN = FN, TN = TN, `Sensitivity` = sens_text, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = spe_text, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = BA, `B. Accuracy [95%CI]` = BA_ci_text)
+  names_tp <- names(data_to_return_1)
+  data_to_return_1  <- data.frame(t(data_to_return_1))
+  colnames(data_to_return_1) <- names_tp
+  return(data_to_return_1)
+}
+```
+  
+```{r example-sens_spe}
+df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+sens_spe(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95)
+```
+  
+```{r tests-sens_spe}
+  df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+test_that("sen_spe works", {
+ expect_error( sens_spe(
+    data_var = df,
+    index = 0.8,
+    ref = "Reference",
+    conf.level = 0.95
+  ))
+})
+```
+  
+## sens_spe_for_forest 
+
+Calculates sensitivity and specificity of a diagnostic test.
+Results are formatted to generate forest plots.
+    
+```{r function-sens_spe_for_forest}
+#' Sensitivity and specificity (for forest plots)
+#' 
+#' Calculate sensitivity and specificity with confidence intervals from a data frame that contains the results of the index and the reference test. 
+#' To be used for displaying the result in a forest plot.
+#' 
+#' @param data_var Data table containing test results
+#' @param index The index test with "Negative" and "Positive" results
+#' @param ref The reference test with "Negative" and "Positive" results
+#' @param conf.level The confidence level, 1-alpha -- default 95%
+#'
+#' @return A data table with TP/FP/TN/FN, sensitivity, specificity and confidence intervals
+#' @import dplyr
+#' @import assertthat 
+#' @import PropCIs
+#' 
+#' @export
+sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
+  #verify that these are column names in characters
+  assert_that(is.character(index))
+  assert_that(is.character(ref))
+
+  # Calculate number of TP.
+  TP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Positive"),])
+  FP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Negative"),])
+  FN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Positive"),])
+  TN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Negative"),])
+
+  sens	<- TP / (TP + FN)
+  sens_CI	<- scoreci(x = TP, n  = (TP + FN), conf.level = conf.level)
+
+  spe		<- TN / (TN +FP)
+  spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
+
+  BA <- round((sens+spe)/2*100, 1)
+  BA_lci <- (round(sens_CI$conf.int[1]*100, 1) + round(spe_CI$conf.int[1]*100, 1))/2
+  BA_hci <- (round(sens_CI$conf.int[2]*100, 1) + round(spe_CI$conf.int[2]*100, 1))/2
+
+  sens_text    <- paste0(format(round(sens*100, 1), nsmall = 1))
+  sens_ci_text <- paste0('[', format(round(sens_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(sens_CI$conf.int[2]*100, 1), nsmall = 1), ']')
+  spe_text     <- paste0(format(round(spe*100, 1), nsmall = 1))
+  spe_ci_text  <- paste0('[', format(round(spe_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(spe_CI$conf.int[2]*100, 1), nsmall = 1), ']')
+
+
+  PPV	<- TP / (TP + FP)
+  NPV	<- TN / (TN + FN)
+  ACC	<- (TP + TN) / (TP + FP + FN + TN)
+  N 		<- TP + TN + FP + FN
+
+  data_to_return_1	<- data.frame(Sensitivity = (sens)*100, Specificity = (spe)*100,
+                                 SensLower = (sens_CI$conf.int[1])*100,
+                                 SensUpper = (sens_CI$conf.int[2])*100,
+                                 SpeLower = (spe_CI$conf.int[1])*100,
+                                 SpeUpper = (spe_CI$conf.int[2])*100,
+                                 Balanced_Accuracy = BA,
+                                 BAlower = BA_lci,
+                                 BAupper = BA_hci)
+  return(data_to_return_1)
+}
+
+
+
+
+```
+  
+```{r example-sens_spe_for_forest}
+library(forestplot)
+df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 30), rep("Negative", 10)))
+forest_data <- cbind(Test = "Index", sens_spe_for_forest(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95))
+forest_data %>% forestplot(mean = Sensitivity, 
+                          lower = SensLower, 
+                          upper = SensUpper, 
+                          labeltext = Test,
+                          title = "Sensitivity",
+                          zero = NA,
+                          xticks = c( 0, 20, 40, 60, 80, 100),
+                          txt_gp = fpTxtGp(ticks=gpar(cex=1)),
+                          boxsize = .1
+                          )
+```
+  
+```{r tests-sens_spe_for_forest}
+  df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+test_that("sen_spe_for_forest works", {
+ expect_error( sens_spe_for_forest(
+    data_var = df,
+    index = 0.8,
+    ref = "Reference",
+    conf.level = 0.95
+  ))
+})
+```
+  
+## CI_Calc
+    
+```{r function-CI_Calc}
+#' Confidence Interval Calculator
+#' 
+#' Calculates the confidence interval of a given proportion with normal approximation.
+#' 
+#' @param alpha significance level
+#' @param proportion the proportion
+#' @param n sample size
+#'
+#' @return
+#' 
+#' @importFrom checkmate expect_number
+#' @export
+CI_Calc <- function(alpha, proportion, n){
+  alpha_val         <- 1-alpha/2
+  z = qnorm(alpha_val)
+  ci = z*sqrt((proportion*(1-proportion))/n)
+  return(round(ci, digits = 4))
+}
+```
+  
+```{r example-CI_Calc}
+CI_Calc(alpha=0.05, proportion=0.62, n= 500)
+```
+  
+```{r tests-CI_Calc}
+test_that("CI_calc works", expect_number(CI_Calc(alpha=0.05, proportion=0.8, n= 321)))
+```
+  
+```{r development-inflate, eval=FALSE}
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_performance_evaluation.Rmd", vignette_name = "Performance Evaluation")
+```

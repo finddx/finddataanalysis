@@ -1,0 +1,69 @@
+---
+title: "flat_dx_yield.Rmd empty"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r development, include=FALSE}
+library(testthat)
+```
+
+<!--
+ You need to run the 'description' chunk in the '0-dev_history.Rmd' file before continuing your code there.
+-->
+
+# dx_yield 
+
+```{r function-dx_yield}
+#' Diagnostic Yield 
+#' 
+#' Calculates # Positives per Index Test/ # Positive by Reference Test with Wilson's confidence interval 
+#'
+#' @param data_arg The data frame
+#' @param ref_arg  Defined reference column
+#' @param index_arg The index test results column
+#' @param conf.level Level of confidence  
+#' 
+#' @import dplyr
+#'
+#' @return Diagnostic yield with confidence intervals
+#' @export
+#'
+#' @examples
+#' 
+dx_yield <- function(data_arg, ref_arg, index_arg, conf.level = 0.95){
+  N_pos_ref      <- data_arg %>% filter_at(vars(ref_arg), all_vars(. == 'Positive')) %>% count()
+  N_pos_index    <- data_arg %>% filter_at(vars(index_arg), any_vars(. == 'Positive'))  %>% count()
+
+  dx_yield    <- N_pos_index/N_pos_ref
+  dx_yield_CI	<- scoreci(x = N_pos_index, n  = N_pos_ref, conf.level = conf.level)
+
+  dx_yield_text    <- paste0(format(round(dx_yield*100, 1), nsmall = 1))
+  dx_yield_ci_text <- paste0('[', format(round(dx_yield_CI$conf.int[1]$n*100, 1), nsmall = 1), '-', format(round(dx_yield_CI$conf.int[2]$n*100, 1), nsmall = 1), ']')
+
+
+  data_to_return <- paste(dx_yield_text, dx_yield_ci_text)
+
+  return(data_to_return)
+}
+```
+
+```{r examples-dx_yield}
+
+df_ex <- data.frame(REF = c(rep('Positive', 50), rep('Negative', 50)), INDEX = c(rep('Positive', 3), rep('Negative', 78), rep('Positive', 19)))
+
+dx_yield(data_arg = df_ex, ref_arg = "REF", index_arg = "INDEX", conf.level = 0.95)
+
+```
+
+```{r tests-dx_yield}
+
+```
+
+
+```{r development-inflate, eval=FALSE}
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_dx_yield.Rmd", vignette_name = "dx_yield")
+```

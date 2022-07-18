@@ -1,0 +1,5 @@
+
+^dev$
+^LICENSE\.md$
+^finddataanalysis\.Rproj$
+^\.Rproj\.user$
