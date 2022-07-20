@@ -1,0 +1,88 @@
+---
+title: "flat_variable_manipulations.Rmd empty"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r development, include=FALSE}
+library(testthat)
+```
+
+<!--
+ You need to run the 'description' chunk in the '0-dev_history.Rmd' file before continuing your code there.
+-->
+## temperature_groups
+    
+```{r function-temperature_groups}
+#' Regroup axillary temperature values
+#' 
+#' Creates a new categorical variable based on the body temperature.
+#' 
+#' @param data.var Data table
+#' @param temperature Variable containing body temperature in Celsius
+#'
+#' @return
+#' 
+#' @import dplyr
+#' @export
+temperature_groups <- function(data.var, temperature ){
+    data.var <- data.var %>% mutate(TEMP_CATEG = case_when(data.var[,temperature] < 36  ~ "<36",
+                                              data.var[,temperature] >= 36 & data.var[,temperature]<37  ~ "36-36.9",
+                                             data.var[,temperature] >= 37 & data.var[,temperature]<38  ~ "37-37.9",
+                                             data.var[,temperature] >= 38 & data.var[,temperature]<39  ~ "38-38.9",
+                                             data.var[,temperature] >= 30  ~ "≥39"))
+    return(data.var)
+}
+```
+  
+```{r example-temperature_groups}
+
+df = data.frame(ID = c(1:20), Temperature = runif(20, 36, 42))
+temperature_groups(data.var = df, temperature = "Temperature")
+```
+  
+```{r tests-temperature_groups}
+
+```
+  
+## age_groups
+    
+```{r function-age_groups}
+#' Age groups
+#' 
+#' Creates a new categorical variable based on age.
+#' 
+#' @param data.var Data table
+#' @param temperature Variable containing age in years.
+#'
+#' @return
+#' 
+#' @import dplyr
+#' @export
+age_groups <- function(data.var, age ){
+    data.var <- data.var %>% mutate(AGE_CATEG = case_when(data.var[,age] < 18  ~ "<18",
+                                              data.var[,age] >= 18 & data.var[,age]<30  ~ "18-29",
+                                             data.var[,age] >= 30 & data.var[,age]<40  ~ "30-39",
+                                             data.var[,age] >= 40 & data.var[,age]<50  ~ "40-49",
+                                             data.var[,age] >= 50 & data.var[,age]<60  ~ "50-60",
+                                             data.var[,age] >= 60  ~ "≥60"))
+    return(data.var)
+}
+```
+  
+```{r example-age_groups}
+df = data.frame(ID = c(1:20), AGE = runif(20, 18, 86))
+age_groups(data.var = df, age = "AGE")
+```
+  
+```{r tests-age_groups}
+
+```
+  
+
+```{r development-inflate, eval=FALSE}
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_variable_manipulations.Rmd", vignette_name = "Minimal")
+```
