@@ -44,33 +44,15 @@ sens_spe <- function(data_var, index, ref, conf.level = 0.95){
   assert_that(is.character(ref))
 
   # Calculate number of TP.
-  TP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Positive"),])
-  FP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Negative"),])
-  FN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Positive"),])
-  TN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Negative"),])
 
-  sens	<- TP / (TP + FN)
-  sens_CI	<- scoreci(x = TP, n  = (TP + FN), conf.level = conf.level)
+table <- sens_spe_for_forest(data_var = data_var, index = index, ref = ref, conf.level = 0.95)
 
-  spe		<- TN / (TN +FP)
-  spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
+  sens_ci_text <- paste0('[', format(table$SensLower, nsmall = 1), '-', format(table$SensUpper, nsmall = 1), ']')
+  spe_ci_text  <- paste0('[', format(table$SpeLower, nsmall = 1), '-', format(table$SpeUpper, nsmall = 1), ']')
+  BA_ci_text   <- paste0('[', format(table$BAlower, nsmall = 1), '-', format(table$BAupper, nsmall = 1), ']')
 
-  BA <- round((sens+spe)/2*100, 1)
-  BA_lci <- (  round(sens_CI$conf.int[1]*100, 1) + round(spe_CI$conf.int[1]*100, 1)) /2
-  BA_hci <- (round(sens_CI$conf.int[2]*100, 1) + round(spe_CI$conf.int[2]*100, 1))/2
 
-  sens_text    <- paste0(format(round(sens*100, 1), nsmall = 1))
-  sens_ci_text <- paste0('[', format(round(sens_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(sens_CI$conf.int[2]*100, 1), nsmall = 1), ']')
-  spe_text     <- paste0(format(round(spe*100, 1), nsmall = 1))
-  spe_ci_text  <- paste0('[', format(round(spe_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(spe_CI$conf.int[2]*100, 1), nsmall = 1), ']')
-  BA_ci_text   <- paste0('[', format(BA_lci, nsmall = 1), '-', format(BA_hci, nsmall = 1), ']')
-
-  PPV	<- TP / (TP + FP)
-  NPV	<- TN / (TN + FN)
-  ACC	<- (TP + TN) / (TP + FP + FN + TN)
-  N 		<- TP + TN + FP + FN
-
-  data_to_return_1	<- c(N = N, TP = TP, FP = FP, FN = FN, TN = TN, `Sensitivity` = sens_text, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = spe_text, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = BA, `B. Accuracy [95%CI]` = BA_ci_text)
+  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, PPV = table$PPV, NPV = table$NPV, Accuracy = table$Accuracy )
   names_tp <- names(data_to_return_1)
   data_to_return_1  <- data.frame(t(data_to_return_1))
   colnames(data_to_return_1) <- names_tp
@@ -122,41 +104,41 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
   assert_that(is.character(index))
   assert_that(is.character(ref))
 
-  # Calculate number of TP.
+  # Calculate number of TP, TN, FP, FN, etc.
   TP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Positive"),])
   FP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Negative"),])
   FN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Positive"),])
   TN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Negative"),])
 
-  sens	<- TP / (TP + FN)
+  sens	<- round((TP / (TP + FN))*100, 2)
   sens_CI	<- scoreci(x = TP, n  = (TP + FN), conf.level = conf.level)
 
-  spe		<- TN / (TN +FP)
+  spe		<- round((TN / (TN +FP))*100,2)
   spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
 
-  BA <- round((sens+spe)/2*100, 1)
-  BA_lci <- (round(sens_CI$conf.int[1]*100, 1) + round(spe_CI$conf.int[1]*100, 1))/2
-  BA_hci <- (round(sens_CI$conf.int[2]*100, 1) + round(spe_CI$conf.int[2]*100, 1))/2
-
-  sens_text    <- paste0(format(round(sens*100, 1), nsmall = 1))
-  sens_ci_text <- paste0('[', format(round(sens_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(sens_CI$conf.int[2]*100, 1), nsmall = 1), ']')
-  spe_text     <- paste0(format(round(spe*100, 1), nsmall = 1))
-  spe_ci_text  <- paste0('[', format(round(spe_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(spe_CI$conf.int[2]*100, 1), nsmall = 1), ']')
+  BA <- round((sens+spe)/2, 2)
+  BA_lci <- round((sens_CI$conf.int[1]*100 + spe_CI$conf.int[1]*100)/2, 2)
+  BA_hci <- round((sens_CI$conf.int[2]*100 + spe_CI$conf.int[2]*100)/2, 2)
 
 
-  PPV	<- TP / (TP + FP)
-  NPV	<- TN / (TN + FN)
-  ACC	<- (TP + TN) / (TP + FP + FN + TN)
+
+  PPV	<- round((TP / (TP + FP))*100, 2)
+  NPV	<- round((TN / (TN + FN))*100,2)
+  ACC	<- round(((TP + TN) / (TP + FP + FN + TN))*100,2)
   N 		<- TP + TN + FP + FN
 
-  data_to_return_1	<- data.frame(Sensitivity = (sens)*100, Specificity = (spe)*100,
+  data_to_return_1	<- data.frame(N = N, TP = TP, FP = FP, FN = FN, TN = TN,
+                                 Sensitivity = sens, Specificity = (spe),
                                  SensLower = (sens_CI$conf.int[1])*100,
                                  SensUpper = (sens_CI$conf.int[2])*100,
                                  SpeLower = (spe_CI$conf.int[1])*100,
                                  SpeUpper = (spe_CI$conf.int[2])*100,
                                  Balanced_Accuracy = BA,
                                  BAlower = BA_lci,
-                                 BAupper = BA_hci)
+                                 BAupper = BA_hci,
+                                 PPV = PPV,
+                                 NPV = NPV,
+                                 Accuracy = ACC)
   return(data_to_return_1)
 }
 
@@ -207,6 +189,7 @@ test_that("sen_spe_for_forest works", {
 #' @return
 #' 
 #' @importFrom checkmate expect_number
+#' @importFrom stats qnorm
 #' @export
 CI_Calc <- function(alpha, proportion, n){
   alpha_val         <- 1-alpha/2
@@ -223,6 +206,113 @@ CI_Calc(alpha=0.05, proportion=0.62, n= 500)
 ```{r tests-CI_Calc}
 test_that("CI_calc works", expect_number(CI_Calc(alpha=0.05, proportion=0.8, n= 321)))
 ```
+  
+
+## multi_sen_spe
+    
+To create a data frame that dsiplays performance characteristics of multiple tests
+    
+```{r function-multi_sen_spe}
+#' multi_sen_spe for Table Display
+#' 
+#' Calculates and displays sensitivity and specificity with confidence intervals from a data frame for multiple index tests and the reference test. To be used for displaying the result in a table.
+#' 
+#' @param data_var Data table containing tests results
+#' @param list_index A list of index tests with "Negative" and "Positive" results
+#' @param ref The reference test with "Negative" and "Positive" results
+#' @param conf.level The confidence level, 1-alpha – default 95%
+#' @param index_names An optional list containing names of the index tests
+#'
+#' @return A data table with TP/FP/TN/FN, sensitivity, specificity and confidence intervals for all index tests specified in the list
+#' 
+#' @export
+multi_sen_spe <- function(data_var, list_index, ref, conf.level = 0.95, index_names = NULL){
+    performance_display <- data.frame()
+  for(i in list_index){
+    df <- sens_spe(data_var = data_var, index = i, ref = ref, conf.level = conf.level)
+    performance_display <- rbind(performance_display, df)
+  }
+    ifelse(
+    is.null(index_names),
+    rownames(performance_display) <-
+      list_index,
+    rownames(performance_display) <- index_names
+  )
+  return(performance_display)
+}
+```
+  
+```{r example-multi_sen_spe}
+library(finddataanalysis)
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+multi_sen_spe(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95)
+
+
+```
+  
+```{r tests-multi_sen_spe}
+library(finddataanalysis)
+
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+test_that("multi_sen_spe works", {
+  expect_true(is.data.frame(multi_sen_spe(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95))) 
+})
+```
+
+## multi_sen_spe_forest
+
+To create a dataframe that is forest plot friendly with multiple index tests
+    
+```{r function-multi_sen_spe_forest}
+#' multi_sen_spe_forest for forest plots
+#' 
+#' Calculates and displays sensitivity and specificity with confidence intervals from a data frame for multiple index tests and the reference test. To be used for displaying the result in a table.
+#' 
+#' @param data_var  Data table containing test results
+#' @param list_index A list of index test with "Negative" and "Positive" results
+#' @param ref The reference test with "Negative" and "Positive" results
+#' @param conf.level The confidence level, 1-alpha – default 95%
+#' @param index_names An optional list containing names of the index tests
+#'
+#' @return A data table with TP/FP/TN/FN, sensitivity, specificity and confidence intervals, to be fed into forestplot function.
+#' 
+#' @export
+multi_sen_spe_forest <- function(data_var, list_index, ref, conf.level = 0.95, index_names = NULL){
+  data_to_forest <- data.frame()
+  for (i in list_index){
+      df <- sens_spe_for_forest(data_var, i, ref, conf.level = 0.95)
+      data_to_forest <- rbind(data_to_forest, df)
+  }
+  ifelse(
+    is.null(index_names),
+    data_to_forest$Test <-
+      list_index,
+    data_to_forest$Test <- index_names
+  )
+    return(data_to_forest)
+}
+```
+  
+```{r example-multi_sen_spe_forest}
+
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+multi_sen_spe_forest(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95)
+```
+  
+```{r tests-multi_sen_spe_forest}
+
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+test_that("multi_sen_spe_forest works", {
+  expect_true(is.data.frame(multi_sen_spe_forest(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95))) 
+})
+
+```
+      
+  
   
 ```{r development-inflate, eval=FALSE}
 # Run but keep eval=FALSE to avoid infinite loop

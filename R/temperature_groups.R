@@ -7,7 +7,7 @@
 #' @param data.var Data table
 #' @param temperature Variable containing body temperature in Celsius
 #'
-#' @return
+#' @return Creates a new column frame with body temperature ranges
 #' 
 #' @import dplyr
 #' @export

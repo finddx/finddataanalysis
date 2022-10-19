@@ -12,7 +12,7 @@ temperature_groups(data.var, temperature)
 \item{temperature}{Variable containing body temperature in Celsius}
 }
 \value{
-
+Creates a new column frame with body temperature ranges
 }
 \description{
 Creates a new categorical variable based on the body temperature.

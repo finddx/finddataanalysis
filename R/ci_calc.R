@@ -2,7 +2,7 @@
 
 #' Confidence Interval Calculator
 #' 
-#' Calculates the confidence interval of a given proportion.
+#' Calculates the confidence interval of a given proportion with normal approximation.
 #' 
 #' @param alpha significance level
 #' @param proportion the proportion
@@ -11,12 +11,13 @@
 #' @return
 #' 
 #' @importFrom checkmate expect_number
+#' @importFrom stats qnorm
 #' @export
 #' @examples
-#' CI_Calc(alpha=0.05, proportion=0.8, n= 321)
+#' CI_Calc(alpha=0.05, proportion=0.62, n= 500)
 CI_Calc <- function(alpha, proportion, n){
   alpha_val         <- 1-alpha/2
   z = qnorm(alpha_val)
   ci = z*sqrt((proportion*(1-proportion))/n)
-  return(round(ci, digits = 2))
+  return(round(ci, digits = 4))
 }

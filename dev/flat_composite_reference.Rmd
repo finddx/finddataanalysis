@@ -1,0 +1,253 @@
+---
+title: "flat_composite_reference.Rmd empty"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r development, include=FALSE}
+library(testthat)
+```
+
+<!--
+ You need to run the 'description' chunk in the '0-dev_history.Rmd' file before continuing your code there.
+-->
+
+# Composite reference
+
+```{r function-composite_reference}
+#' composite_reference 
+#' 
+#' Generates a composite reference based on 3 tests. When any of the tests is positive, subject is classified as positive.
+#' Works with 2 or 3 reference tests.
+#'
+#' @param ref_1 Test1 containing "Positive or "Negative" Results
+#' @param ref_2 Test2 containing "Positive or "Negative" Results
+#' @param ref_3 Test3 containing "Positive or "Negative" Results
+#' @param data_frame  Data table containing the 3 tests
+#'
+#' @return Data table with composite reference added
+#' @export
+#' @importFrom plyr rename
+#' @import dplyr
+#'
+#' @examples
+composite_reference <- function(ref_1, ref_2, ref_3 = NULL, data_frame){
+  if (is.null(ref_3)){
+    colname <- paste0(ref_1, "_", ref_2)
+    data_frame <- data_frame %>% mutate(col = case_when(data_frame[,ref_1] == "Positive" | data_frame[,ref_2] == "Positive"~ "Positive",
+                                                                data_frame[,ref_1] == "Negative" & data_frame[,ref_2] == "Negative"~ "Negative"))
+
+  } else {
+    #browser()
+    colname <- paste0(ref_1, "_", ref_2, "_", ref_3)
+    data_frame <- data_frame %>% mutate( col = case_when(data_frame[,ref_1] == "Positive" | data_frame[,ref_2] == "Positive" | data_frame[,ref_3] == "Positive"~ "Positive",
+                                                                data_frame[,ref_1] == "Negative" & data_frame[,ref_2] == "Negative" & data_frame[,ref_3] == "Negative"~ "Negative"))
+  }
+  data_frame <- plyr::rename(data_frame,c("col"= colname))
+  return(data_frame)
+}
+
+```
+
+```{r examples-composite}
+df <- data.frame(T1 = c(rep("Positive", 10), rep("Negative", 10), rep("Negative", 10)), T2 = c(rep("Positive", 10), rep("Positive", 10), rep("Negative", 10)))
+composite_reference(ref_1 = "T1", ref_2 = "T2", ref_3 = NULL, data_frame = df)
+```
+
+```{r tests-composite}
+
+```
+
+
+
+## Categorise test result based on a threhold
+    
+```{r function-categorize_result}
+#' categorize_result
+#' 
+#' Categorize a subject as "Positive" or "Negative", based on a variable of interest and a specified threshold. The values are bigger or equal to the threshold are categorized as "Positive", others "Negative".
+#' A list of thresholds can be provided.
+#' 
+#' @param dataframe The data table contaiing test results
+#' @param variable A continuous variable
+#' @param thresholds The thresholds to be applied
+#'
+#' @return Data table with the categorization added
+#' 
+#' @export
+categorize_result <- function(dataframe, variable, thresholds){
+ for(i in thresholds){
+   #browser()
+   dataframe <- dataframe %>% mutate (col = ifelse(as.numeric(dataframe[,variable]) >=i, "Positive", "Negative" ))
+   dataframe[,"col"]<-  replace(dataframe[,"col"], is.na(dataframe[,"col"]), "Negative")
+   dataframe <- plyr::rename(dataframe,c("col"= paste0("Result", i)))
+ }
+ return(dataframe)
+}
+```
+  
+```{r example-categorize_result}
+
+df <- data.frame(results = c(sample(1:100, 50, replace=TRUE)))
+categorize_result(dataframe = df, variable = "results", thresholds = 50)
+```
+  
+```{r tests-categorize_result}
+
+```
+  
+## Categorise test result based on a threhold for PCR (bigger numbers are associated with negativity)
+    
+```{r function-categorize_result_PCR}
+#' categorize_result_PCR
+#' 
+#' Same as categorize_result but the values are smaller than the threshold are categorized as "Positive", others "Negative".
+#' 
+#' @param dataframe The data table containing test results
+#' @param variable A continuous variable - PCR Ct data
+#' @param thresholds The thresholds to be applied
+#'
+#' @return Data table with category added
+#' 
+#' @export
+categorize_result_PCR <- function(dataframe, variable, thresholds){
+  for(i in thresholds){
+    #browser()
+    dataframe <- dataframe %>% mutate (col = ifelse(as.numeric(dataframe[,variable]) <i, "Positive", "Negative" ))
+    dataframe[,"col"]<-  replace(dataframe[,"col"], is.na(dataframe[,"col"]), "Negative")
+    dataframe <- plyr::rename(dataframe,c("col"= paste0("Result", i)))
+  }
+  return(dataframe)
+}
+```
+  
+```{r example-categorize_result_PCR}
+
+```
+  
+```{r tests-categorize_result_PCR}
+
+```
+
+
+## Composite Reference for ROC
+
+Generates composite references based on 2/3 variables, one being tested for multiple thresholds.
+    
+```{r function-composite_for_roc}
+#' composite_for_roc
+#' 
+#' Define multiple composite references to make a ROC style analysis but on the references.
+#' 
+#' @param ref_1 Reference 1
+#' @param ref_2  Reference 2
+#' @param test_refs Reference categorized based on multiple thresholds
+#' @param data_frame Data table
+#'
+#' @return Data table containing all possible composite references based on the thresholds applied
+#' 
+#' @export
+composite_for_roc <- function(ref_1, ref_2, test_refs, data_frame){
+  composite_ref <- data_frame
+  for (i in test_refs){
+    composite_ref <- composite_reference(ref_1 = ref_1, ref_2 = ref_2, ref_3 = i, data_frame = composite_ref)
+  }
+  return(composite_ref)
+}
+```
+  
+```{r example-composite_for_roc}
+```
+  
+```{r tests-composite_for_roc}
+
+```
+  
+## Calculate ROC-like caharcterisitcs
+
+This function can be used to monitor sensitivity and specificity of an RDT in comparison to a reference that will be classified based on multiple thresholds.
+This is useful in the case where a composite reference is generated based on multiple tests and one of the test results needs to be classified as positive or negative.
+The index test classification is not affected.
+    
+```{r function-ROC_calculate}
+#' Title
+#' 
+#' Calculates sensitivity and false positivity rate based on the multiple reference columns defined by the thresholds
+#' 
+#' @param data_var data table
+#' @param index index test column containing results: "Positive" or "Negative"
+#' @param ref a list containing names of the reference test columns
+#' @param conf.level confidence level
+#' @param var_name_suffix_cut the suffix based on which the reference test column name to be cut. This will result in suffix + threshold
+#'
+#' @return
+#' 
+#' @export
+ROC_calculate <- function(data_var, index, ref, conf.level = 0.95, var_name_suffix_cut){
+  ROC_df <- data_frame()
+  name = c()
+  for ( i in ref){
+    name <- append(name, strsplit(i, var_name_suffix_cut)[[1]][2])
+    sen_spe_df <- sens_spe_for_forest(data_var = data_var, index = index, ref = i, conf.level = 0.95)
+    ROC_df <- rbind(ROC_df, sen_spe_df)
+  }
+ROC_df$Ref_Threshold <-  name
+ROC_df$FPR <- 100 - ROC_df$Specificity
+return(ROC_df)
+}
+```
+  
+```{r example-ROC_calculate}
+
+```
+  
+```{r tests-ROC_calculate}
+
+```
+  
+## composite_reference_majority
+    
+```{r function-composite_reference_majority}
+#' Composite Reference Majority 
+#' 
+#' The function reads the results of 3 reference test results and takes the majority as the final result.
+#' 
+#' #' @param ref_1 Test1 containing "Positive or "Negative" Results
+#' @param ref_2 Test2 containing "Positive or "Negative" Results
+#' @param ref_3 Test3 containing "Positive or "Negative" Results
+#' @param data_frame  Data table containing the 3 tests
+#' 
+#' 
+#' @return Data table with composite reference added
+#' 
+#' @import dplyr
+#' 
+#' 
+#' @export
+composite_reference_majority <- function(ref_1, ref_2, ref_3, data_frame){
+
+    data_frame <- data_frame %>% mutate( MajorityRef = case_when(data_frame[,ref_1] == "Positive" & data_frame[,ref_3] == "Positive" ~ "Positive",
+                                                         data_frame[,ref_2] == "Positive" & data_frame[,ref_3] == "Positive" ~ "Positive",
+                                                         data_frame[,ref_1] == "Negative" & data_frame[,ref_3] == "Negative" ~ "Negative",
+                                                         data_frame[,ref_2] == "Negative" & data_frame[,ref_3] == "Negative" ~ "Negative"))
+
+  return(data_frame)
+}
+    
+
+```
+  
+```{r example-composite_reference_majority}
+
+```
+  
+```{r tests-composite_reference_majority}
+
+```
+  
+```{r development-inflate, eval=FALSE}
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_composite_reference.Rmd", vignette_name = "composite_reference")
+```

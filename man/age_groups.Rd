@@ -9,10 +9,10 @@ age_groups(data.var, age)
 \arguments{
 \item{data.var}{Data table}
 
-\item{temperature}{Variable containing age in years.}
+\item{age}{Variable containing age in years.}
 }
 \value{
-
+creates a columns with typical ranges
 }
 \description{
 Creates a new categorical variable based on age.

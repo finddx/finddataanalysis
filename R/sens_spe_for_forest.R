@@ -35,41 +35,41 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
   assert_that(is.character(index))
   assert_that(is.character(ref))
 
-  # Calculate number of TP.
+  # Calculate number of TP, TN, FP, FN, etc.
   TP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Positive"),])
   FP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Negative"),])
   FN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Positive"),])
   TN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Negative"),])
 
-  sens	<- TP / (TP + FN)
+  sens	<- round((TP / (TP + FN))*100, 2)
   sens_CI	<- scoreci(x = TP, n  = (TP + FN), conf.level = conf.level)
 
-  spe		<- TN / (TN +FP)
+  spe		<- round((TN / (TN +FP))*100,2)
   spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
 
-  BA <- round((sens+spe)/2*100, 1)
-  BA_lci <- (round(sens_CI$conf.int[1]*100, 1) + round(spe_CI$conf.int[1]*100, 1))/2
-  BA_hci <- (round(sens_CI$conf.int[2]*100, 1) + round(spe_CI$conf.int[2]*100, 1))/2
-
-  sens_text    <- paste0(format(round(sens*100, 1), nsmall = 1))
-  sens_ci_text <- paste0('[', format(round(sens_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(sens_CI$conf.int[2]*100, 1), nsmall = 1), ']')
-  spe_text     <- paste0(format(round(spe*100, 1), nsmall = 1))
-  spe_ci_text  <- paste0('[', format(round(spe_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(spe_CI$conf.int[2]*100, 1), nsmall = 1), ']')
+  BA <- round((sens+spe)/2, 2)
+  BA_lci <- round((sens_CI$conf.int[1]*100 + spe_CI$conf.int[1]*100)/2, 2)
+  BA_hci <- round((sens_CI$conf.int[2]*100 + spe_CI$conf.int[2]*100)/2, 2)
 
 
-  PPV	<- TP / (TP + FP)
-  NPV	<- TN / (TN + FN)
-  ACC	<- (TP + TN) / (TP + FP + FN + TN)
+
+  PPV	<- round((TP / (TP + FP))*100, 2)
+  NPV	<- round((TN / (TN + FN))*100,2)
+  ACC	<- round(((TP + TN) / (TP + FP + FN + TN))*100,2)
   N 		<- TP + TN + FP + FN
 
-  data_to_return_1	<- data.frame(Sensitivity = (sens)*100, Specificity = (spe)*100,
+  data_to_return_1	<- data.frame(N = N, TP = TP, FP = FP, FN = FN, TN = TN,
+                                 Sensitivity = sens, Specificity = (spe),
                                  SensLower = (sens_CI$conf.int[1])*100,
                                  SensUpper = (sens_CI$conf.int[2])*100,
                                  SpeLower = (spe_CI$conf.int[1])*100,
                                  SpeUpper = (spe_CI$conf.int[2])*100,
                                  Balanced_Accuracy = BA,
                                  BAlower = BA_lci,
-                                 BAupper = BA_hci)
+                                 BAupper = BA_hci,
+                                 PPV = PPV,
+                                 NPV = NPV,
+                                 Accuracy = ACC)
   return(data_to_return_1)
 }
 

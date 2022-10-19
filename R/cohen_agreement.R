@@ -28,8 +28,8 @@ cohen_agreement <- function(data_var, var1, var2){
   perc_agreement <- format(round(100*(All_pos+All_neg)/(All_pos+All_neg+testP_compN+testN_compP), 1), nsmall = 1)
   PPA            <- as.numeric(format(round(100*(All_pos/(All_pos+testN_compP)), 1), nsmall=1))
   NPA            <- as.numeric(format(round(100*(All_neg/(All_neg+testP_compN)), 1), nsmall=1))
-  ci_ppa         <- CI_Calc(0.05, PPA/100, as.numeric(All_pos+testN_compP))
-  ci_npa         <- CI_Calc(0.05, NPA/100, as.numeric(All_neg+testP_compN))
+  ci_ppa         <- round(CI_Calc(0.05, PPA/100, as.numeric(All_pos+testN_compP)), 1)
+  ci_npa         <- round(CI_Calc(0.05, NPA/100, as.numeric(All_neg+testP_compN)), 1)
   L_PPA          <- PPA - ci_ppa
   U_PPA          <- PPA + ci_ppa
   L_NPA          <- NPA - ci_npa

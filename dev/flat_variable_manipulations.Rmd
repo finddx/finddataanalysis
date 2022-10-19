@@ -22,7 +22,7 @@ library(testthat)
 #' @param data.var Data table
 #' @param temperature Variable containing body temperature in Celsius
 #'
-#' @return
+#' @return Creates a new column frame with body temperature ranges
 #' 
 #' @import dplyr
 #' @export
@@ -54,9 +54,9 @@ temperature_groups(data.var = df, temperature = "Temperature")
 #' Creates a new categorical variable based on age.
 #' 
 #' @param data.var Data table
-#' @param temperature Variable containing age in years.
+#' @param age Variable containing age in years.
 #'
-#' @return
+#' @return creates a columns with typical ranges
 #' 
 #' @import dplyr
 #' @export

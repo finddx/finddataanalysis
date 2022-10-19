@@ -77,10 +77,50 @@ forest_data %>% forestplot(mean = Sensitivity,
   
 
 ```{r example-CI_Calc}
-CI_Calc(alpha=0.05, proportion=0.8, n= 321)
+CI_Calc(alpha=0.05, proportion=0.62, n= 500)
 ```
 
   
 
+  
+
+
+## multi_sen_spe
+
+    
+To create a data frame that dsiplays performance characteristics of multiple tests
+    
+
+  
+
+```{r example-multi_sen_spe}
+library(finddataanalysis)
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+multi_sen_spe(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95)
+
+
+```
+
+  
+
+## multi_sen_spe_forest
+
+To create a dataframe that is forest plot friendly with multiple index tests
+    
+
+  
+
+```{r example-multi_sen_spe_forest}
+
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+multi_sen_spe_forest(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95)
+```
+
+  
+
+      
+  
   
 

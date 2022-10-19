@@ -24,33 +24,15 @@ sens_spe <- function(data_var, index, ref, conf.level = 0.95){
   assert_that(is.character(ref))
 
   # Calculate number of TP.
-  TP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Positive"),])
-  FP	<- nrow(data_var[which(data_var[,index] == "Positive" & data_var[,ref] == "Negative"),])
-  FN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Positive"),])
-  TN	<- nrow(data_var[which(data_var[,index] == "Negative" & data_var[,ref] == "Negative"),])
 
-  sens	<- TP / (TP + FN)
-  sens_CI	<- scoreci(x = TP, n  = (TP + FN), conf.level = conf.level)
+table <- sens_spe_for_forest(data_var = data_var, index = index, ref = ref, conf.level = 0.95)
 
-  spe		<- TN / (TN +FP)
-  spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
+  sens_ci_text <- paste0('[', format(table$SensLower, nsmall = 1), '-', format(table$SensUpper, nsmall = 1), ']')
+  spe_ci_text  <- paste0('[', format(table$SpeLower, nsmall = 1), '-', format(table$SpeUpper, nsmall = 1), ']')
+  BA_ci_text   <- paste0('[', format(table$BAlower, nsmall = 1), '-', format(table$BAupper, nsmall = 1), ']')
 
-  BA <- round((sens+spe)/2*100, 1)
-  BA_lci <- (  round(sens_CI$conf.int[1]*100, 1) + round(spe_CI$conf.int[1]*100, 1)) /2
-  BA_hci <- (round(sens_CI$conf.int[2]*100, 1) + round(spe_CI$conf.int[2]*100, 1))/2
 
-  sens_text    <- paste0(format(round(sens*100, 1), nsmall = 1))
-  sens_ci_text <- paste0('[', format(round(sens_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(sens_CI$conf.int[2]*100, 1), nsmall = 1), ']')
-  spe_text     <- paste0(format(round(spe*100, 1), nsmall = 1))
-  spe_ci_text  <- paste0('[', format(round(spe_CI$conf.int[1]*100, 1), nsmall = 1), '-', format(round(spe_CI$conf.int[2]*100, 1), nsmall = 1), ']')
-  BA_ci_text   <- paste0('[', format(BA_lci, nsmall = 1), '-', format(BA_hci, nsmall = 1), ']')
-
-  PPV	<- TP / (TP + FP)
-  NPV	<- TN / (TN + FN)
-  ACC	<- (TP + TN) / (TP + FP + FN + TN)
-  N 		<- TP + TN + FP + FN
-
-  data_to_return_1	<- c(N = N, TP = TP, FP = FP, FN = FN, TN = TN, `Sensitivity` = sens_text, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = spe_text, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = BA, `B. Accuracy [95%CI]` = BA_ci_text)
+  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, PPV = table$PPV, NPV = table$NPV, Accuracy = table$Accuracy )
   names_tp <- names(data_to_return_1)
   data_to_return_1  <- data.frame(t(data_to_return_1))
   colnames(data_to_return_1) <- names_tp

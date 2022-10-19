@@ -17,8 +17,8 @@ CI_Calc(alpha, proportion, n)
 
 }
 \description{
-Calculates the confidence interval of a given proportion.
+Calculates the confidence interval of a given proportion with normal approximation.
 }
 \examples{
-CI_Calc(alpha=0.05, proportion=0.8, n= 321)
+CI_Calc(alpha=0.05, proportion=0.62, n= 500)
 }

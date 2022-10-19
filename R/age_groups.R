@@ -5,9 +5,9 @@
 #' Creates a new categorical variable based on age.
 #' 
 #' @param data.var Data table
-#' @param temperature Variable containing age in years.
+#' @param age Variable containing age in years.
 #'
-#' @return
+#' @return creates a columns with typical ranges
 #' 
 #' @import dplyr
 #' @export
