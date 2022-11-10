@@ -16,67 +16,6 @@ library(checkmate)
 <!--
  You need to run the 'description' chunk in the '0-dev_history.Rmd' file before continuing your code there.
 -->
-
-## sens_spe
-
-Calculates sensitivity and specificity of a diagnostic test.
-Results are formatted to generate a table to display.
-    
-```{r function-sens_spe}
-#' Sensitivity and specificity (Table Display)
-#' 
-#' Calculate sensitivity and specificity with confidence intervals from a data frame that contains the results of the index and the reference test. 
-#' To be used for displaying the result in a table.
-#' 
-#' @param data_var Data table containing test results
-#' @param index The index test with "Negative" and "Positive" results
-#' @param ref The reference test with "Negative" and "Positive" results
-#' @param conf.level The confidence level, 1-alpha -- default 95%
-#'
-#' @return A data table with TP/FP/TN/FN, sensitivity, specificity and confidence intervals
-#' @import dplyr
-#' @import assertthat 
-#' @import PropCIs
-#' @export
-sens_spe <- function(data_var, index, ref, conf.level = 0.95){
-  #verify that these are column names in characters
-  assert_that(is.character(index))
-  assert_that(is.character(ref))
-
-  # Calculate number of TP.
-
-table <- sens_spe_for_forest(data_var = data_var, index = index, ref = ref, conf.level = 0.95)
-
-  sens_ci_text <- paste0('[', format(table$SensLower, nsmall = 1), '-', format(table$SensUpper, nsmall = 1), ']')
-  spe_ci_text  <- paste0('[', format(table$SpeLower, nsmall = 1), '-', format(table$SpeUpper, nsmall = 1), ']')
-  BA_ci_text   <- paste0('[', format(table$BAlower, nsmall = 1), '-', format(table$BAupper, nsmall = 1), ']')
-
-
-  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, PPV = table$PPV, NPV = table$NPV, Accuracy = table$Accuracy )
-  names_tp <- names(data_to_return_1)
-  data_to_return_1  <- data.frame(t(data_to_return_1))
-  colnames(data_to_return_1) <- names_tp
-  return(data_to_return_1)
-}
-```
-  
-```{r example-sens_spe}
-df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
-sens_spe(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95)
-```
-  
-```{r tests-sens_spe}
-  df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
-test_that("sen_spe works", {
- expect_error( sens_spe(
-    data_var = df,
-    index = 0.8,
-    ref = "Reference",
-    conf.level = 0.95
-  ))
-})
-```
-  
 ## sens_spe_for_forest 
 
 Calculates sensitivity and specificity of a diagnostic test.
@@ -115,12 +54,14 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
 
   spe		<- round((TN / (TN +FP))*100,2)
   spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
-
   BA <- round((sens+spe)/2, 2)
   BA_lci <- round((sens_CI$conf.int[1]*100 + spe_CI$conf.int[1]*100)/2, 2)
   BA_hci <- round((sens_CI$conf.int[2]*100 + spe_CI$conf.int[2]*100)/2, 2)
-
-
+  DOR <- (TP*TN)/(FP*FN)
+  se_dor <- sqrt((1/TP+1/FN+1/FP+1/TN))
+  z <- qnorm(1-conf.level/2) 
+  DOR_lci <- exp(log(DOR) - z*se_dor)
+  DOR_hci <- exp(log(DOR) + z*se_dor)
 
   PPV	<- round((TP / (TP + FP))*100, 2)
   NPV	<- round((TN / (TN + FN))*100,2)
@@ -136,6 +77,9 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
                                  Balanced_Accuracy = BA,
                                  BAlower = BA_lci,
                                  BAupper = BA_hci,
+                                 DOR = DOR,
+                                 DORUpper = DOR_hci,
+                                 DORLower = DOR_lci,
                                  PPV = PPV,
                                  NPV = NPV,
                                  Accuracy = ACC)
@@ -175,6 +119,68 @@ test_that("sen_spe_for_forest works", {
 })
 ```
   
+## sens_spe
+
+Calculates sensitivity and specificity of a diagnostic test.
+Results are formatted to generate a table to display.
+    
+```{r function-sens_spe}
+#' Sensitivity and specificity (Table Display)
+#' 
+#' Calculate sensitivity and specificity with confidence intervals from a data frame that contains the results of the index and the reference test. 
+#' To be used for displaying the result in a table.
+#' 
+#' @param data_var Data table containing test results
+#' @param index The index test with "Negative" and "Positive" results
+#' @param ref The reference test with "Negative" and "Positive" results
+#' @param conf.level The confidence level, 1-alpha -- default 95%
+#'
+#' @return A data table with TP/FP/TN/FN, sensitivity, specificity and confidence intervals
+#' @import dplyr
+#' @import assertthat 
+#' @import PropCIs
+#' @export
+sens_spe <- function(data_var, index, ref, conf.level = 0.95){
+  #verify that these are column names in characters
+  assert_that(is.character(index))
+  assert_that(is.character(ref))
+
+  # Calculate number of TP.
+
+table <- sens_spe_for_forest(data_var = data_var, index = index, ref = ref, conf.level = 0.95)
+
+  sens_ci_text <- paste0('[', format(table$SensLower, nsmall = 1), '-', format(table$SensUpper, nsmall = 1), ']')
+  spe_ci_text  <- paste0('[', format(table$SpeLower, nsmall = 1), '-', format(table$SpeUpper, nsmall = 1), ']')
+  BA_ci_text   <- paste0('[', format(table$BAlower, nsmall = 1), '-', format(table$BAupper, nsmall = 1), ']')
+  DOR_ci_text   <- paste0('[', format(table$DORLower, nsmall = 1), '-', format(table$DORUpper, nsmall = 1), ']')
+
+
+  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, `DOR` = table$DOR, `DOR [95%CI]` = DOR_ci_text, PPV = table$PPV, NPV = table$NPV, Accuracy = table$Accuracy )
+  names_tp <- names(data_to_return_1)
+  data_to_return_1  <- data.frame(t(data_to_return_1))
+  colnames(data_to_return_1) <- names_tp
+  return(data_to_return_1)
+}
+```
+  
+```{r example-sens_spe}
+df <- data.frame(Index = c(rep("Positive", 5), rep("Negative", 30), rep("Positive", 5)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+sens_spe(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95)
+```
+  
+```{r tests-sens_spe}
+  df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+test_that("sen_spe works", {
+ expect_error( sens_spe(
+    data_var = df,
+    index = 0.8,
+    ref = "Reference",
+    conf.level = 0.95
+  ))
+})
+```
+  
+
 ## CI_Calc
     
 ```{r function-CI_Calc}

@@ -24,24 +24,6 @@ library(finddataanalysis)
  You need to run the 'description' chunk in the '0-dev_history.Rmd' file before continuing your code there.
 -->
 
-
-## sens_spe
-
-Calculates sensitivity and specificity of a diagnostic test.
-Results are formatted to generate a table to display.
-    
-
-  
-
-```{r example-sens_spe}
-df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
-sens_spe(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95)
-```
-
-  
-
-  
-
 ## sens_spe_for_forest 
 
 Calculates sensitivity and specificity of a diagnostic test.
@@ -69,6 +51,24 @@ forest_data %>% forestplot(mean = Sensitivity,
   
 
   
+
+## sens_spe
+
+Calculates sensitivity and specificity of a diagnostic test.
+Results are formatted to generate a table to display.
+    
+
+  
+
+```{r example-sens_spe}
+df <- data.frame(Index = c(rep("Positive", 5), rep("Negative", 30), rep("Positive", 5)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+sens_spe(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95)
+```
+
+  
+
+  
+
 
 ## CI_Calc
 

@@ -23,6 +23,6 @@ Calculate sensitivity and specificity with confidence intervals from a data fram
 To be used for displaying the result in a table.
 }
 \examples{
-df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+df <- data.frame(Index = c(rep("Positive", 5), rep("Negative", 30), rep("Positive", 5)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
 sens_spe(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95)
 }

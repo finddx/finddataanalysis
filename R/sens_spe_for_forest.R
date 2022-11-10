@@ -46,12 +46,14 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
 
   spe		<- round((TN / (TN +FP))*100,2)
   spe_CI	<- scoreci(x = TN, n  = (TN + FP), conf.level = conf.level)
-
   BA <- round((sens+spe)/2, 2)
   BA_lci <- round((sens_CI$conf.int[1]*100 + spe_CI$conf.int[1]*100)/2, 2)
   BA_hci <- round((sens_CI$conf.int[2]*100 + spe_CI$conf.int[2]*100)/2, 2)
-
-
+  DOR <- (TP*TN)/(FP*FN)
+  se_dor <- sqrt((1/TP+1/FN+1/FP+1/TN))
+  z <- qnorm(1-conf.level/2) 
+  DOR_lci <- exp(log(DOR) - z*se_dor)
+  DOR_hci <- exp(log(DOR) + z*se_dor)
 
   PPV	<- round((TP / (TP + FP))*100, 2)
   NPV	<- round((TN / (TN + FN))*100,2)
@@ -67,6 +69,9 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
                                  Balanced_Accuracy = BA,
                                  BAlower = BA_lci,
                                  BAupper = BA_hci,
+                                 DOR = DOR,
+                                 DORUpper = DOR_hci,
+                                 DORLower = DOR_lci,
                                  PPV = PPV,
                                  NPV = NPV,
                                  Accuracy = ACC)
