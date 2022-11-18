@@ -47,8 +47,11 @@ temperature_groups(data.var = df, temperature = "Temperature")
   
 
 ```{r example-age_groups}
-df = data.frame(ID = c(1:20), AGE = runif(20, 18, 86))
-age_groups(data.var = df, age = "AGE")
+df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 86)))
+age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18, lim4=45, lim5=60)
+df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 25)))
+age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18)
+
 ```
 
   

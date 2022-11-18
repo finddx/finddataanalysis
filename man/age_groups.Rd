@@ -4,12 +4,22 @@
 \alias{age_groups}
 \title{Age groups}
 \usage{
-age_groups(data.var, age)
+age_groups(data.var, age, lim1, lim2, lim3 = NULL, lim4 = NULL, lim5 = NULL)
 }
 \arguments{
 \item{data.var}{Data table}
 
 \item{age}{Variable containing age in years.}
+
+\item{lim1}{Age limit for categorization}
+
+\item{lim2}{Age limit for categorization}
+
+\item{lim3}{Age limit for categorization}
+
+\item{lim4}{Age limit for categorization}
+
+\item{lim5}{Age limit for categorization}
 }
 \value{
 creates a columns with typical ranges
@@ -18,6 +28,9 @@ creates a columns with typical ranges
 Creates a new categorical variable based on age.
 }
 \examples{
-df = data.frame(ID = c(1:20), AGE = runif(20, 18, 86))
-age_groups(data.var = df, age = "AGE")
+df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 86)))
+age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18, lim4=45, lim5=60)
+df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 25)))
+age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18)
+
 }

@@ -16,12 +16,17 @@
 #' 
 #' 
 #' @export
+#' @examples
+#' df <- data.frame(T1 = c(rep("Positive", 10), rep("Negative", 10), rep("Negative", 10)), T2 = c(rep("Positive", 10), rep("Positive", 10), rep("Negative", 10)), T3 = c(rep("Negative", 10), rep("Positive", 10), rep("Negative", 10)))
+#' composite_reference_majority(ref_1 = "T1", ref_2 = "T2", ref_3 = "T3", data_frame = df)
 composite_reference_majority <- function(ref_1, ref_2, ref_3, data_frame){
 
     data_frame <- data_frame %>% mutate( MajorityRef = case_when(data_frame[,ref_1] == "Positive" & data_frame[,ref_3] == "Positive" ~ "Positive",
                                                          data_frame[,ref_2] == "Positive" & data_frame[,ref_3] == "Positive" ~ "Positive",
+                                                         data_frame[,ref_1] == "Positive" & data_frame[,ref_2] == "Positive" ~ "Positive",
                                                          data_frame[,ref_1] == "Negative" & data_frame[,ref_3] == "Negative" ~ "Negative",
-                                                         data_frame[,ref_2] == "Negative" & data_frame[,ref_3] == "Negative" ~ "Negative"))
+                                                         data_frame[,ref_2] == "Negative" & data_frame[,ref_3] == "Negative" ~ "Negative",
+                                                         data_frame[,ref_1] == "Negative" & data_frame[,ref_3] == "Negative" ~ "Negative"))
 
   return(data_frame)
 }

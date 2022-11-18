@@ -21,3 +21,7 @@ Data table with composite reference added
 \description{
 The function reads the results of 3 reference test results and takes the majority as the final result.
 }
+\examples{
+df <- data.frame(T1 = c(rep("Positive", 10), rep("Negative", 10), rep("Negative", 10)), T2 = c(rep("Positive", 10), rep("Positive", 10), rep("Negative", 10)), T3 = c(rep("Negative", 10), rep("Positive", 10), rep("Negative", 10)))
+composite_reference_majority(ref_1 = "T1", ref_2 = "T2", ref_3 = "T3", data_frame = df)
+}
