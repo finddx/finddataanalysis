@@ -27,7 +27,7 @@ Calculates and displays sensitivity and specificity with confidence intervals fr
 library(finddataanalysis)
 df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
 
-multi_sen_spe(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95)
+multi_sen_spe(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("a", "b", "c"))
 
 
 }

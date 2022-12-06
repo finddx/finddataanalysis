@@ -85,7 +85,7 @@ age_groups <- function(data.var, age, lim1, lim2, lim3=NULL, lim4=NULL, lim5=NUL
                                              data.var[,age] >= lim3 & data.var[,age]<lim4  ~ paste0(lim3,"-",lim4-1),
                                              data.var[,age] >= lim4 & data.var[,age]<lim5  ~ paste0(lim4,"-",lim5-1),
                                              data.var[,age] >= lim5  ~ paste0("≥",lim5))))))
-                                            
+
     return(data.var)
 }
 ```
