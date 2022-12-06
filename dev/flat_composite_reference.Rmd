@@ -69,7 +69,7 @@ composite_reference(ref_1 = "T1", ref_2 = "T2", ref_3 = NULL, data_frame = df)
 #' Categorize a subject as "Positive" or "Negative", based on a variable of interest and a specified threshold. The values are bigger or equal to the threshold are categorized as "Positive", others "Negative".
 #' A list of thresholds can be provided.
 #' 
-#' @param dataframe The data table contaiing test results
+#' @param dataframe The data table containing test results
 #' @param variable A continuous variable
 #' @param thresholds The thresholds to be applied
 #'

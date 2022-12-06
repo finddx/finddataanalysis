@@ -15,10 +15,9 @@
 #' 
 #' @export
 #' @import ggplot2
-<<<<<<< HEAD
+
 #' @import plotly
-=======
->>>>>>> 7a1546210d37debb6dea490e92fa4b6c7da37a74
+
 #' @examples
 #' df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
 #' multi_sen_spe_out_forest(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, labels = "Index Tests", index_names = c("a", "b", "c"))
@@ -50,11 +49,9 @@ fp_spe <- ggplot(data=perf_forest, aes(x=Test, y=Specificity, ymin=SpeLower, yma
         scale_y_continuous(limits = c(0, 100),breaks = c(0, 20, 40, 60, 80, 100))+
         geom_point(size = 2, shape = 15)
 
-<<<<<<< HEAD
+
 forestplots <- list(ggplotly(fp_sen), ggplotly(fp_spe))
-=======
-forestplots <- list(fp_sen, fp_spe)
->>>>>>> 7a1546210d37debb6dea490e92fa4b6c7da37a74
+
 return(forestplots)
     
 }

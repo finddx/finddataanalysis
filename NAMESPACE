@@ -24,10 +24,7 @@ import(assertthat)
 import(checkmate)
 import(dplyr)
 import(ggplot2)
-<<<<<<< HEAD
 import(plotly)
-=======
->>>>>>> 7a1546210d37debb6dea490e92fa4b6c7da37a74
 importFrom(DT,datatable)
 importFrom(checkmate,expect_number)
 importFrom(irr,kappa2)
