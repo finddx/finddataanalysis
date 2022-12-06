@@ -24,6 +24,7 @@ To be used for displaying the result in a forest plot.
 }
 \examples{
 library(forestplot)
+library(dplyr)
 df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 30), rep("Negative", 10)))
 forest_data <- cbind(Test = "Index", sens_spe_for_forest(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95))
 forest_data \%>\% forestplot(mean = Sensitivity, 

@@ -17,9 +17,6 @@ ROC_calculate(data_var, index, ref, conf.level = 0.95, var_name_suffix_cut)
 
 \item{var_name_suffix_cut}{the suffix based on which the reference test column name to be cut. This will result in suffix + threshold}
 }
-\value{
-
-}
 \description{
 Calculates sensitivity and false positivity rate based on the multiple reference columns defined by the thresholds
 }
