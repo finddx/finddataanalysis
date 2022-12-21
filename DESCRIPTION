@@ -8,6 +8,8 @@ Authors@R: c(
 Description: Includes generic functions that are frequently used for data
     analyses at FIND.
 License: MIT + file LICENSE
+Depends: 
+    R (>= 2.10)
 Imports: 
     assertthat,
     checkmate,
@@ -27,5 +29,6 @@ Suggests:
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2

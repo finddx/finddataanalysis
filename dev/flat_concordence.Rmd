@@ -134,7 +134,7 @@ format_colnames(data_frame = results, test1 = "This Test", test2 = "The Other Te
 #' @param var2 A bifactor variable with "Positive" and "Negative" results.
 #' @param var3 A bifactor variable with "Positive" and "Negative" results.
 #'
-#' @return
+#' @return Mean of a numeric column based on groups defined by combination of three reference columns 
 #' 
 #' @import checkmate
 #' @import dplyr

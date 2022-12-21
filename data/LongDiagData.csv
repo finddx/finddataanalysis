@@ -1,0 +1,4300 @@
+﻿ID,Test_Name,Result,RefTest
+01STUDID,ABC,Negative,Negative
+01STUDID,DST,Negative,Negative
+01STUDID,HCG,Negative,Negative
+01STUDID,LLJK,Negative,Negative
+01STUDID,ddfs,Negative,Negative
+01STUDID,Weird Lab,Negative,Negative
+01STUDID,Biomangrooves,Negative,Negative
+01STUDID,SAT Tec,Negative,Negative
+01STUDID,ChemicalBrothers,Negative,Negative
+01STUDID,Accu Stuff,Negative,Negative
+02STUDID,SAT Tec,Positive,Positive
+02STUDID,DST,Positive,Positive
+02STUDID,Biomangrooves,Positive,Positive
+02STUDID,Weird Lab,Positive,Positive
+02STUDID,LLJK,Positive,Positive
+02STUDID,ChemicalBrothers,Positive,Positive
+02STUDID,ddfs,Positive,Positive
+02STUDID,HCG,Positive,Positive
+02STUDID,ABC,Positive,Positive
+02STUDID,Accu Stuff,Positive,Positive
+03STUDID,Weird Lab,Negative,Negative
+03STUDID,DST,Negative,Negative
+03STUDID,LLJK,Negative,Negative
+03STUDID,ddfs,Negative,Negative
+03STUDID,HCG,Negative,Negative
+03STUDID,ABC,Negative,Negative
+03STUDID,Biomangrooves,Negative,Negative
+03STUDID,SAT Tec,Negative,Negative
+03STUDID,ChemicalBrothers,Negative,Negative
+03STUDID,Accu Stuff,Negative,Negative
+04STUDID,LLJK,Positive,Positive
+04STUDID,Weird Lab,Positive,Positive
+04STUDID,ChemicalBrothers,Positive,Positive
+04STUDID,ABC,Positive,Positive
+04STUDID,HCG,Positive,Positive
+04STUDID,Biomangrooves,Positive,Positive
+04STUDID,ddfs,Positive,Positive
+04STUDID,SAT Tec,Positive,Positive
+04STUDID,Accu Stuff,Positive,Positive
+04STUDID,DST,Positive,Positive
+05STUDID,SAT Tec,Positive,Positive
+05STUDID,LLJK,Positive,Positive
+05STUDID,ChemicalBrothers,Positive,Positive
+05STUDID,ddfs,Positive,Positive
+05STUDID,HCG,Positive,Positive
+05STUDID,DST,Positive,Positive
+05STUDID,Biomangrooves,Positive,Positive
+05STUDID,Accu Stuff,Positive,Positive
+05STUDID,Weird Lab,Positive,Positive
+05STUDID,ABC,Positive,Positive
+06STUDID,LLJK,Negative,Negative
+06STUDID,DST,Negative,Negative
+06STUDID,ChemicalBrothers,Negative,Negative
+06STUDID,Weird Lab,Negative,Negative
+06STUDID,SAT Tec,Negative,Negative
+06STUDID,ddfs,Negative,Negative
+06STUDID,ABC,Negative,Negative
+06STUDID,HCG,Negative,Negative
+06STUDID,Biomangrooves,Negative,Negative
+06STUDID,Accu Stuff,Negative,Negative
+07STUDID,Weird Lab,Negative,Negative
+07STUDID,DST,Negative,Negative
+07STUDID,HCG,Negative,Negative
+07STUDID,Biomangrooves,Negative,Negative
+07STUDID,LLJK,Negative,Negative
+07STUDID,ChemicalBrothers,Negative,Negative
+07STUDID,SAT Tec,Negative,Negative
+07STUDID,ddfs,Negative,Negative
+07STUDID,Accu Stuff,Negative,Negative
+07STUDID,ABC,Negative,Negative
+08STUDID,Accu Stuff,Positive,Positive
+08STUDID,Weird Lab,Positive,Positive
+08STUDID,SAT Tec,Positive,Positive
+08STUDID,ddfs,Positive,Positive
+08STUDID,LLJK,Positive,Positive
+08STUDID,ChemicalBrothers,Positive,Positive
+08STUDID,DST,Positive,Positive
+08STUDID,ABC,Positive,Positive
+08STUDID,HCG,Positive,Positive
+08STUDID,Biomangrooves,Positive,Positive
+09STUDID,Weird Lab,Negative,Negative
+09STUDID,ABC,Negative,Negative
+09STUDID,HCG,Negative,Negative
+09STUDID,ChemicalBrothers,Negative,Negative
+09STUDID,DST,Negative,Negative
+09STUDID,SAT Tec,Negative,Negative
+09STUDID,Accu Stuff,Negative,Negative
+09STUDID,Biomangrooves,Negative,Negative
+09STUDID,LLJK,Negative,Negative
+09STUDID,ddfs,Negative,Negative
+100STUDID,Weird Lab,Positive,Positive
+100STUDID,SAT Tec,Negative,Positive
+100STUDID,LLJK,Positive,Positive
+100STUDID,Accu Stuff,Positive,Positive
+100STUDID,DST,Positive,Positive
+100STUDID,ddfs,Positive,Positive
+100STUDID,ChemicalBrothers,Positive,Positive
+100STUDID,ABC,Positive,Positive
+100STUDID,Biomangrooves,Positive,Positive
+100STUDID,HCG,Positive,Positive
+101STUDID,ddfs,Negative,Negative
+101STUDID,SAT Tec,Negative,Negative
+101STUDID,Accu Stuff,Negative,Negative
+101STUDID,ChemicalBrothers,Negative,Negative
+101STUDID,Biomangrooves,Positive,Negative
+101STUDID,ABC,Negative,Negative
+101STUDID,HCG,Negative,Negative
+101STUDID,LLJK,Negative,Negative
+101STUDID,DST,Negative,Negative
+101STUDID,Weird Lab,Negative,Negative
+101STUDID,Biomangrooves,Negative,Negative
+102STUDID,ddfs,Negative,Negative
+102STUDID,LLJK,Negative,Negative
+102STUDID,Weird Lab,Negative,Negative
+102STUDID,ChemicalBrothers,Negative,Negative
+102STUDID,Biomangrooves,Negative,Negative
+102STUDID,HCG,Negative,Negative
+102STUDID,SAT Tec,Negative,Negative
+102STUDID,ABC,Negative,Negative
+102STUDID,Accu Stuff,Negative,Negative
+102STUDID,DST,Negative,Negative
+102STUDID,Biomangrooves,Invalid,Negative
+103STUDID,SAT Tec,Negative,Negative
+103STUDID,ddfs,Negative,Negative
+103STUDID,Weird Lab,Negative,Negative
+103STUDID,HCG,Negative,Negative
+103STUDID,Biomangrooves,Negative,Negative
+103STUDID,LLJK,Negative,Negative
+103STUDID,DST,Negative,Negative
+103STUDID,Accu Stuff,Negative,Negative
+103STUDID,ABC,Negative,Negative
+103STUDID,Biomangrooves,Positive,Negative
+103STUDID,ChemicalBrothers,Negative,Negative
+104STUDID,Biomangrooves,Positive,Positive
+104STUDID,SAT Tec,Positive,Positive
+104STUDID,HCG,Positive,Positive
+104STUDID,Accu Stuff,Positive,Positive
+104STUDID,Weird Lab,Positive,Positive
+104STUDID,ChemicalBrothers,Positive,Positive
+104STUDID,ddfs,Positive,Positive
+104STUDID,LLJK,Positive,Positive
+104STUDID,ABC,Positive,Positive
+104STUDID,DST,Positive,Positive
+105STUDID,SAT Tec,Negative,Positive
+105STUDID,Biomangrooves,Positive,Positive
+105STUDID,Accu Stuff,Positive,Positive
+105STUDID,ChemicalBrothers,Positive,Positive
+105STUDID,LLJK,Positive,Positive
+105STUDID,ddfs,Positive,Positive
+105STUDID,DST,Positive,Positive
+105STUDID,Weird Lab,Positive,Positive
+105STUDID,ABC,Positive,Positive
+105STUDID,HCG,Positive,Positive
+106STUDID,SAT Tec,Positive,Positive
+106STUDID,HCG,Positive,Positive
+106STUDID,ABC,Positive,Positive
+106STUDID,Accu Stuff,Positive,Positive
+106STUDID,ChemicalBrothers,Positive,Positive
+106STUDID,LLJK,Positive,Positive
+106STUDID,Weird Lab,Positive,Positive
+106STUDID,DST,Positive,Positive
+106STUDID,ddfs,Positive,Positive
+106STUDID,Biomangrooves,Positive,Positive
+107STUDID,SAT Tec,Positive,Positive
+107STUDID,ChemicalBrothers,Positive,Positive
+107STUDID,ABC,Positive,Positive
+107STUDID,ddfs,Positive,Positive
+107STUDID,SAT Tec,Negative,Positive
+107STUDID,Biomangrooves,Positive,Positive
+107STUDID,Weird Lab,Positive,Positive
+107STUDID,LLJK,Positive,Positive
+107STUDID,HCG,Positive,Positive
+107STUDID,Accu Stuff,Positive,Positive
+107STUDID,DST,Positive,Positive
+108STUDID,Biomangrooves,Positive,Positive
+108STUDID,ddfs,Positive,Positive
+108STUDID,ChemicalBrothers,Positive,Positive
+108STUDID,HCG,Positive,Positive
+108STUDID,SAT Tec,Positive,Positive
+108STUDID,LLJK,Positive,Positive
+108STUDID,DST,Positive,Positive
+108STUDID,Weird Lab,Positive,Positive
+108STUDID,ABC,Positive,Positive
+108STUDID,Accu Stuff,Positive,Positive
+109STUDID,Weird Lab,Negative,Negative
+109STUDID,DST,Negative,Negative
+109STUDID,HCG,Negative,Negative
+109STUDID,ABC,Negative,Negative
+109STUDID,LLJK,Negative,Negative
+109STUDID,Accu Stuff,Negative,Negative
+109STUDID,ChemicalBrothers,Negative,Negative
+109STUDID,SAT Tec,Negative,Negative
+109STUDID,ddfs,Negative,Negative
+109STUDID,Biomangrooves,Negative,Negative
+10STUDID,Weird Lab,Negative,Negative
+10STUDID,Biomangrooves,Negative,Negative
+10STUDID,DST,Negative,Negative
+10STUDID,Accu Stuff,Negative,Negative
+10STUDID,ABC,Negative,Negative
+10STUDID,ChemicalBrothers,Negative,Negative
+10STUDID,HCG,Negative,Negative
+10STUDID,LLJK,Negative,Negative
+10STUDID,ddfs,Negative,Negative
+10STUDID,SAT Tec,Negative,Negative
+110STUDID,ABC,Positive,Positive
+110STUDID,Biomangrooves,Positive,Positive
+110STUDID,DST,Positive,Positive
+110STUDID,SAT Tec,Positive,Positive
+110STUDID,Accu Stuff,Positive,Positive
+110STUDID,Weird Lab,Positive,Positive
+110STUDID,LLJK,Positive,Positive
+110STUDID,HCG,Positive,Positive
+110STUDID,ddfs,Positive,Positive
+110STUDID,ChemicalBrothers,Positive,Positive
+111STUDID,ChemicalBrothers,Negative,Positive
+111STUDID,SAT Tec,Negative,Positive
+111STUDID,LLJK,Negative,Positive
+111STUDID,Accu Stuff,Negative,Positive
+111STUDID,Biomangrooves,Positive,Positive
+111STUDID,DST,Negative,Positive
+111STUDID,Weird Lab,Positive,Positive
+111STUDID,Weird Lab,Negative,Positive
+111STUDID,ddfs,Positive,Positive
+111STUDID,ABC,Positive,Positive
+111STUDID,HCG,Positive,Positive
+112STUDID,SAT Tec,Negative,Positive
+112STUDID,DST,Positive,Positive
+112STUDID,Biomangrooves,Positive,Positive
+112STUDID,Weird Lab,Positive,Positive
+112STUDID,Accu Stuff,Positive,Positive
+112STUDID,ChemicalBrothers,Positive,Positive
+112STUDID,LLJK,Positive,Positive
+112STUDID,ddfs,Positive,Positive
+112STUDID,HCG,Positive,Positive
+112STUDID,ABC,Positive,Positive
+113STUDID,ChemicalBrothers,Negative,Negative
+113STUDID,Accu Stuff,Negative,Negative
+113STUDID,HCG,Negative,Negative
+113STUDID,Biomangrooves,Negative,Negative
+113STUDID,ABC,Negative,Negative
+113STUDID,Weird Lab,Negative,Negative
+113STUDID,ddfs,Negative,Negative
+113STUDID,DST,Negative,Negative
+113STUDID,LLJK,Negative,Negative
+113STUDID,SAT Tec,Negative,Negative
+113STUDID,Biomangrooves,Invalid,Negative
+114STUDID,SAT Tec,Negative,Negative
+114STUDID,Accu Stuff,Negative,Negative
+114STUDID,Weird Lab,Negative,Negative
+114STUDID,LLJK,Negative,Negative
+114STUDID,ddfs,Negative,Negative
+114STUDID,Biomangrooves,Negative,Negative
+114STUDID,ABC,Negative,Negative
+114STUDID,DST,Negative,Negative
+114STUDID,Biomangrooves,Positive,Negative
+114STUDID,HCG,Positive,Negative
+114STUDID,HCG,Negative,Negative
+114STUDID,ChemicalBrothers,Negative,Negative
+115STUDID,ddfs,Negative,Negative
+115STUDID,SAT Tec,Negative,Negative
+115STUDID,LLJK,Negative,Negative
+115STUDID,ChemicalBrothers,Negative,Negative
+115STUDID,DST,Negative,Negative
+115STUDID,Biomangrooves,Negative,Negative
+115STUDID,HCG,Negative,Negative
+115STUDID,Weird Lab,Negative,Negative
+115STUDID,ABC,Negative,Negative
+115STUDID,Accu Stuff,Negative,Negative
+115STUDID,Biomangrooves,Positive,Negative
+116STUDID,ddfs,Positive,Positive
+116STUDID,Accu Stuff,Positive,Positive
+116STUDID,HCG,Positive,Positive
+116STUDID,LLJK,Positive,Positive
+116STUDID,Weird Lab,Positive,Positive
+116STUDID,ChemicalBrothers,Positive,Positive
+116STUDID,ABC,Positive,Positive
+116STUDID,SAT Tec,Positive,Positive
+116STUDID,DST,Positive,Positive
+116STUDID,Biomangrooves,Positive,Positive
+117STUDID,DST,Positive,Positive
+117STUDID,ddfs,Negative,Positive
+117STUDID,SAT Tec,Negative,Positive
+117STUDID,LLJK,Positive,Positive
+117STUDID,ABC,Negative,Positive
+117STUDID,Biomangrooves,Positive,Positive
+117STUDID,Weird Lab,Positive,Positive
+117STUDID,HCG,Positive,Positive
+117STUDID,Accu Stuff,Positive,Positive
+117STUDID,ChemicalBrothers,Positive,Positive
+118STUDID,LLJK,Positive,Positive
+118STUDID,SAT Tec,Negative,Positive
+118STUDID,ddfs,Positive,Positive
+118STUDID,Weird Lab,Positive,Positive
+118STUDID,ChemicalBrothers,Positive,Positive
+118STUDID,DST,Positive,Positive
+118STUDID,Biomangrooves,Positive,Positive
+118STUDID,ddfs,Negative,Positive
+118STUDID,HCG,Positive,Positive
+118STUDID,Accu Stuff,Positive,Positive
+118STUDID,ABC,Positive,Positive
+119STUDID,LLJK,Negative,Positive
+119STUDID,SAT Tec,Negative,Positive
+119STUDID,ChemicalBrothers,Negative,Positive
+119STUDID,DST,Negative,Positive
+119STUDID,HCG,Negative,Positive
+119STUDID,ABC,Negative,Positive
+119STUDID,Biomangrooves,Negative,Positive
+119STUDID,Weird Lab,Positive,Positive
+119STUDID,ddfs,Negative,Positive
+119STUDID,Accu Stuff,Negative,Positive
+119STUDID,Weird Lab,Negative,Positive
+11STUDID,DST,Negative,Negative
+11STUDID,Weird Lab,Negative,Negative
+11STUDID,LLJK,Negative,Negative
+11STUDID,ddfs,Negative,Negative
+11STUDID,Accu Stuff,Negative,Negative
+11STUDID,Biomangrooves,Negative,Negative
+11STUDID,ABC,Positive,Negative
+11STUDID,ChemicalBrothers,Negative,Negative
+11STUDID,HCG,Negative,Negative
+11STUDID,ABC,Negative,Negative
+11STUDID,SAT Tec,Negative,Negative
+120STUDID,ddfs,Positive,Negative
+120STUDID,Biomangrooves,Positive,Negative
+120STUDID,LLJK,Negative,Negative
+120STUDID,DST,Negative,Negative
+120STUDID,Accu Stuff,Negative,Negative
+120STUDID,ddfs,Negative,Negative
+120STUDID,ABC,Positive,Negative
+120STUDID,HCG,Negative,Negative
+120STUDID,Weird Lab,Negative,Negative
+120STUDID,SAT Tec,Negative,Negative
+120STUDID,ChemicalBrothers,Negative,Negative
+121STUDID,ABC,Negative,Negative
+121STUDID,LLJK,Negative,Negative
+121STUDID,ddfs,Negative,Negative
+121STUDID,Accu Stuff,Negative,Negative
+121STUDID,Weird Lab,Negative,Negative
+121STUDID,DST,Negative,Negative
+121STUDID,ChemicalBrothers,Negative,Negative
+121STUDID,HCG,Negative,Negative
+121STUDID,Biomangrooves,Positive,Negative
+121STUDID,SAT Tec,Negative,Negative
+122STUDID,Accu Stuff,Negative,Negative
+122STUDID,DST,Negative,Negative
+122STUDID,Biomangrooves,Negative,Negative
+122STUDID,ABC,Negative,Negative
+122STUDID,ChemicalBrothers,Negative,Negative
+122STUDID,Weird Lab,Negative,Negative
+122STUDID,ddfs,Negative,Negative
+122STUDID,SAT Tec,Negative,Negative
+122STUDID,LLJK,Negative,Negative
+122STUDID,HCG,Negative,Negative
+123STUDID,Biomangrooves,Negative,Negative
+123STUDID,ddfs,Negative,Negative
+123STUDID,ChemicalBrothers,Negative,Negative
+123STUDID,DST,Negative,Negative
+123STUDID,ABC,Negative,Negative
+123STUDID,Weird Lab,Negative,Negative
+123STUDID,LLJK,Negative,Negative
+123STUDID,Accu Stuff,Negative,Negative
+123STUDID,HCG,Negative,Negative
+123STUDID,SAT Tec,Negative,Negative
+124STUDID,LLJK,Positive,Positive
+124STUDID,DST,Positive,Positive
+124STUDID,SAT Tec,Negative,Positive
+124STUDID,ABC,Positive,Positive
+124STUDID,Biomangrooves,Positive,Positive
+124STUDID,ChemicalBrothers,Positive,Positive
+124STUDID,Accu Stuff,Positive,Positive
+124STUDID,SAT Tec,Positive,Positive
+124STUDID,ddfs,Positive,Positive
+124STUDID,HCG,Positive,Positive
+124STUDID,Weird Lab,Positive,Positive
+124STUDID,ABC,Negative,Positive
+125STUDID,LLJK,Negative,Negative
+125STUDID,Accu Stuff,Negative,Negative
+125STUDID,ddfs,Negative,Negative
+125STUDID,ABC,Negative,Negative
+125STUDID,DST,Negative,Negative
+125STUDID,ChemicalBrothers,Negative,Negative
+125STUDID,Biomangrooves,Positive,Negative
+125STUDID,Weird Lab,Negative,Negative
+125STUDID,SAT Tec,Negative,Negative
+125STUDID,HCG,Negative,Negative
+126STUDID,Accu Stuff,Negative,Positive
+126STUDID,DST,Positive,Positive
+126STUDID,SAT Tec,Negative,Positive
+126STUDID,HCG,Positive,Positive
+126STUDID,Weird Lab,Positive,Positive
+126STUDID,ABC,Positive,Positive
+126STUDID,LLJK,Negative,Positive
+126STUDID,Biomangrooves,Positive,Positive
+126STUDID,ddfs,Positive,Positive
+126STUDID,ChemicalBrothers,Negative,Positive
+127STUDID,Accu Stuff,Negative,Negative
+127STUDID,Biomangrooves,Negative,Negative
+127STUDID,DST,Negative,Negative
+127STUDID,LLJK,Negative,Negative
+127STUDID,Weird Lab,Positive,Negative
+127STUDID,ABC,Negative,Negative
+127STUDID,HCG,Negative,Negative
+127STUDID,SAT Tec,Negative,Negative
+127STUDID,ChemicalBrothers,Negative,Negative
+127STUDID,ddfs,Negative,Negative
+127STUDID,Weird Lab,Negative,Negative
+128STUDID,Weird Lab,Negative,Negative
+128STUDID,HCG,Negative,Negative
+128STUDID,LLJK,Negative,Negative
+128STUDID,Biomangrooves,Positive,Negative
+128STUDID,ChemicalBrothers,Negative,Negative
+128STUDID,ABC,Negative,Negative
+128STUDID,ddfs,Negative,Negative
+128STUDID,Accu Stuff,Negative,Negative
+128STUDID,DST,Negative,Negative
+128STUDID,SAT Tec,Negative,Negative
+129STUDID,Weird Lab,Positive,Positive
+129STUDID,HCG,Positive,Positive
+129STUDID,LLJK,Negative,Positive
+129STUDID,ChemicalBrothers,Positive,Positive
+129STUDID,Accu Stuff,Negative,Positive
+129STUDID,SAT Tec,Negative,Positive
+129STUDID,SAT Tec,Positive,Positive
+129STUDID,ddfs,Positive,Positive
+129STUDID,DST,Positive,Positive
+129STUDID,ABC,Positive,Positive
+129STUDID,Biomangrooves,Positive,Positive
+12STUDID,Biomangrooves,Positive,Positive
+12STUDID,Accu Stuff,Negative,Positive
+12STUDID,ABC,Positive,Positive
+12STUDID,DST,Positive,Positive
+12STUDID,LLJK,Positive,Positive
+12STUDID,ChemicalBrothers,Positive,Positive
+12STUDID,Weird Lab,Positive,Positive
+12STUDID,ddfs,Positive,Positive
+12STUDID,HCG,Positive,Positive
+12STUDID,SAT Tec,Positive,Positive
+130STUDID,ChemicalBrothers,Negative,Negative
+130STUDID,LLJK,Negative,Negative
+130STUDID,Biomangrooves,Negative,Negative
+130STUDID,DST,Negative,Negative
+130STUDID,SAT Tec,Negative,Negative
+130STUDID,HCG,Negative,Negative
+130STUDID,Weird Lab,Negative,Negative
+130STUDID,Accu Stuff,Negative,Negative
+130STUDID,ABC,Negative,Negative
+130STUDID,ddfs,Negative,Negative
+131STUDID,LLJK,Negative,Positive
+131STUDID,Accu Stuff,Negative,Positive
+131STUDID,ddfs,Positive,Positive
+131STUDID,DST,Positive,Positive
+131STUDID,Weird Lab,Positive,Positive
+131STUDID,ddfs,Invalid,Positive
+131STUDID,ddfs,Negative,Positive
+131STUDID,SAT Tec,Negative,Positive
+131STUDID,ABC,Positive,Positive
+131STUDID,Biomangrooves,Positive,Positive
+131STUDID,ChemicalBrothers,Positive,Positive
+131STUDID,HCG,Positive,Positive
+132STUDID,Biomangrooves,Positive,Negative
+132STUDID,Accu Stuff,Negative,Negative
+132STUDID,DST,Negative,Negative
+132STUDID,ddfs,Negative,Negative
+132STUDID,LLJK,Negative,Negative
+132STUDID,SAT Tec,Negative,Negative
+132STUDID,HCG,Negative,Negative
+132STUDID,Weird Lab,Negative,Negative
+132STUDID,ChemicalBrothers,Negative,Negative
+132STUDID,ABC,Negative,Negative
+133STUDID,Weird Lab,Positive,Positive
+133STUDID,SAT Tec,Negative,Positive
+133STUDID,ddfs,Positive,Positive
+133STUDID,DST,Positive,Positive
+133STUDID,ChemicalBrothers,Positive,Positive
+133STUDID,Accu Stuff,Negative,Positive
+133STUDID,LLJK,Positive,Positive
+133STUDID,Biomangrooves,Positive,Positive
+133STUDID,ABC,Positive,Positive
+133STUDID,HCG,Positive,Positive
+134STUDID,Biomangrooves,Positive,Positive
+134STUDID,ddfs,Positive,Positive
+134STUDID,Accu Stuff,Positive,Positive
+134STUDID,DST,Positive,Positive
+134STUDID,ABC,Positive,Positive
+134STUDID,SAT Tec,Positive,Positive
+134STUDID,Weird Lab,Positive,Positive
+134STUDID,HCG,Positive,Positive
+134STUDID,LLJK,Positive,Positive
+134STUDID,ChemicalBrothers,Positive,Positive
+135STUDID,HCG,Positive,Positive
+135STUDID,Biomangrooves,Positive,Positive
+135STUDID,LLJK,Positive,Positive
+135STUDID,ddfs,Positive,Positive
+135STUDID,ChemicalBrothers,Positive,Positive
+135STUDID,Accu Stuff,Positive,Positive
+135STUDID,DST,Positive,Positive
+135STUDID,Weird Lab,Positive,Positive
+135STUDID,ABC,Positive,Positive
+135STUDID,SAT Tec,Negative,Positive
+136STUDID,ddfs,Positive,Positive
+136STUDID,ABC,Positive,Positive
+136STUDID,Weird Lab,Positive,Positive
+136STUDID,DST,Positive,Positive
+136STUDID,Accu Stuff,Positive,Positive
+136STUDID,SAT Tec,Negative,Positive
+136STUDID,LLJK,Positive,Positive
+136STUDID,ChemicalBrothers,Positive,Positive
+136STUDID,Biomangrooves,Positive,Positive
+136STUDID,HCG,Positive,Positive
+137STUDID,HCG,Negative,Negative
+137STUDID,ddfs,Negative,Negative
+137STUDID,ChemicalBrothers,Negative,Negative
+137STUDID,Biomangrooves,Negative,Negative
+137STUDID,ABC,Negative,Negative
+137STUDID,SAT Tec,Negative,Negative
+137STUDID,Weird Lab,Negative,Negative
+137STUDID,DST,Negative,Negative
+137STUDID,Accu Stuff,Negative,Negative
+137STUDID,LLJK,Negative,Negative
+138STUDID,Biomangrooves,Positive,Negative
+138STUDID,DST,Negative,Negative
+138STUDID,Weird Lab,Negative,Negative
+138STUDID,LLJK,Negative,Negative
+138STUDID,HCG,Negative,Negative
+138STUDID,SAT Tec,Negative,Negative
+138STUDID,ChemicalBrothers,Negative,Negative
+138STUDID,Accu Stuff,Negative,Negative
+138STUDID,ABC,Negative,Negative
+138STUDID,ddfs,Negative,Negative
+139STUDID,Accu Stuff,Negative,Negative
+139STUDID,ChemicalBrothers,Negative,Negative
+139STUDID,DST,Negative,Negative
+139STUDID,HCG,Negative,Negative
+139STUDID,Weird Lab,Negative,Negative
+139STUDID,LLJK,Negative,Negative
+139STUDID,SAT Tec,Negative,Negative
+139STUDID,ABC,Positive,Negative
+139STUDID,Biomangrooves,Positive,Negative
+139STUDID,ddfs,Negative,Negative
+139STUDID,ABC,Negative,Negative
+13STUDID,HCG,Negative,Negative
+13STUDID,LLJK,Negative,Negative
+13STUDID,Weird Lab,Negative,Negative
+13STUDID,Accu Stuff,Negative,Negative
+13STUDID,ABC,Negative,Negative
+13STUDID,Biomangrooves,Negative,Negative
+13STUDID,SAT Tec,Negative,Negative
+13STUDID,ChemicalBrothers,Negative,Negative
+13STUDID,DST,Negative,Negative
+13STUDID,ddfs,Negative,Negative
+140STUDID,DST,Negative,Negative
+140STUDID,Weird Lab,Negative,Negative
+140STUDID,ChemicalBrothers,Negative,Negative
+140STUDID,LLJK,Negative,Negative
+140STUDID,HCG,Negative,Negative
+140STUDID,Biomangrooves,Negative,Negative
+140STUDID,ABC,Negative,Negative
+140STUDID,Accu Stuff,Negative,Negative
+140STUDID,ddfs,Negative,Negative
+140STUDID,SAT Tec,Negative,Negative
+141STUDID,LLJK,Positive,Positive
+141STUDID,SAT Tec,Negative,Positive
+141STUDID,HCG,Positive,Positive
+141STUDID,Weird Lab,Positive,Positive
+141STUDID,Biomangrooves,Positive,Positive
+141STUDID,Accu Stuff,Positive,Positive
+141STUDID,ABC,Positive,Positive
+141STUDID,ChemicalBrothers,Positive,Positive
+141STUDID,DST,Positive,Positive
+141STUDID,ddfs,Positive,Positive
+142STUDID,ChemicalBrothers,Positive,Positive
+142STUDID,LLJK,Positive,Positive
+142STUDID,Accu Stuff,Positive,Positive
+142STUDID,Biomangrooves,Positive,Positive
+142STUDID,ddfs,Positive,Positive
+142STUDID,HCG,Positive,Positive
+142STUDID,SAT Tec,Positive,Positive
+142STUDID,ABC,Positive,Positive
+142STUDID,Weird Lab,Positive,Positive
+142STUDID,DST,Positive,Positive
+142STUDID,ddfs,Negative,Positive
+142STUDID,Accu Stuff,Negative,Positive
+143STUDID,LLJK,Positive,Positive
+143STUDID,HCG,Positive,Positive
+143STUDID,Weird Lab,Positive,Positive
+143STUDID,DST,Positive,Positive
+143STUDID,ddfs,Positive,Positive
+143STUDID,ABC,Positive,Positive
+143STUDID,Accu Stuff,Positive,Positive
+143STUDID,Biomangrooves,Positive,Positive
+143STUDID,ChemicalBrothers,Positive,Positive
+143STUDID,SAT Tec,Positive,Positive
+144STUDID,Biomangrooves,Negative,Negative
+144STUDID,Weird Lab,Negative,Negative
+144STUDID,SAT Tec,Negative,Negative
+144STUDID,Accu Stuff,Negative,Negative
+144STUDID,HCG,Negative,Negative
+144STUDID,ChemicalBrothers,Negative,Negative
+144STUDID,ABC,Negative,Negative
+144STUDID,DST,Negative,Negative
+144STUDID,LLJK,Negative,Negative
+144STUDID,ddfs,Negative,Negative
+145STUDID,ABC,Positive,Positive
+145STUDID,Biomangrooves,Positive,Positive
+145STUDID,LLJK,Positive,Positive
+145STUDID,Weird Lab,Positive,Positive
+145STUDID,DST,Positive,Positive
+145STUDID,ddfs,Positive,Positive
+145STUDID,SAT Tec,Negative,Positive
+145STUDID,ChemicalBrothers,Positive,Positive
+145STUDID,HCG,Positive,Positive
+145STUDID,Accu Stuff,Positive,Positive
+146STUDID,HCG,Negative,Negative
+146STUDID,Biomangrooves,Negative,Negative
+146STUDID,Accu Stuff,Negative,Negative
+146STUDID,LLJK,Negative,Negative
+146STUDID,DST,Negative,Negative
+146STUDID,ddfs,Negative,Negative
+146STUDID,ddfs,Positive,Negative
+146STUDID,Weird Lab,Negative,Negative
+146STUDID,SAT Tec,Negative,Negative
+146STUDID,ChemicalBrothers,Negative,Negative
+146STUDID,ABC,Negative,Negative
+146STUDID,ABC,Positive,Negative
+147STUDID,DST,Positive,Positive
+147STUDID,Biomangrooves,Positive,Positive
+147STUDID,ABC,Positive,Positive
+147STUDID,ChemicalBrothers,Positive,Positive
+147STUDID,ddfs,Positive,Positive
+147STUDID,SAT Tec,Positive,Positive
+147STUDID,Weird Lab,Positive,Positive
+147STUDID,HCG,Positive,Positive
+147STUDID,LLJK,Positive,Positive
+147STUDID,Accu Stuff,Positive,Positive
+148STUDID,ChemicalBrothers,Positive,Positive
+148STUDID,Weird Lab,Positive,Positive
+148STUDID,HCG,Positive,Positive
+148STUDID,DST,Positive,Positive
+148STUDID,ddfs,Positive,Positive
+148STUDID,LLJK,Positive,Positive
+148STUDID,Accu Stuff,Positive,Positive
+148STUDID,Biomangrooves,Positive,Positive
+148STUDID,SAT Tec,Positive,Positive
+148STUDID,ABC,Positive,Positive
+149STUDID,Biomangrooves,Positive,Positive
+149STUDID,ddfs,Positive,Positive
+149STUDID,HCG,Positive,Positive
+149STUDID,LLJK,Positive,Positive
+149STUDID,Accu Stuff,Positive,Positive
+149STUDID,DST,Positive,Positive
+149STUDID,Weird Lab,Positive,Positive
+149STUDID,ChemicalBrothers,Positive,Positive
+149STUDID,ABC,Positive,Positive
+149STUDID,SAT Tec,Positive,Positive
+14STUDID,ChemicalBrothers,Positive,Positive
+14STUDID,Biomangrooves,Positive,Positive
+14STUDID,Weird Lab,Positive,Positive
+14STUDID,Accu Stuff,Positive,Positive
+14STUDID,ABC,Positive,Positive
+14STUDID,DST,Positive,Positive
+14STUDID,ddfs,Positive,Positive
+14STUDID,LLJK,Positive,Positive
+14STUDID,HCG,Positive,Positive
+14STUDID,SAT Tec,Positive,Positive
+150STUDID,Weird Lab,Positive,Positive
+150STUDID,HCG,Positive,Positive
+150STUDID,ChemicalBrothers,Positive,Positive
+150STUDID,SAT Tec,Negative,Positive
+150STUDID,DST,Positive,Positive
+150STUDID,Biomangrooves,Positive,Positive
+150STUDID,Accu Stuff,Positive,Positive
+150STUDID,ddfs,Positive,Positive
+150STUDID,LLJK,Positive,Positive
+150STUDID,ABC,Positive,Positive
+151STUDID,ChemicalBrothers,Positive,Positive
+151STUDID,ABC,Positive,Positive
+151STUDID,SAT Tec,Positive,Positive
+151STUDID,DST,Positive,Positive
+151STUDID,Accu Stuff,Positive,Positive
+151STUDID,ddfs,Positive,Positive
+151STUDID,Biomangrooves,Positive,Positive
+151STUDID,Weird Lab,Positive,Positive
+151STUDID,LLJK,Positive,Positive
+151STUDID,HCG,Positive,Positive
+152STUDID,SAT Tec,Negative,Negative
+152STUDID,ABC,Negative,Negative
+152STUDID,DST,Negative,Negative
+152STUDID,Weird Lab,Negative,Negative
+152STUDID,Accu Stuff,Negative,Negative
+152STUDID,HCG,Negative,Negative
+152STUDID,Biomangrooves,Negative,Negative
+152STUDID,ddfs,Negative,Negative
+152STUDID,ChemicalBrothers,Negative,Negative
+152STUDID,LLJK,Negative,Negative
+153STUDID,Weird Lab,Negative,Negative
+153STUDID,ABC,Negative,Negative
+153STUDID,ChemicalBrothers,Negative,Negative
+153STUDID,Accu Stuff,Negative,Negative
+153STUDID,SAT Tec,Negative,Negative
+153STUDID,LLJK,Negative,Negative
+153STUDID,ddfs,Negative,Negative
+153STUDID,DST,Negative,Negative
+153STUDID,Biomangrooves,Negative,Negative
+153STUDID,HCG,Negative,Negative
+153STUDID,ddfs,Invalid,Negative
+153STUDID,ABC,Positive,Negative
+154STUDID,ABC,Positive,Positive
+154STUDID,ChemicalBrothers,Positive,Positive
+154STUDID,Accu Stuff,Positive,Positive
+154STUDID,SAT Tec,Positive,Positive
+154STUDID,LLJK,Positive,Positive
+154STUDID,ddfs,Positive,Positive
+154STUDID,DST,Positive,Positive
+154STUDID,Biomangrooves,Positive,Positive
+154STUDID,Weird Lab,Positive,Positive
+154STUDID,HCG,Positive,Positive
+155STUDID,Accu Stuff,Positive,Positive
+155STUDID,SAT Tec,Positive,Positive
+155STUDID,HCG,Positive,Positive
+155STUDID,ChemicalBrothers,Positive,Positive
+155STUDID,Biomangrooves,Positive,Positive
+155STUDID,DST,Positive,Positive
+155STUDID,ABC,Positive,Positive
+155STUDID,LLJK,Positive,Positive
+155STUDID,ddfs,Positive,Positive
+155STUDID,Weird Lab,Positive,Positive
+156STUDID,Biomangrooves,Positive,Positive
+156STUDID,Weird Lab,Positive,Positive
+156STUDID,LLJK,Positive,Positive
+156STUDID,ddfs,Positive,Positive
+156STUDID,ChemicalBrothers,Positive,Positive
+156STUDID,Accu Stuff,Positive,Positive
+156STUDID,HCG,Positive,Positive
+156STUDID,SAT Tec,Positive,Positive
+156STUDID,ABC,Positive,Positive
+156STUDID,DST,Positive,Positive
+157STUDID,Biomangrooves,Positive,Negative
+157STUDID,ChemicalBrothers,Negative,Negative
+157STUDID,DST,Negative,Negative
+157STUDID,Accu Stuff,Negative,Negative
+157STUDID,ddfs,Negative,Negative
+157STUDID,SAT Tec,Negative,Negative
+157STUDID,ABC,Negative,Negative
+157STUDID,HCG,Negative,Negative
+157STUDID,LLJK,Negative,Negative
+157STUDID,Weird Lab,Negative,Negative
+158STUDID,SAT Tec,Negative,Negative
+158STUDID,LLJK,Negative,Negative
+158STUDID,DST,Negative,Negative
+158STUDID,Weird Lab,Negative,Negative
+158STUDID,HCG,Negative,Negative
+158STUDID,ABC,Negative,Negative
+158STUDID,ddfs,Negative,Negative
+158STUDID,Biomangrooves,Negative,Negative
+158STUDID,ChemicalBrothers,Negative,Negative
+158STUDID,Accu Stuff,Negative,Negative
+159STUDID,ddfs,Invalid,Positive
+159STUDID,ChemicalBrothers,Positive,Positive
+159STUDID,ABC,Positive,Positive
+159STUDID,SAT Tec,Negative,Positive
+159STUDID,DST,Positive,Positive
+159STUDID,ddfs,Positive,Positive
+159STUDID,ABC,Invalid,Positive
+159STUDID,ddfs,Negative,Positive
+159STUDID,Weird Lab,Positive,Positive
+159STUDID,HCG,Positive,Positive
+159STUDID,LLJK,Positive,Positive
+159STUDID,Biomangrooves,Positive,Positive
+159STUDID,Accu Stuff,Positive,Positive
+15STUDID,Weird Lab,Negative,Negative
+15STUDID,Accu Stuff,Negative,Negative
+15STUDID,Biomangrooves,Negative,Negative
+15STUDID,HCG,Negative,Negative
+15STUDID,ABC,Negative,Negative
+15STUDID,SAT Tec,Negative,Negative
+15STUDID,ChemicalBrothers,Negative,Negative
+15STUDID,DST,Negative,Negative
+15STUDID,LLJK,Negative,Negative
+15STUDID,ddfs,Negative,Negative
+160STUDID,DST,Positive,Positive
+160STUDID,ddfs,Positive,Positive
+160STUDID,SAT Tec,Positive,Positive
+160STUDID,HCG,Positive,Positive
+160STUDID,ABC,Positive,Positive
+160STUDID,Biomangrooves,Positive,Positive
+160STUDID,ChemicalBrothers,Positive,Positive
+160STUDID,Weird Lab,Positive,Positive
+160STUDID,Accu Stuff,Positive,Positive
+160STUDID,LLJK,Positive,Positive
+161STUDID,Weird Lab,Positive,Positive
+161STUDID,ddfs,Positive,Positive
+161STUDID,HCG,Positive,Positive
+161STUDID,SAT Tec,Positive,Positive
+161STUDID,ChemicalBrothers,Positive,Positive
+161STUDID,Biomangrooves,Positive,Positive
+161STUDID,ABC,Positive,Positive
+161STUDID,DST,Positive,Positive
+161STUDID,Accu Stuff,Positive,Positive
+161STUDID,LLJK,Positive,Positive
+162STUDID,ddfs,Positive,Positive
+162STUDID,Accu Stuff,Positive,Positive
+162STUDID,SAT Tec,Negative,Positive
+162STUDID,Weird Lab,Positive,Positive
+162STUDID,ABC,Positive,Positive
+162STUDID,Biomangrooves,Positive,Positive
+162STUDID,DST,Positive,Positive
+162STUDID,ABC,Invalid,Positive
+162STUDID,ChemicalBrothers,Positive,Positive
+162STUDID,LLJK,Positive,Positive
+162STUDID,HCG,Positive,Positive
+162STUDID,ddfs,Negative,Positive
+163STUDID,Biomangrooves,Negative,Negative
+163STUDID,ddfs,Negative,Negative
+163STUDID,ChemicalBrothers,Negative,Negative
+163STUDID,LLJK,Negative,Negative
+163STUDID,Accu Stuff,Negative,Negative
+163STUDID,Biomangrooves,Positive,Negative
+163STUDID,SAT Tec,Negative,Negative
+163STUDID,DST,Negative,Negative
+163STUDID,Weird Lab,Negative,Negative
+163STUDID,HCG,Negative,Negative
+163STUDID,ABC,Negative,Negative
+164STUDID,Weird Lab,Negative,Negative
+164STUDID,SAT Tec,Negative,Negative
+164STUDID,ddfs,Positive,Negative
+164STUDID,LLJK,Negative,Negative
+164STUDID,HCG,Negative,Negative
+164STUDID,ChemicalBrothers,Negative,Negative
+164STUDID,Biomangrooves,Positive,Negative
+164STUDID,Accu Stuff,Negative,Negative
+164STUDID,Biomangrooves,Negative,Negative
+164STUDID,ABC,Positive,Negative
+164STUDID,DST,Negative,Negative
+165STUDID,DST,Negative,Negative
+165STUDID,ChemicalBrothers,Negative,Negative
+165STUDID,Accu Stuff,Negative,Negative
+165STUDID,LLJK,Negative,Negative
+165STUDID,SAT Tec,Negative,Negative
+165STUDID,Biomangrooves,Negative,Negative
+165STUDID,HCG,Negative,Negative
+165STUDID,ABC,Negative,Negative
+165STUDID,Weird Lab,Negative,Negative
+165STUDID,ddfs,Negative,Negative
+166STUDID,ChemicalBrothers,Positive,Positive
+166STUDID,DST,Positive,Positive
+166STUDID,HCG,Positive,Positive
+166STUDID,Accu Stuff,Positive,Positive
+166STUDID,ABC,Positive,Positive
+166STUDID,Biomangrooves,Positive,Positive
+166STUDID,SAT Tec,Negative,Positive
+166STUDID,ddfs,Positive,Positive
+166STUDID,Weird Lab,Positive,Positive
+166STUDID,LLJK,Positive,Positive
+167STUDID,Biomangrooves,Positive,Negative
+167STUDID,DST,Negative,Negative
+167STUDID,Accu Stuff,Negative,Negative
+167STUDID,HCG,Negative,Negative
+167STUDID,ddfs,Negative,Negative
+167STUDID,Weird Lab,Negative,Negative
+167STUDID,SAT Tec,Negative,Negative
+167STUDID,ABC,Negative,Negative
+167STUDID,ChemicalBrothers,Negative,Negative
+167STUDID,LLJK,Negative,Negative
+168STUDID,Accu Stuff,Positive,Positive
+168STUDID,ChemicalBrothers,Positive,Positive
+168STUDID,ddfs,Positive,Positive
+168STUDID,Biomangrooves,Positive,Positive
+168STUDID,Weird Lab,Positive,Positive
+168STUDID,HCG,Positive,Positive
+168STUDID,LLJK,Positive,Positive
+168STUDID,DST,Positive,Positive
+168STUDID,ABC,Positive,Positive
+168STUDID,SAT Tec,Positive,Positive
+169STUDID,Accu Stuff,Positive,Positive
+169STUDID,ABC,Positive,Positive
+169STUDID,ddfs,Positive,Positive
+169STUDID,HCG,Positive,Positive
+169STUDID,Weird Lab,Positive,Positive
+169STUDID,ChemicalBrothers,Positive,Positive
+169STUDID,LLJK,Positive,Positive
+169STUDID,DST,Positive,Positive
+169STUDID,Biomangrooves,Positive,Positive
+169STUDID,SAT Tec,Negative,Positive
+16STUDID,Accu Stuff,Positive,Positive
+16STUDID,HCG,Positive,Positive
+16STUDID,LLJK,Positive,Positive
+16STUDID,ABC,Positive,Positive
+16STUDID,ddfs,Positive,Positive
+16STUDID,ChemicalBrothers,Positive,Positive
+16STUDID,Biomangrooves,Positive,Positive
+16STUDID,SAT Tec,Positive,Positive
+16STUDID,Weird Lab,Positive,Positive
+16STUDID,DST,Positive,Positive
+170STUDID,Weird Lab,Negative,Negative
+170STUDID,DST,Negative,Negative
+170STUDID,HCG,Negative,Negative
+170STUDID,Accu Stuff,Negative,Negative
+170STUDID,Biomangrooves,Negative,Negative
+170STUDID,LLJK,Negative,Negative
+170STUDID,ChemicalBrothers,Negative,Negative
+170STUDID,ddfs,Negative,Negative
+170STUDID,SAT Tec,Negative,Negative
+170STUDID,ABC,Negative,Negative
+170STUDID,Biomangrooves,Positive,Negative
+171STUDID,Accu Stuff,Negative,Negative
+171STUDID,ddfs,Negative,Negative
+171STUDID,SAT Tec,Negative,Negative
+171STUDID,Weird Lab,Negative,Negative
+171STUDID,DST,Negative,Negative
+171STUDID,LLJK,Negative,Negative
+171STUDID,HCG,Negative,Negative
+171STUDID,Biomangrooves,Positive,Negative
+171STUDID,ChemicalBrothers,Negative,Negative
+171STUDID,ABC,Negative,Negative
+172STUDID,Biomangrooves,Positive,Positive
+172STUDID,Weird Lab,Positive,Positive
+172STUDID,ddfs,Positive,Positive
+172STUDID,SAT Tec,Negative,Positive
+172STUDID,Accu Stuff,Negative,Positive
+172STUDID,HCG,Positive,Positive
+172STUDID,LLJK,Positive,Positive
+172STUDID,LLJK,Negative,Positive
+172STUDID,DST,Positive,Positive
+172STUDID,ABC,Positive,Positive
+172STUDID,ChemicalBrothers,Positive,Positive
+173STUDID,Biomangrooves,Positive,Positive
+173STUDID,ddfs,Positive,Positive
+173STUDID,LLJK,Positive,Positive
+173STUDID,HCG,Positive,Positive
+173STUDID,Accu Stuff,Positive,Positive
+173STUDID,Weird Lab,Positive,Positive
+173STUDID,DST,Positive,Positive
+173STUDID,SAT Tec,Negative,Positive
+173STUDID,ChemicalBrothers,Positive,Positive
+173STUDID,ABC,Positive,Positive
+174STUDID,ddfs,Positive,Positive
+174STUDID,Accu Stuff,Positive,Positive
+174STUDID,HCG,Positive,Positive
+174STUDID,ChemicalBrothers,Positive,Positive
+174STUDID,DST,Positive,Positive
+174STUDID,ABC,Positive,Positive
+174STUDID,Biomangrooves,Positive,Positive
+174STUDID,LLJK,Positive,Positive
+174STUDID,SAT Tec,Negative,Positive
+174STUDID,Weird Lab,Positive,Positive
+175STUDID,DST,Positive,Positive
+175STUDID,ddfs,Positive,Positive
+175STUDID,Accu Stuff,Positive,Positive
+175STUDID,HCG,Positive,Positive
+175STUDID,Weird Lab,Positive,Positive
+175STUDID,ABC,Positive,Positive
+175STUDID,Biomangrooves,Positive,Positive
+175STUDID,LLJK,Positive,Positive
+175STUDID,SAT Tec,Positive,Positive
+175STUDID,ChemicalBrothers,Positive,Positive
+176STUDID,ChemicalBrothers,Positive,Positive
+176STUDID,DST,Positive,Positive
+176STUDID,ABC,Positive,Positive
+176STUDID,Accu Stuff,Positive,Positive
+176STUDID,LLJK,Positive,Positive
+176STUDID,HCG,Positive,Positive
+176STUDID,Weird Lab,Positive,Positive
+176STUDID,Biomangrooves,Positive,Positive
+176STUDID,SAT Tec,Negative,Positive
+176STUDID,ddfs,Positive,Positive
+177STUDID,ddfs,Negative,Negative
+177STUDID,Biomangrooves,Positive,Negative
+177STUDID,HCG,Negative,Negative
+177STUDID,DST,Negative,Negative
+177STUDID,Accu Stuff,Negative,Negative
+177STUDID,ABC,Positive,Negative
+177STUDID,ChemicalBrothers,Negative,Negative
+177STUDID,Weird Lab,Negative,Negative
+177STUDID,ABC,Invalid,Negative
+177STUDID,SAT Tec,Negative,Negative
+177STUDID,LLJK,Negative,Negative
+178STUDID,SAT Tec,Negative,Positive
+178STUDID,ddfs,Positive,Positive
+178STUDID,DST,Positive,Positive
+178STUDID,Biomangrooves,Positive,Positive
+178STUDID,Accu Stuff,Positive,Positive
+178STUDID,HCG,Positive,Positive
+178STUDID,Weird Lab,Positive,Positive
+178STUDID,ABC,Positive,Positive
+178STUDID,ChemicalBrothers,Positive,Positive
+178STUDID,LLJK,Positive,Positive
+179STUDID,LLJK,Positive,Positive
+179STUDID,ChemicalBrothers,Positive,Positive
+179STUDID,Accu Stuff,Positive,Positive
+179STUDID,Weird Lab,Positive,Positive
+179STUDID,HCG,Positive,Positive
+179STUDID,Biomangrooves,Positive,Positive
+179STUDID,SAT Tec,Negative,Positive
+179STUDID,ddfs,Positive,Positive
+179STUDID,DST,Positive,Positive
+179STUDID,ABC,Positive,Positive
+17STUDID,Biomangrooves,Positive,Positive
+17STUDID,SAT Tec,Positive,Positive
+17STUDID,ABC,Negative,Positive
+17STUDID,ChemicalBrothers,Positive,Positive
+17STUDID,LLJK,Negative,Positive
+17STUDID,DST,Positive,Positive
+17STUDID,Weird Lab,Positive,Positive
+17STUDID,DST,Negative,Positive
+17STUDID,ddfs,Negative,Positive
+17STUDID,HCG,Positive,Positive
+17STUDID,Accu Stuff,Positive,Positive
+17STUDID,Weird Lab,Negative,Positive
+180STUDID,Weird Lab,Positive,Positive
+180STUDID,LLJK,Positive,Positive
+180STUDID,ABC,Positive,Positive
+180STUDID,DST,Positive,Positive
+180STUDID,HCG,Positive,Positive
+180STUDID,SAT Tec,Negative,Positive
+180STUDID,ddfs,Positive,Positive
+180STUDID,Biomangrooves,Positive,Positive
+180STUDID,ChemicalBrothers,Positive,Positive
+180STUDID,Accu Stuff,Positive,Positive
+181STUDID,LLJK,Negative,Positive
+181STUDID,ABC,Positive,Positive
+181STUDID,Accu Stuff,Positive,Positive
+181STUDID,ddfs,Positive,Positive
+181STUDID,ChemicalBrothers,Positive,Positive
+181STUDID,Biomangrooves,Positive,Positive
+181STUDID,DST,Positive,Positive
+181STUDID,LLJK,Positive,Positive
+181STUDID,HCG,Positive,Positive
+181STUDID,Weird Lab,Positive,Positive
+181STUDID,SAT Tec,Negative,Positive
+182STUDID,Accu Stuff,Positive,Positive
+182STUDID,DST,Positive,Positive
+182STUDID,LLJK,Positive,Positive
+182STUDID,HCG,Positive,Positive
+182STUDID,ddfs,Positive,Positive
+182STUDID,ChemicalBrothers,Positive,Positive
+182STUDID,SAT Tec,Positive,Positive
+182STUDID,ABC,Positive,Positive
+182STUDID,Weird Lab,Positive,Positive
+182STUDID,Biomangrooves,Positive,Positive
+183STUDID,ABC,Negative,Positive
+183STUDID,Weird Lab,Positive,Positive
+183STUDID,Accu Stuff,Positive,Positive
+183STUDID,ChemicalBrothers,Negative,Positive
+183STUDID,LLJK,Negative,Positive
+183STUDID,ddfs,Negative,Positive
+183STUDID,Biomangrooves,Positive,Positive
+183STUDID,SAT Tec,Negative,Positive
+183STUDID,HCG,Positive,Positive
+183STUDID,LLJK,Positive,Positive
+183STUDID,DST,Negative,Positive
+183STUDID,ChemicalBrothers,Positive,Positive
+184STUDID,ABC,Positive,Positive
+184STUDID,Accu Stuff,Positive,Positive
+184STUDID,ddfs,Positive,Positive
+184STUDID,HCG,Positive,Positive
+184STUDID,Weird Lab,Positive,Positive
+184STUDID,LLJK,Negative,Positive
+184STUDID,DST,Positive,Positive
+184STUDID,Biomangrooves,Positive,Positive
+184STUDID,LLJK,Positive,Positive
+184STUDID,ABC,Negative,Positive
+184STUDID,ChemicalBrothers,Positive,Positive
+184STUDID,SAT Tec,Negative,Positive
+184STUDID,ddfs,Negative,Positive
+185STUDID,ddfs,Negative,Negative
+185STUDID,ChemicalBrothers,Negative,Negative
+185STUDID,ABC,Negative,Negative
+185STUDID,LLJK,Negative,Negative
+185STUDID,HCG,Negative,Negative
+185STUDID,Weird Lab,Negative,Negative
+185STUDID,Accu Stuff,Negative,Negative
+185STUDID,DST,Negative,Negative
+185STUDID,Biomangrooves,Negative,Negative
+185STUDID,SAT Tec,Negative,Negative
+186STUDID,DST,Positive,Positive
+186STUDID,Weird Lab,Positive,Positive
+186STUDID,Biomangrooves,Positive,Positive
+186STUDID,SAT Tec,Positive,Positive
+186STUDID,HCG,Positive,Positive
+186STUDID,ChemicalBrothers,Positive,Positive
+186STUDID,ddfs,Positive,Positive
+186STUDID,LLJK,Positive,Positive
+186STUDID,Accu Stuff,Positive,Positive
+186STUDID,SAT Tec,Negative,Positive
+186STUDID,ABC,Positive,Positive
+187STUDID,Weird Lab,Positive,Positive
+187STUDID,DST,Positive,Positive
+187STUDID,ChemicalBrothers,Positive,Positive
+187STUDID,LLJK,Positive,Positive
+187STUDID,SAT Tec,Positive,Positive
+187STUDID,Accu Stuff,Positive,Positive
+187STUDID,HCG,Positive,Positive
+187STUDID,ABC,Positive,Positive
+187STUDID,Biomangrooves,Positive,Positive
+187STUDID,ddfs,Negative,Positive
+187STUDID,SAT Tec,Negative,Positive
+188STUDID,Biomangrooves,Negative,Negative
+188STUDID,DST,Negative,Negative
+188STUDID,Weird Lab,Negative,Negative
+188STUDID,SAT Tec,Negative,Negative
+188STUDID,ChemicalBrothers,Negative,Negative
+188STUDID,Accu Stuff,Negative,Negative
+188STUDID,HCG,Negative,Negative
+188STUDID,ddfs,Negative,Negative
+188STUDID,ABC,Negative,Negative
+188STUDID,LLJK,Negative,Negative
+189STUDID,LLJK,Negative,Negative
+189STUDID,Biomangrooves,Positive,Negative
+189STUDID,ChemicalBrothers,Negative,Negative
+189STUDID,ABC,Negative,Negative
+189STUDID,DST,Negative,Negative
+189STUDID,Weird Lab,Negative,Negative
+189STUDID,Accu Stuff,Negative,Negative
+189STUDID,SAT Tec,Negative,Negative
+189STUDID,Biomangrooves,Negative,Negative
+189STUDID,HCG,Negative,Negative
+189STUDID,ddfs,Negative,Negative
+18STUDID,ABC,Positive,Positive
+18STUDID,SAT Tec,Positive,Positive
+18STUDID,LLJK,Positive,Positive
+18STUDID,Weird Lab,Positive,Positive
+18STUDID,ddfs,Positive,Positive
+18STUDID,DST,Positive,Positive
+18STUDID,ChemicalBrothers,Positive,Positive
+18STUDID,HCG,Positive,Positive
+18STUDID,Accu Stuff,Positive,Positive
+18STUDID,Biomangrooves,Positive,Positive
+190STUDID,ABC,Positive,Positive
+190STUDID,Accu Stuff,Positive,Positive
+190STUDID,Biomangrooves,Positive,Positive
+190STUDID,ChemicalBrothers,Positive,Positive
+190STUDID,DST,Positive,Positive
+190STUDID,LLJK,Positive,Positive
+190STUDID,HCG,Positive,Positive
+190STUDID,SAT Tec,Positive,Positive
+190STUDID,SAT Tec,Negative,Positive
+190STUDID,Weird Lab,Positive,Positive
+190STUDID,ddfs,Positive,Positive
+191STUDID,Biomangrooves,Positive,Negative
+191STUDID,Accu Stuff,Negative,Negative
+191STUDID,Weird Lab,Negative,Negative
+191STUDID,ChemicalBrothers,Negative,Negative
+191STUDID,LLJK,Negative,Negative
+191STUDID,ddfs,Negative,Negative
+191STUDID,HCG,Negative,Negative
+191STUDID,SAT Tec,Negative,Negative
+191STUDID,ddfs,Positive,Negative
+191STUDID,DST,Negative,Negative
+191STUDID,ABC,Positive,Negative
+192STUDID,SAT Tec,Negative,Negative
+192STUDID,Accu Stuff,Negative,Negative
+192STUDID,Biomangrooves,Negative,Negative
+192STUDID,ChemicalBrothers,Negative,Negative
+192STUDID,Weird Lab,Negative,Negative
+192STUDID,HCG,Positive,Negative
+192STUDID,DST,Negative,Negative
+192STUDID,ddfs,Negative,Negative
+192STUDID,ABC,Negative,Negative
+192STUDID,LLJK,Negative,Negative
+193STUDID,Biomangrooves,Negative,Negative
+193STUDID,LLJK,Negative,Negative
+193STUDID,ddfs,Negative,Negative
+193STUDID,Accu Stuff,Negative,Negative
+193STUDID,SAT Tec,Negative,Negative
+193STUDID,DST,Negative,Negative
+193STUDID,HCG,Negative,Negative
+193STUDID,ABC,Negative,Negative
+193STUDID,ChemicalBrothers,Negative,Negative
+193STUDID,Weird Lab,Negative,Negative
+194STUDID,HCG,Positive,Positive
+194STUDID,LLJK,Positive,Positive
+194STUDID,ChemicalBrothers,Positive,Positive
+194STUDID,Biomangrooves,Positive,Positive
+194STUDID,Accu Stuff,Negative,Positive
+194STUDID,ddfs,Negative,Positive
+194STUDID,ABC,Positive,Positive
+194STUDID,Weird Lab,Positive,Positive
+194STUDID,SAT Tec,Negative,Positive
+194STUDID,DST,Positive,Positive
+195STUDID,Weird Lab,Positive,Positive
+195STUDID,DST,Positive,Positive
+195STUDID,Biomangrooves,Positive,Positive
+195STUDID,SAT Tec,Negative,Positive
+195STUDID,ChemicalBrothers,Positive,Positive
+195STUDID,ABC,Positive,Positive
+195STUDID,ddfs,Positive,Positive
+195STUDID,HCG,Positive,Positive
+195STUDID,LLJK,Negative,Positive
+195STUDID,Accu Stuff,Negative,Positive
+196STUDID,ABC,Positive,Positive
+196STUDID,ABC,Invalid,Positive
+196STUDID,DST,Positive,Positive
+196STUDID,ddfs,Positive,Positive
+196STUDID,Biomangrooves,Positive,Positive
+196STUDID,HCG,Positive,Positive
+196STUDID,LLJK,Positive,Positive
+196STUDID,Weird Lab,Positive,Positive
+196STUDID,SAT Tec,Positive,Positive
+196STUDID,Accu Stuff,Positive,Positive
+196STUDID,ChemicalBrothers,Positive,Positive
+197STUDID,ddfs,Negative,Negative
+197STUDID,Accu Stuff,Negative,Negative
+197STUDID,LLJK,Negative,Negative
+197STUDID,HCG,Negative,Negative
+197STUDID,Biomangrooves,Negative,Negative
+197STUDID,SAT Tec,Negative,Negative
+197STUDID,ABC,Negative,Negative
+197STUDID,Weird Lab,Negative,Negative
+197STUDID,ChemicalBrothers,Negative,Negative
+197STUDID,DST,Negative,Negative
+198STUDID,ddfs,Negative,Negative
+198STUDID,Accu Stuff,Negative,Negative
+198STUDID,ABC,Negative,Negative
+198STUDID,ChemicalBrothers,Negative,Negative
+198STUDID,Weird Lab,Negative,Negative
+198STUDID,LLJK,Negative,Negative
+198STUDID,DST,Negative,Negative
+198STUDID,SAT Tec,Negative,Negative
+198STUDID,Biomangrooves,Negative,Negative
+198STUDID,HCG,Negative,Negative
+199STUDID,ABC,Negative,Negative
+199STUDID,LLJK,Negative,Negative
+199STUDID,Biomangrooves,Negative,Negative
+199STUDID,Accu Stuff,Negative,Negative
+199STUDID,Weird Lab,Positive,Negative
+199STUDID,ddfs,Positive,Negative
+199STUDID,ddfs,Negative,Negative
+199STUDID,DST,Negative,Negative
+199STUDID,HCG,Negative,Negative
+199STUDID,SAT Tec,Negative,Negative
+199STUDID,ABC,Positive,Negative
+199STUDID,ChemicalBrothers,Negative,Negative
+19STUDID,LLJK,Negative,Negative
+19STUDID,SAT Tec,Negative,Negative
+19STUDID,HCG,Negative,Negative
+19STUDID,DST,Negative,Negative
+19STUDID,ddfs,Negative,Negative
+19STUDID,ChemicalBrothers,Negative,Negative
+19STUDID,Biomangrooves,Negative,Negative
+19STUDID,Weird Lab,Negative,Negative
+19STUDID,ABC,Negative,Negative
+19STUDID,Weird Lab,Positive,Negative
+19STUDID,Accu Stuff,Negative,Negative
+200STUDID,Accu Stuff,Positive,Positive
+200STUDID,ddfs,Positive,Positive
+200STUDID,ddfs,Negative,Positive
+200STUDID,LLJK,Positive,Positive
+200STUDID,HCG,Positive,Positive
+200STUDID,DST,Positive,Positive
+200STUDID,SAT Tec,Negative,Positive
+200STUDID,ChemicalBrothers,Positive,Positive
+200STUDID,Biomangrooves,Positive,Positive
+200STUDID,ABC,Positive,Positive
+200STUDID,Weird Lab,Positive,Positive
+201STUDID,ddfs,Invalid,Negative
+201STUDID,DST,Negative,Negative
+201STUDID,ddfs,Negative,Negative
+201STUDID,ABC,Positive,Negative
+201STUDID,HCG,Negative,Negative
+201STUDID,ChemicalBrothers,Negative,Negative
+201STUDID,LLJK,Negative,Negative
+201STUDID,ABC,Negative,Negative
+201STUDID,Weird Lab,Negative,Negative
+201STUDID,Biomangrooves,Negative,Negative
+201STUDID,SAT Tec,Negative,Negative
+201STUDID,Accu Stuff,Negative,Negative
+202STUDID,ddfs,Positive,Positive
+202STUDID,LLJK,Positive,Positive
+202STUDID,ABC,Positive,Positive
+202STUDID,Biomangrooves,Positive,Positive
+202STUDID,DST,Positive,Positive
+202STUDID,Weird Lab,Positive,Positive
+202STUDID,SAT Tec,Negative,Positive
+202STUDID,HCG,Positive,Positive
+202STUDID,Accu Stuff,Positive,Positive
+202STUDID,ChemicalBrothers,Positive,Positive
+203STUDID,Accu Stuff,Negative,Negative
+203STUDID,Biomangrooves,Negative,Negative
+203STUDID,LLJK,Negative,Negative
+203STUDID,SAT Tec,Negative,Negative
+203STUDID,ddfs,Negative,Negative
+203STUDID,ChemicalBrothers,Negative,Negative
+203STUDID,ABC,Negative,Negative
+203STUDID,DST,Negative,Negative
+203STUDID,HCG,Negative,Negative
+203STUDID,Weird Lab,Negative,Negative
+204STUDID,SAT Tec,Negative,Negative
+204STUDID,Biomangrooves,Negative,Negative
+204STUDID,ABC,Negative,Negative
+204STUDID,HCG,Negative,Negative
+204STUDID,LLJK,Negative,Negative
+204STUDID,Weird Lab,Negative,Negative
+204STUDID,DST,Negative,Negative
+204STUDID,Accu Stuff,Negative,Negative
+204STUDID,ddfs,Negative,Negative
+204STUDID,ChemicalBrothers,Negative,Negative
+205STUDID,Weird Lab,Positive,Positive
+205STUDID,ABC,Positive,Positive
+205STUDID,SAT Tec,Negative,Positive
+205STUDID,ChemicalBrothers,Positive,Positive
+205STUDID,ddfs,Positive,Positive
+205STUDID,HCG,Positive,Positive
+205STUDID,DST,Positive,Positive
+205STUDID,Accu Stuff,Positive,Positive
+205STUDID,LLJK,Positive,Positive
+205STUDID,Biomangrooves,Positive,Positive
+206STUDID,ABC,Negative,Negative
+206STUDID,SAT Tec,Negative,Negative
+206STUDID,DST,Negative,Negative
+206STUDID,Weird Lab,Negative,Negative
+206STUDID,ddfs,Negative,Negative
+206STUDID,LLJK,Negative,Negative
+206STUDID,HCG,Negative,Negative
+206STUDID,Biomangrooves,Negative,Negative
+206STUDID,Accu Stuff,Negative,Negative
+206STUDID,ChemicalBrothers,Negative,Negative
+207STUDID,ddfs,Invalid,Positive
+207STUDID,ABC,Positive,Positive
+207STUDID,SAT Tec,Negative,Positive
+207STUDID,SAT Tec,Positive,Positive
+207STUDID,ABC,Invalid,Positive
+207STUDID,Biomangrooves,Positive,Positive
+207STUDID,Weird Lab,Positive,Positive
+207STUDID,LLJK,Positive,Positive
+207STUDID,DST,Positive,Positive
+207STUDID,HCG,Positive,Positive
+207STUDID,ChemicalBrothers,Positive,Positive
+207STUDID,ddfs,Positive,Positive
+207STUDID,Accu Stuff,Positive,Positive
+208STUDID,ddfs,Negative,Negative
+208STUDID,DST,Negative,Negative
+208STUDID,Biomangrooves,Positive,Negative
+208STUDID,Weird Lab,Negative,Negative
+208STUDID,LLJK,Negative,Negative
+208STUDID,Accu Stuff,Negative,Negative
+208STUDID,SAT Tec,Negative,Negative
+208STUDID,HCG,Negative,Negative
+208STUDID,ABC,Negative,Negative
+208STUDID,ChemicalBrothers,Negative,Negative
+209STUDID,Accu Stuff,Negative,Negative
+209STUDID,Weird Lab,Negative,Negative
+209STUDID,Biomangrooves,Negative,Negative
+209STUDID,SAT Tec,Negative,Negative
+209STUDID,HCG,Negative,Negative
+209STUDID,LLJK,Negative,Negative
+209STUDID,ddfs,Negative,Negative
+209STUDID,ABC,Negative,Negative
+209STUDID,DST,Negative,Negative
+209STUDID,ChemicalBrothers,Negative,Negative
+20STUDID,ddfs,Negative,Negative
+20STUDID,Biomangrooves,Negative,Negative
+20STUDID,ChemicalBrothers,Negative,Negative
+20STUDID,SAT Tec,Negative,Negative
+20STUDID,LLJK,Negative,Negative
+20STUDID,ABC,Negative,Negative
+20STUDID,Weird Lab,Negative,Negative
+20STUDID,HCG,Negative,Negative
+20STUDID,Accu Stuff,Negative,Negative
+20STUDID,DST,Negative,Negative
+210STUDID,ABC,Positive,Negative
+210STUDID,Biomangrooves,Negative,Negative
+210STUDID,Weird Lab,Negative,Negative
+210STUDID,DST,Negative,Negative
+210STUDID,ABC,Invalid,Negative
+210STUDID,HCG,Negative,Negative
+210STUDID,SAT Tec,Negative,Negative
+210STUDID,LLJK,Negative,Negative
+210STUDID,Accu Stuff,Negative,Negative
+210STUDID,ChemicalBrothers,Negative,Negative
+210STUDID,ddfs,Positive,Negative
+211STUDID,LLJK,Positive,Positive
+211STUDID,HCG,Positive,Positive
+211STUDID,SAT Tec,Positive,Positive
+211STUDID,Accu Stuff,Positive,Positive
+211STUDID,ddfs,Positive,Positive
+211STUDID,ABC,Positive,Positive
+211STUDID,Weird Lab,Positive,Positive
+211STUDID,Biomangrooves,Positive,Positive
+211STUDID,DST,Positive,Positive
+211STUDID,ChemicalBrothers,Positive,Positive
+212STUDID,SAT Tec,Positive,Positive
+212STUDID,ABC,Positive,Positive
+212STUDID,HCG,Positive,Positive
+212STUDID,LLJK,Positive,Positive
+212STUDID,Weird Lab,Positive,Positive
+212STUDID,SAT Tec,Negative,Positive
+212STUDID,DST,Positive,Positive
+212STUDID,Accu Stuff,Positive,Positive
+212STUDID,ChemicalBrothers,Positive,Positive
+212STUDID,ABC,Negative,Positive
+212STUDID,Biomangrooves,Positive,Positive
+212STUDID,ddfs,Positive,Positive
+213STUDID,ChemicalBrothers,Negative,Negative
+213STUDID,LLJK,Negative,Negative
+213STUDID,Biomangrooves,Negative,Negative
+213STUDID,ABC,Negative,Negative
+213STUDID,Accu Stuff,Negative,Negative
+213STUDID,HCG,Negative,Negative
+213STUDID,SAT Tec,Negative,Negative
+213STUDID,DST,Negative,Negative
+213STUDID,ddfs,Negative,Negative
+213STUDID,Weird Lab,Negative,Negative
+214STUDID,DST,Positive,Positive
+214STUDID,ChemicalBrothers,Positive,Positive
+214STUDID,HCG,Positive,Positive
+214STUDID,LLJK,Positive,Positive
+214STUDID,SAT Tec,Positive,Positive
+214STUDID,Biomangrooves,Positive,Positive
+214STUDID,ddfs,Positive,Positive
+214STUDID,SAT Tec,Negative,Positive
+214STUDID,ABC,Positive,Positive
+214STUDID,Weird Lab,Positive,Positive
+214STUDID,Accu Stuff,Positive,Positive
+215STUDID,Biomangrooves,Positive,Positive
+215STUDID,LLJK,Positive,Positive
+215STUDID,Weird Lab,Positive,Positive
+215STUDID,ABC,Positive,Positive
+215STUDID,ChemicalBrothers,Positive,Positive
+215STUDID,SAT Tec,Positive,Positive
+215STUDID,Accu Stuff,Positive,Positive
+215STUDID,DST,Positive,Positive
+215STUDID,HCG,Positive,Positive
+215STUDID,SAT Tec,Negative,Positive
+215STUDID,ddfs,Positive,Positive
+216STUDID,ABC,Negative,Negative
+216STUDID,Weird Lab,Negative,Negative
+216STUDID,Biomangrooves,Negative,Negative
+216STUDID,LLJK,Negative,Negative
+216STUDID,HCG,Negative,Negative
+216STUDID,ChemicalBrothers,Negative,Negative
+216STUDID,Accu Stuff,Negative,Negative
+216STUDID,SAT Tec,Negative,Negative
+216STUDID,DST,Negative,Negative
+216STUDID,ddfs,Negative,Negative
+217STUDID,Biomangrooves,Positive,Positive
+217STUDID,HCG,Positive,Positive
+217STUDID,Weird Lab,Positive,Positive
+217STUDID,Accu Stuff,Positive,Positive
+217STUDID,DST,Positive,Positive
+217STUDID,LLJK,Positive,Positive
+217STUDID,ABC,Invalid,Positive
+217STUDID,SAT Tec,Positive,Positive
+217STUDID,ABC,Positive,Positive
+217STUDID,ChemicalBrothers,Positive,Positive
+217STUDID,ddfs,Positive,Positive
+218STUDID,LLJK,Negative,Negative
+218STUDID,SAT Tec,Negative,Negative
+218STUDID,Weird Lab,Negative,Negative
+218STUDID,ChemicalBrothers,Negative,Negative
+218STUDID,DST,Negative,Negative
+218STUDID,ABC,Negative,Negative
+218STUDID,Biomangrooves,Negative,Negative
+218STUDID,HCG,Negative,Negative
+218STUDID,Accu Stuff,Negative,Negative
+218STUDID,ddfs,Negative,Negative
+219STUDID,ABC,Negative,Negative
+219STUDID,SAT Tec,Positive,Negative
+219STUDID,SAT Tec,Negative,Negative
+219STUDID,DST,Negative,Negative
+219STUDID,Biomangrooves,Negative,Negative
+219STUDID,LLJK,Negative,Negative
+219STUDID,Weird Lab,Negative,Negative
+219STUDID,ChemicalBrothers,Negative,Negative
+219STUDID,HCG,Negative,Negative
+219STUDID,ddfs,Negative,Negative
+219STUDID,Accu Stuff,Negative,Negative
+219STUDID,Biomangrooves,Positive,Negative
+21STUDID,ChemicalBrothers,Negative,Negative
+21STUDID,ddfs,Negative,Negative
+21STUDID,ABC,Negative,Negative
+21STUDID,Accu Stuff,Negative,Negative
+21STUDID,DST,Negative,Negative
+21STUDID,Biomangrooves,Negative,Negative
+21STUDID,SAT Tec,Negative,Negative
+21STUDID,LLJK,Negative,Negative
+21STUDID,HCG,Negative,Negative
+21STUDID,Weird Lab,Negative,Negative
+220STUDID,ddfs,Positive,Positive
+220STUDID,SAT Tec,Positive,Positive
+220STUDID,Biomangrooves,Positive,Positive
+220STUDID,DST,Positive,Positive
+220STUDID,HCG,Positive,Positive
+220STUDID,LLJK,Positive,Positive
+220STUDID,ChemicalBrothers,Positive,Positive
+220STUDID,ABC,Positive,Positive
+220STUDID,Weird Lab,Positive,Positive
+220STUDID,Accu Stuff,Positive,Positive
+221STUDID,Accu Stuff,Negative,Negative
+221STUDID,ddfs,Negative,Negative
+221STUDID,ddfs,Invalid,Negative
+221STUDID,ABC,Positive,Negative
+221STUDID,HCG,Negative,Negative
+221STUDID,LLJK,Negative,Negative
+221STUDID,Biomangrooves,Negative,Negative
+221STUDID,ABC,Negative,Negative
+221STUDID,SAT Tec,Negative,Negative
+221STUDID,DST,Negative,Negative
+221STUDID,ChemicalBrothers,Negative,Negative
+221STUDID,Weird Lab,Negative,Negative
+221STUDID,ddfs,Positive,Negative
+222STUDID,Weird Lab,Negative,Negative
+222STUDID,ddfs,Negative,Negative
+222STUDID,LLJK,Negative,Negative
+222STUDID,ChemicalBrothers,Negative,Negative
+222STUDID,DST,Negative,Negative
+222STUDID,Accu Stuff,Negative,Negative
+222STUDID,SAT Tec,Negative,Negative
+222STUDID,Biomangrooves,Negative,Negative
+222STUDID,ABC,Negative,Negative
+222STUDID,HCG,Negative,Negative
+223STUDID,ddfs,Negative,Negative
+223STUDID,Accu Stuff,Negative,Negative
+223STUDID,DST,Negative,Negative
+223STUDID,ddfs,Invalid,Negative
+223STUDID,ChemicalBrothers,Negative,Negative
+223STUDID,HCG,Negative,Negative
+223STUDID,LLJK,Negative,Negative
+223STUDID,ABC,Negative,Negative
+223STUDID,SAT Tec,Negative,Negative
+223STUDID,Weird Lab,Positive,Negative
+223STUDID,Weird Lab,Negative,Negative
+223STUDID,ABC,Invalid,Negative
+223STUDID,Biomangrooves,Positive,Negative
+224STUDID,ChemicalBrothers,Negative,Negative
+224STUDID,ABC,Negative,Negative
+224STUDID,Biomangrooves,Negative,Negative
+224STUDID,ddfs,Negative,Negative
+224STUDID,LLJK,Negative,Negative
+224STUDID,Weird Lab,Negative,Negative
+224STUDID,DST,Negative,Negative
+224STUDID,HCG,Negative,Negative
+224STUDID,SAT Tec,Negative,Negative
+224STUDID,Accu Stuff,Negative,Negative
+225STUDID,DST,Positive,Positive
+225STUDID,LLJK,Positive,Positive
+225STUDID,Weird Lab,Positive,Positive
+225STUDID,ddfs,Positive,Positive
+225STUDID,ChemicalBrothers,Positive,Positive
+225STUDID,SAT Tec,Positive,Positive
+225STUDID,HCG,Positive,Positive
+225STUDID,ABC,Negative,Positive
+225STUDID,Accu Stuff,Positive,Positive
+225STUDID,Biomangrooves,Positive,Positive
+226STUDID,ABC,Negative,Negative
+226STUDID,DST,Negative,Negative
+226STUDID,HCG,Negative,Negative
+226STUDID,ChemicalBrothers,Negative,Negative
+226STUDID,Biomangrooves,Negative,Negative
+226STUDID,SAT Tec,Negative,Negative
+226STUDID,Accu Stuff,Negative,Negative
+226STUDID,Weird Lab,Negative,Negative
+226STUDID,ddfs,Negative,Negative
+226STUDID,LLJK,Negative,Negative
+227STUDID,DST,Negative,Negative
+227STUDID,Biomangrooves,Negative,Negative
+227STUDID,Weird Lab,Negative,Negative
+227STUDID,SAT Tec,Negative,Negative
+227STUDID,LLJK,Negative,Negative
+227STUDID,ABC,Negative,Negative
+227STUDID,ABC,Invalid,Negative
+227STUDID,ddfs,Negative,Negative
+227STUDID,ChemicalBrothers,Negative,Negative
+227STUDID,Accu Stuff,Negative,Negative
+227STUDID,HCG,Negative,Negative
+228STUDID,HCG,Positive,Positive
+228STUDID,ddfs,Positive,Positive
+228STUDID,Accu Stuff,Positive,Positive
+228STUDID,ChemicalBrothers,Positive,Positive
+228STUDID,Biomangrooves,Positive,Positive
+228STUDID,SAT Tec,Negative,Positive
+228STUDID,ABC,Positive,Positive
+228STUDID,DST,Positive,Positive
+228STUDID,LLJK,Positive,Positive
+228STUDID,Weird Lab,Positive,Positive
+229STUDID,ChemicalBrothers,Negative,Negative
+229STUDID,Weird Lab,Negative,Negative
+229STUDID,Biomangrooves,Negative,Negative
+229STUDID,HCG,Negative,Negative
+229STUDID,ABC,Negative,Negative
+229STUDID,ddfs,Negative,Negative
+229STUDID,SAT Tec,Negative,Negative
+229STUDID,DST,Negative,Negative
+229STUDID,Accu Stuff,Negative,Negative
+229STUDID,LLJK,Negative,Negative
+22STUDID,SAT Tec,Negative,Negative
+22STUDID,ddfs,Negative,Negative
+22STUDID,Weird Lab,Negative,Negative
+22STUDID,LLJK,Negative,Negative
+22STUDID,Biomangrooves,Positive,Negative
+22STUDID,ChemicalBrothers,Negative,Negative
+22STUDID,ABC,Negative,Negative
+22STUDID,HCG,Negative,Negative
+22STUDID,DST,Negative,Negative
+22STUDID,Accu Stuff,Negative,Negative
+230STUDID,ABC,Negative,Negative
+230STUDID,Accu Stuff,Negative,Negative
+230STUDID,Biomangrooves,Negative,Negative
+230STUDID,Weird Lab,Negative,Negative
+230STUDID,SAT Tec,Negative,Negative
+230STUDID,ddfs,Negative,Negative
+230STUDID,HCG,Negative,Negative
+230STUDID,ChemicalBrothers,Negative,Negative
+230STUDID,LLJK,Negative,Negative
+230STUDID,DST,Negative,Negative
+231STUDID,Biomangrooves,Positive,Negative
+231STUDID,ddfs,Invalid,Negative
+231STUDID,Weird Lab,Negative,Negative
+231STUDID,SAT Tec,Negative,Negative
+231STUDID,HCG,Negative,Negative
+231STUDID,LLJK,Negative,Negative
+231STUDID,ChemicalBrothers,Negative,Negative
+231STUDID,DST,Negative,Negative
+231STUDID,ddfs,Negative,Negative
+231STUDID,ABC,Negative,Negative
+231STUDID,Accu Stuff,Negative,Negative
+231STUDID,ABC,Invalid,Negative
+232STUDID,Accu Stuff,Negative,Negative
+232STUDID,SAT Tec,Negative,Negative
+232STUDID,ChemicalBrothers,Negative,Negative
+232STUDID,HCG,Negative,Negative
+232STUDID,DST,Negative,Negative
+232STUDID,ddfs,Negative,Negative
+232STUDID,Weird Lab,Negative,Negative
+232STUDID,Biomangrooves,Negative,Negative
+232STUDID,ABC,Negative,Negative
+232STUDID,LLJK,Negative,Negative
+233STUDID,DST,Positive,Positive
+233STUDID,HCG,Positive,Positive
+233STUDID,ddfs,Positive,Positive
+233STUDID,LLJK,Positive,Positive
+233STUDID,Weird Lab,Positive,Positive
+233STUDID,Accu Stuff,Positive,Positive
+233STUDID,Biomangrooves,Positive,Positive
+233STUDID,SAT Tec,Negative,Positive
+233STUDID,ChemicalBrothers,Positive,Positive
+233STUDID,SAT Tec,Positive,Positive
+233STUDID,ABC,Positive,Positive
+234STUDID,ddfs,Positive,Positive
+234STUDID,LLJK,Positive,Positive
+234STUDID,Biomangrooves,Positive,Positive
+234STUDID,Accu Stuff,Positive,Positive
+234STUDID,SAT Tec,Positive,Positive
+234STUDID,Weird Lab,Positive,Positive
+234STUDID,DST,Positive,Positive
+234STUDID,HCG,Positive,Positive
+234STUDID,ChemicalBrothers,Positive,Positive
+234STUDID,ABC,Positive,Positive
+235STUDID,SAT Tec,Positive,Positive
+235STUDID,DST,Positive,Positive
+235STUDID,Accu Stuff,Positive,Positive
+235STUDID,Biomangrooves,Positive,Positive
+235STUDID,ddfs,Positive,Positive
+235STUDID,Weird Lab,Positive,Positive
+235STUDID,ChemicalBrothers,Positive,Positive
+235STUDID,LLJK,Positive,Positive
+235STUDID,HCG,Positive,Positive
+235STUDID,ABC,Positive,Positive
+236STUDID,DST,Positive,Positive
+236STUDID,Weird Lab,Positive,Positive
+236STUDID,ddfs,Positive,Positive
+236STUDID,LLJK,Positive,Positive
+236STUDID,SAT Tec,Positive,Positive
+236STUDID,Biomangrooves,Positive,Positive
+236STUDID,Accu Stuff,Positive,Positive
+236STUDID,ABC,Positive,Positive
+236STUDID,ChemicalBrothers,Positive,Positive
+236STUDID,HCG,Positive,Positive
+237STUDID,Biomangrooves,Positive,Positive
+237STUDID,SAT Tec,Positive,Positive
+237STUDID,LLJK,Positive,Positive
+237STUDID,Weird Lab,Positive,Positive
+237STUDID,DST,Positive,Positive
+237STUDID,SAT Tec,Negative,Positive
+237STUDID,ChemicalBrothers,Positive,Positive
+237STUDID,ddfs,Positive,Positive
+237STUDID,Accu Stuff,Positive,Positive
+237STUDID,HCG,Positive,Positive
+237STUDID,ABC,Positive,Positive
+238STUDID,ChemicalBrothers,Negative,Negative
+238STUDID,Biomangrooves,Positive,Negative
+238STUDID,Accu Stuff,Negative,Negative
+238STUDID,SAT Tec,Negative,Negative
+238STUDID,LLJK,Negative,Negative
+238STUDID,ABC,Positive,Negative
+238STUDID,HCG,Negative,Negative
+238STUDID,DST,Negative,Negative
+238STUDID,Weird Lab,Negative,Negative
+238STUDID,ABC,Negative,Negative
+238STUDID,ddfs,Negative,Negative
+239STUDID,SAT Tec,Negative,Negative
+239STUDID,LLJK,Negative,Negative
+239STUDID,Biomangrooves,Negative,Negative
+239STUDID,ABC,Negative,Negative
+239STUDID,ChemicalBrothers,Negative,Negative
+239STUDID,DST,Negative,Negative
+239STUDID,Weird Lab,Negative,Negative
+239STUDID,ddfs,Negative,Negative
+239STUDID,HCG,Negative,Negative
+239STUDID,Accu Stuff,Negative,Negative
+23STUDID,Biomangrooves,Negative,Negative
+23STUDID,LLJK,Negative,Negative
+23STUDID,DST,Negative,Negative
+23STUDID,ddfs,Negative,Negative
+23STUDID,ChemicalBrothers,Negative,Negative
+23STUDID,HCG,Negative,Negative
+23STUDID,Accu Stuff,Negative,Negative
+23STUDID,ABC,Negative,Negative
+23STUDID,Weird Lab,Negative,Negative
+23STUDID,SAT Tec,Negative,Negative
+240STUDID,DST,Positive,Positive
+240STUDID,SAT Tec,Negative,Positive
+240STUDID,Weird Lab,Positive,Positive
+240STUDID,ABC,Positive,Positive
+240STUDID,HCG,Positive,Positive
+240STUDID,SAT Tec,Positive,Positive
+240STUDID,Accu Stuff,Positive,Positive
+240STUDID,LLJK,Positive,Positive
+240STUDID,Biomangrooves,Positive,Positive
+240STUDID,ChemicalBrothers,Positive,Positive
+240STUDID,ddfs,Negative,Positive
+241STUDID,Accu Stuff,Positive,Positive
+241STUDID,SAT Tec,Negative,Positive
+241STUDID,LLJK,Positive,Positive
+241STUDID,SAT Tec,Positive,Positive
+241STUDID,ABC,Positive,Positive
+241STUDID,ChemicalBrothers,Positive,Positive
+241STUDID,DST,Positive,Positive
+241STUDID,HCG,Positive,Positive
+241STUDID,Weird Lab,Positive,Positive
+241STUDID,Biomangrooves,Positive,Positive
+241STUDID,ddfs,Negative,Positive
+242STUDID,Accu Stuff,Negative,Positive
+242STUDID,Biomangrooves,Positive,Positive
+242STUDID,ABC,Negative,Positive
+242STUDID,LLJK,Negative,Positive
+242STUDID,DST,Positive,Positive
+242STUDID,ddfs,Positive,Positive
+242STUDID,Weird Lab,Negative,Positive
+242STUDID,ChemicalBrothers,Negative,Positive
+242STUDID,HCG,Negative,Positive
+242STUDID,SAT Tec,Negative,Positive
+242STUDID,ddfs,Negative,Positive
+243STUDID,HCG,Negative,Negative
+243STUDID,DST,Negative,Negative
+243STUDID,ddfs,Negative,Negative
+243STUDID,ABC,Negative,Negative
+243STUDID,Accu Stuff,Negative,Negative
+243STUDID,Biomangrooves,Negative,Negative
+243STUDID,ChemicalBrothers,Negative,Negative
+243STUDID,SAT Tec,Negative,Negative
+243STUDID,Weird Lab,Negative,Negative
+243STUDID,LLJK,Negative,Negative
+244STUDID,Biomangrooves,Positive,Negative
+244STUDID,HCG,Negative,Negative
+244STUDID,ddfs,Negative,Negative
+244STUDID,Accu Stuff,Negative,Negative
+244STUDID,ChemicalBrothers,Negative,Negative
+244STUDID,ABC,Negative,Negative
+244STUDID,SAT Tec,Negative,Negative
+244STUDID,DST,Negative,Negative
+244STUDID,Weird Lab,Negative,Negative
+244STUDID,LLJK,Negative,Negative
+245STUDID,ddfs,Negative,Negative
+245STUDID,SAT Tec,Negative,Negative
+245STUDID,Biomangrooves,Positive,Negative
+245STUDID,ChemicalBrothers,Negative,Negative
+245STUDID,Accu Stuff,Negative,Negative
+245STUDID,ABC,Negative,Negative
+245STUDID,Weird Lab,Negative,Negative
+245STUDID,LLJK,Negative,Negative
+245STUDID,DST,Negative,Negative
+245STUDID,HCG,Negative,Negative
+246STUDID,Weird Lab,Positive,Positive
+246STUDID,LLJK,Positive,Positive
+246STUDID,Biomangrooves,Positive,Positive
+246STUDID,Accu Stuff,Positive,Positive
+246STUDID,ChemicalBrothers,Positive,Positive
+246STUDID,HCG,Negative,Positive
+246STUDID,SAT Tec,Negative,Positive
+246STUDID,DST,Positive,Positive
+246STUDID,ABC,Negative,Positive
+246STUDID,ddfs,Negative,Positive
+247STUDID,DST,Negative,Negative
+247STUDID,Biomangrooves,Positive,Negative
+247STUDID,HCG,Negative,Negative
+247STUDID,Weird Lab,Negative,Negative
+247STUDID,LLJK,Negative,Negative
+247STUDID,ChemicalBrothers,Negative,Negative
+247STUDID,Accu Stuff,Negative,Negative
+247STUDID,ABC,Negative,Negative
+247STUDID,SAT Tec,Negative,Negative
+247STUDID,ddfs,Negative,Negative
+248STUDID,Biomangrooves,Positive,Positive
+248STUDID,Weird Lab,Positive,Positive
+248STUDID,Accu Stuff,Negative,Positive
+248STUDID,DST,Positive,Positive
+248STUDID,ChemicalBrothers,Negative,Positive
+248STUDID,LLJK,Negative,Positive
+248STUDID,SAT Tec,Negative,Positive
+248STUDID,ABC,Negative,Positive
+248STUDID,HCG,Positive,Positive
+248STUDID,ddfs,Negative,Positive
+249STUDID,ABC,Positive,Positive
+249STUDID,LLJK,Positive,Positive
+249STUDID,Biomangrooves,Positive,Positive
+249STUDID,ChemicalBrothers,Positive,Positive
+249STUDID,DST,Positive,Positive
+249STUDID,HCG,Positive,Positive
+249STUDID,Weird Lab,Positive,Positive
+249STUDID,SAT Tec,Negative,Positive
+249STUDID,Accu Stuff,Positive,Positive
+249STUDID,ddfs,Positive,Positive
+24STUDID,ABC,Negative,Negative
+24STUDID,HCG,Negative,Negative
+24STUDID,Biomangrooves,Negative,Negative
+24STUDID,ddfs,Negative,Negative
+24STUDID,ChemicalBrothers,Negative,Negative
+24STUDID,Accu Stuff,Negative,Negative
+24STUDID,Weird Lab,Negative,Negative
+24STUDID,DST,Negative,Negative
+24STUDID,LLJK,Negative,Negative
+24STUDID,SAT Tec,Negative,Negative
+250STUDID,ddfs,Negative,Negative
+250STUDID,ChemicalBrothers,Negative,Negative
+250STUDID,ABC,Negative,Negative
+250STUDID,Biomangrooves,Positive,Negative
+250STUDID,LLJK,Negative,Negative
+250STUDID,HCG,Negative,Negative
+250STUDID,Accu Stuff,Negative,Negative
+250STUDID,Weird Lab,Negative,Negative
+250STUDID,SAT Tec,Negative,Negative
+250STUDID,DST,Negative,Negative
+251STUDID,HCG,Negative,Negative
+251STUDID,LLJK,Negative,Negative
+251STUDID,ABC,Negative,Negative
+251STUDID,Biomangrooves,Positive,Negative
+251STUDID,Accu Stuff,Negative,Negative
+251STUDID,ddfs,Negative,Negative
+251STUDID,ChemicalBrothers,Negative,Negative
+251STUDID,DST,Negative,Negative
+251STUDID,Biomangrooves,Negative,Negative
+251STUDID,SAT Tec,Negative,Negative
+251STUDID,Weird Lab,Negative,Negative
+252STUDID,LLJK,Negative,Negative
+252STUDID,DST,Negative,Negative
+252STUDID,Accu Stuff,Negative,Negative
+252STUDID,Biomangrooves,Positive,Negative
+252STUDID,ChemicalBrothers,Negative,Negative
+252STUDID,HCG,Negative,Negative
+252STUDID,SAT Tec,Negative,Negative
+252STUDID,ddfs,Negative,Negative
+252STUDID,Biomangrooves,Invalid,Negative
+252STUDID,Weird Lab,Negative,Negative
+252STUDID,ABC,Negative,Negative
+253STUDID,ABC,Positive,Positive
+253STUDID,ddfs,Positive,Positive
+253STUDID,DST,Positive,Positive
+253STUDID,Biomangrooves,Positive,Positive
+253STUDID,SAT Tec,Positive,Positive
+253STUDID,LLJK,Positive,Positive
+253STUDID,HCG,Positive,Positive
+253STUDID,Weird Lab,Positive,Positive
+253STUDID,ChemicalBrothers,Positive,Positive
+253STUDID,Accu Stuff,Positive,Positive
+253STUDID,SAT Tec,Negative,Positive
+254STUDID,DST,Negative,Negative
+254STUDID,SAT Tec,Negative,Negative
+254STUDID,Accu Stuff,Negative,Negative
+254STUDID,LLJK,Negative,Negative
+254STUDID,Biomangrooves,Positive,Negative
+254STUDID,Biomangrooves,Invalid,Negative
+254STUDID,ABC,Negative,Negative
+254STUDID,ddfs,Negative,Negative
+254STUDID,Weird Lab,Negative,Negative
+254STUDID,ChemicalBrothers,Negative,Negative
+254STUDID,HCG,Negative,Negative
+255STUDID,HCG,Positive,Positive
+255STUDID,Biomangrooves,Positive,Positive
+255STUDID,ChemicalBrothers,Positive,Positive
+255STUDID,DST,Positive,Positive
+255STUDID,LLJK,Positive,Positive
+255STUDID,Weird Lab,Positive,Positive
+255STUDID,SAT Tec,Negative,Positive
+255STUDID,Accu Stuff,Positive,Positive
+255STUDID,SAT Tec,Positive,Positive
+255STUDID,ddfs,Positive,Positive
+255STUDID,ABC,Positive,Positive
+256STUDID,Accu Stuff,Negative,Negative
+256STUDID,ddfs,Negative,Negative
+256STUDID,DST,Negative,Negative
+256STUDID,ABC,Negative,Negative
+256STUDID,HCG,Negative,Negative
+256STUDID,SAT Tec,Negative,Negative
+256STUDID,Weird Lab,Negative,Negative
+256STUDID,ChemicalBrothers,Negative,Negative
+256STUDID,LLJK,Negative,Negative
+256STUDID,Biomangrooves,Positive,Negative
+257STUDID,HCG,Positive,Positive
+257STUDID,Accu Stuff,Positive,Positive
+257STUDID,SAT Tec,Negative,Positive
+257STUDID,Weird Lab,Positive,Positive
+257STUDID,DST,Positive,Positive
+257STUDID,ChemicalBrothers,Positive,Positive
+257STUDID,LLJK,Positive,Positive
+257STUDID,ABC,Positive,Positive
+257STUDID,ddfs,Negative,Positive
+257STUDID,Biomangrooves,Positive,Positive
+257STUDID,ABC,Negative,Positive
+257STUDID,ddfs,Positive,Positive
+258STUDID,HCG,Negative,Negative
+258STUDID,ABC,Positive,Negative
+258STUDID,SAT Tec,Negative,Negative
+258STUDID,DST,Negative,Negative
+258STUDID,ddfs,Positive,Negative
+258STUDID,ChemicalBrothers,Negative,Negative
+258STUDID,Weird Lab,Negative,Negative
+258STUDID,Accu Stuff,Negative,Negative
+258STUDID,SAT Tec,Positive,Negative
+258STUDID,LLJK,Negative,Negative
+258STUDID,Biomangrooves,Negative,Negative
+258STUDID,Biomangrooves,Positive,Negative
+259STUDID,Weird Lab,Positive,Positive
+259STUDID,LLJK,Positive,Positive
+259STUDID,Biomangrooves,Positive,Positive
+259STUDID,HCG,Positive,Positive
+259STUDID,DST,Positive,Positive
+259STUDID,ChemicalBrothers,Positive,Positive
+259STUDID,Accu Stuff,Positive,Positive
+259STUDID,ABC,Positive,Positive
+259STUDID,SAT Tec,Positive,Positive
+259STUDID,ddfs,Positive,Positive
+25STUDID,HCG,Negative,Negative
+25STUDID,ABC,Negative,Negative
+25STUDID,LLJK,Negative,Negative
+25STUDID,Accu Stuff,Negative,Negative
+25STUDID,DST,Negative,Negative
+25STUDID,ddfs,Negative,Negative
+25STUDID,Biomangrooves,Negative,Negative
+25STUDID,Weird Lab,Negative,Negative
+25STUDID,ChemicalBrothers,Negative,Negative
+25STUDID,SAT Tec,Negative,Negative
+260STUDID,Biomangrooves,Positive,Positive
+260STUDID,LLJK,Negative,Positive
+260STUDID,HCG,Positive,Positive
+260STUDID,Weird Lab,Negative,Positive
+260STUDID,ddfs,Negative,Positive
+260STUDID,ChemicalBrothers,Negative,Positive
+260STUDID,SAT Tec,Negative,Positive
+260STUDID,ABC,Negative,Positive
+260STUDID,DST,Positive,Positive
+260STUDID,Accu Stuff,Negative,Positive
+261STUDID,ChemicalBrothers,Negative,Negative
+261STUDID,LLJK,Negative,Negative
+261STUDID,Weird Lab,Negative,Negative
+261STUDID,ABC,Negative,Negative
+261STUDID,SAT Tec,Negative,Negative
+261STUDID,Accu Stuff,Negative,Negative
+261STUDID,HCG,Negative,Negative
+261STUDID,Biomangrooves,Negative,Negative
+261STUDID,DST,Negative,Negative
+261STUDID,ddfs,Negative,Negative
+262STUDID,DST,Negative,Negative
+262STUDID,ddfs,Negative,Negative
+262STUDID,Biomangrooves,Positive,Negative
+262STUDID,HCG,Negative,Negative
+262STUDID,ChemicalBrothers,Negative,Negative
+262STUDID,Weird Lab,Negative,Negative
+262STUDID,ABC,Negative,Negative
+262STUDID,SAT Tec,Negative,Negative
+262STUDID,Accu Stuff,Negative,Negative
+262STUDID,LLJK,Negative,Negative
+263STUDID,Weird Lab,Negative,Negative
+263STUDID,ABC,Negative,Negative
+263STUDID,LLJK,Negative,Negative
+263STUDID,HCG,Negative,Negative
+263STUDID,ChemicalBrothers,Negative,Negative
+263STUDID,ddfs,Negative,Negative
+263STUDID,DST,Negative,Negative
+263STUDID,Biomangrooves,Negative,Negative
+263STUDID,Accu Stuff,Negative,Negative
+263STUDID,SAT Tec,Negative,Negative
+264STUDID,ddfs,Negative,Negative
+264STUDID,Weird Lab,Negative,Negative
+264STUDID,LLJK,Negative,Negative
+264STUDID,SAT Tec,Negative,Negative
+264STUDID,Accu Stuff,Negative,Negative
+264STUDID,HCG,Negative,Negative
+264STUDID,DST,Negative,Negative
+264STUDID,ChemicalBrothers,Negative,Negative
+264STUDID,Biomangrooves,Positive,Negative
+264STUDID,ABC,Negative,Negative
+265STUDID,Biomangrooves,Invalid,Negative
+265STUDID,ddfs,Negative,Negative
+265STUDID,ABC,Negative,Negative
+265STUDID,Accu Stuff,Negative,Negative
+265STUDID,DST,Negative,Negative
+265STUDID,ChemicalBrothers,Negative,Negative
+265STUDID,HCG,Negative,Negative
+265STUDID,SAT Tec,Negative,Negative
+265STUDID,Weird Lab,Negative,Negative
+265STUDID,Biomangrooves,Positive,Negative
+265STUDID,LLJK,Negative,Negative
+266STUDID,SAT Tec,Negative,Negative
+266STUDID,DST,Negative,Negative
+266STUDID,ddfs,Negative,Negative
+266STUDID,LLJK,Negative,Negative
+266STUDID,ChemicalBrothers,Negative,Negative
+266STUDID,HCG,Negative,Negative
+266STUDID,ABC,Negative,Negative
+266STUDID,Accu Stuff,Negative,Negative
+266STUDID,Weird Lab,Negative,Negative
+266STUDID,Biomangrooves,Negative,Negative
+267STUDID,HCG,Positive,Positive
+267STUDID,ddfs,Positive,Positive
+267STUDID,LLJK,Positive,Positive
+267STUDID,DST,Positive,Positive
+267STUDID,ChemicalBrothers,Positive,Positive
+267STUDID,Accu Stuff,Positive,Positive
+267STUDID,Biomangrooves,Positive,Positive
+267STUDID,SAT Tec,Positive,Positive
+267STUDID,Weird Lab,Positive,Positive
+267STUDID,ABC,Positive,Positive
+268STUDID,SAT Tec,Positive,Positive
+268STUDID,ABC,Positive,Positive
+268STUDID,ChemicalBrothers,Positive,Positive
+268STUDID,Weird Lab,Positive,Positive
+268STUDID,LLJK,Positive,Positive
+268STUDID,Biomangrooves,Positive,Positive
+268STUDID,DST,Positive,Positive
+268STUDID,HCG,Positive,Positive
+268STUDID,Accu Stuff,Positive,Positive
+268STUDID,ddfs,Positive,Positive
+269STUDID,Biomangrooves,Negative,Negative
+269STUDID,ddfs,Negative,Negative
+269STUDID,ABC,Negative,Negative
+269STUDID,SAT Tec,Negative,Negative
+269STUDID,ChemicalBrothers,Negative,Negative
+269STUDID,HCG,Negative,Negative
+269STUDID,Accu Stuff,Negative,Negative
+269STUDID,Weird Lab,Negative,Negative
+269STUDID,LLJK,Negative,Negative
+269STUDID,DST,Negative,Negative
+269STUDID,Biomangrooves,Positive,Negative
+26STUDID,ABC,Positive,Positive
+26STUDID,LLJK,Positive,Positive
+26STUDID,DST,Positive,Positive
+26STUDID,ddfs,Positive,Positive
+26STUDID,Weird Lab,Positive,Positive
+26STUDID,Accu Stuff,Positive,Positive
+26STUDID,ChemicalBrothers,Positive,Positive
+26STUDID,Biomangrooves,Positive,Positive
+26STUDID,HCG,Positive,Positive
+26STUDID,SAT Tec,Negative,Positive
+270STUDID,ddfs,Negative,Negative
+270STUDID,ChemicalBrothers,Negative,Negative
+270STUDID,Accu Stuff,Negative,Negative
+270STUDID,SAT Tec,Negative,Negative
+270STUDID,LLJK,Negative,Negative
+270STUDID,Biomangrooves,Negative,Negative
+270STUDID,HCG,Negative,Negative
+270STUDID,ABC,Negative,Negative
+270STUDID,Weird Lab,Negative,Negative
+270STUDID,DST,Negative,Negative
+270STUDID,Biomangrooves,Positive,Negative
+271STUDID,LLJK,Negative,Negative
+271STUDID,Biomangrooves,Negative,Negative
+271STUDID,ddfs,Negative,Negative
+271STUDID,Accu Stuff,Negative,Negative
+271STUDID,Biomangrooves,Positive,Negative
+271STUDID,ChemicalBrothers,Negative,Negative
+271STUDID,DST,Negative,Negative
+271STUDID,HCG,Negative,Negative
+271STUDID,SAT Tec,Negative,Negative
+271STUDID,ABC,Negative,Negative
+271STUDID,Weird Lab,Negative,Negative
+272STUDID,HCG,Positive,Positive
+272STUDID,ChemicalBrothers,Positive,Positive
+272STUDID,ddfs,Negative,Positive
+272STUDID,Accu Stuff,Positive,Positive
+272STUDID,Biomangrooves,Positive,Positive
+272STUDID,SAT Tec,Negative,Positive
+272STUDID,DST,Positive,Positive
+272STUDID,LLJK,Positive,Positive
+272STUDID,Weird Lab,Positive,Positive
+272STUDID,ABC,Negative,Positive
+273STUDID,ddfs,Positive,Positive
+273STUDID,Accu Stuff,Negative,Positive
+273STUDID,LLJK,Positive,Positive
+273STUDID,ChemicalBrothers,Positive,Positive
+273STUDID,DST,Positive,Positive
+273STUDID,Biomangrooves,Positive,Positive
+273STUDID,HCG,Positive,Positive
+273STUDID,SAT Tec,Positive,Positive
+273STUDID,Weird Lab,Positive,Positive
+273STUDID,ABC,Positive,Positive
+274STUDID,LLJK,Positive,Positive
+274STUDID,ddfs,Positive,Positive
+274STUDID,SAT Tec,Positive,Positive
+274STUDID,ChemicalBrothers,Positive,Positive
+274STUDID,ABC,Positive,Positive
+274STUDID,DST,Positive,Positive
+274STUDID,Accu Stuff,Positive,Positive
+274STUDID,Biomangrooves,Positive,Positive
+274STUDID,HCG,Positive,Positive
+274STUDID,Weird Lab,Positive,Positive
+275STUDID,LLJK,Negative,Negative
+275STUDID,DST,Negative,Negative
+275STUDID,ddfs,Negative,Negative
+275STUDID,Weird Lab,Negative,Negative
+275STUDID,SAT Tec,Negative,Negative
+275STUDID,Biomangrooves,Negative,Negative
+275STUDID,Accu Stuff,Negative,Negative
+275STUDID,HCG,Negative,Negative
+275STUDID,ABC,Negative,Negative
+275STUDID,ChemicalBrothers,Negative,Negative
+276STUDID,LLJK,Positive,Positive
+276STUDID,SAT Tec,Positive,Positive
+276STUDID,ddfs,Positive,Positive
+276STUDID,DST,Positive,Positive
+276STUDID,Accu Stuff,Positive,Positive
+276STUDID,Biomangrooves,Positive,Positive
+276STUDID,Weird Lab,Positive,Positive
+276STUDID,ABC,Positive,Positive
+276STUDID,ChemicalBrothers,Positive,Positive
+276STUDID,HCG,Positive,Positive
+277STUDID,Accu Stuff,Negative,Positive
+277STUDID,HCG,Negative,Positive
+277STUDID,LLJK,Negative,Positive
+277STUDID,SAT Tec,Negative,Positive
+277STUDID,ABC,Positive,Positive
+277STUDID,ChemicalBrothers,Negative,Positive
+277STUDID,ddfs,Positive,Positive
+277STUDID,Biomangrooves,Positive,Positive
+277STUDID,Weird Lab,Negative,Positive
+277STUDID,DST,Positive,Positive
+277STUDID,Biomangrooves,Invalid,Positive
+278STUDID,SAT Tec,Negative,Negative
+278STUDID,Accu Stuff,Negative,Negative
+278STUDID,DST,Negative,Negative
+278STUDID,ddfs,Negative,Negative
+278STUDID,LLJK,Negative,Negative
+278STUDID,ABC,Negative,Negative
+278STUDID,ChemicalBrothers,Negative,Negative
+278STUDID,Biomangrooves,Positive,Negative
+278STUDID,HCG,Negative,Negative
+278STUDID,Weird Lab,Negative,Negative
+279STUDID,HCG,Negative,Positive
+279STUDID,LLJK,Negative,Positive
+279STUDID,ABC,Positive,Positive
+279STUDID,Accu Stuff,Negative,Positive
+279STUDID,Biomangrooves,Positive,Positive
+279STUDID,Biomangrooves,Negative,Positive
+279STUDID,ddfs,Positive,Positive
+279STUDID,ChemicalBrothers,Negative,Positive
+279STUDID,DST,Positive,Positive
+279STUDID,ChemicalBrothers,Positive,Positive
+279STUDID,ABC,Negative,Positive
+279STUDID,SAT Tec,Negative,Positive
+279STUDID,Weird Lab,Positive,Positive
+27STUDID,HCG,Positive,Positive
+27STUDID,LLJK,Positive,Positive
+27STUDID,ABC,Positive,Positive
+27STUDID,Accu Stuff,Invalid,Positive
+27STUDID,ddfs,Positive,Positive
+27STUDID,DST,Positive,Positive
+27STUDID,ChemicalBrothers,Positive,Positive
+27STUDID,Weird Lab,Positive,Positive
+27STUDID,Biomangrooves,Positive,Positive
+27STUDID,SAT Tec,Positive,Positive
+280STUDID,ChemicalBrothers,Positive,Positive
+280STUDID,ABC,Positive,Positive
+280STUDID,LLJK,Positive,Positive
+280STUDID,ddfs,Positive,Positive
+280STUDID,SAT Tec,Negative,Positive
+280STUDID,SAT Tec,Positive,Positive
+280STUDID,Biomangrooves,Positive,Positive
+280STUDID,Weird Lab,Positive,Positive
+280STUDID,DST,Positive,Positive
+280STUDID,Accu Stuff,Positive,Positive
+280STUDID,HCG,Positive,Positive
+281STUDID,ChemicalBrothers,Positive,Positive
+281STUDID,Accu Stuff,Positive,Positive
+281STUDID,LLJK,Positive,Positive
+281STUDID,ABC,Negative,Positive
+281STUDID,Biomangrooves,Positive,Positive
+281STUDID,DST,Positive,Positive
+281STUDID,HCG,Positive,Positive
+281STUDID,ddfs,Positive,Positive
+281STUDID,ABC,Positive,Positive
+281STUDID,Weird Lab,Positive,Positive
+281STUDID,ddfs,Negative,Positive
+281STUDID,SAT Tec,Negative,Positive
+281STUDID,SAT Tec,Positive,Positive
+282STUDID,ChemicalBrothers,Positive,Positive
+282STUDID,ABC,Positive,Positive
+282STUDID,ddfs,Positive,Positive
+282STUDID,LLJK,Positive,Positive
+282STUDID,Biomangrooves,Positive,Positive
+282STUDID,Weird Lab,Positive,Positive
+282STUDID,Accu Stuff,Positive,Positive
+282STUDID,HCG,Positive,Positive
+282STUDID,DST,Positive,Positive
+282STUDID,SAT Tec,Positive,Positive
+282STUDID,ddfs,Negative,Positive
+282STUDID,ABC,Negative,Positive
+283STUDID,Weird Lab,Negative,IND
+283STUDID,DST,Negative,IND
+283STUDID,ABC,Negative,IND
+283STUDID,ChemicalBrothers,Negative,IND
+283STUDID,ddfs,Negative,IND
+283STUDID,Accu Stuff,Negative,IND
+283STUDID,Biomangrooves,Negative,IND
+283STUDID,SAT Tec,Negative,IND
+283STUDID,LLJK,Negative,IND
+283STUDID,HCG,Negative,IND
+284STUDID,ddfs,Negative,IND
+284STUDID,Accu Stuff,Negative,IND
+284STUDID,ABC,Negative,IND
+284STUDID,Weird Lab,Negative,IND
+284STUDID,DST,Negative,IND
+284STUDID,LLJK,Negative,IND
+284STUDID,Biomangrooves,Negative,IND
+284STUDID,ChemicalBrothers,Negative,IND
+284STUDID,HCG,Negative,IND
+284STUDID,SAT Tec,Negative,IND
+285STUDID,Accu Stuff,Positive,Positive
+285STUDID,Weird Lab,Positive,Positive
+285STUDID,ABC,Negative,Positive
+285STUDID,ChemicalBrothers,Positive,Positive
+285STUDID,HCG,Positive,Positive
+285STUDID,LLJK,Positive,Positive
+285STUDID,SAT Tec,Positive,Positive
+285STUDID,Biomangrooves,Positive,Positive
+285STUDID,DST,Positive,Positive
+285STUDID,ddfs,Negative,Positive
+286STUDID,ddfs,Negative,Negative
+286STUDID,LLJK,Negative,Negative
+286STUDID,Weird Lab,Negative,Negative
+286STUDID,Biomangrooves,Negative,Negative
+286STUDID,Accu Stuff,Negative,Negative
+286STUDID,ABC,Negative,Negative
+286STUDID,HCG,Negative,Negative
+286STUDID,DST,Negative,Negative
+286STUDID,SAT Tec,Negative,Negative
+286STUDID,ChemicalBrothers,Negative,Negative
+287STUDID,ddfs,Negative,Negative
+287STUDID,LLJK,Negative,Negative
+287STUDID,Weird Lab,Negative,Negative
+287STUDID,ABC,Negative,Negative
+287STUDID,DST,Negative,Negative
+287STUDID,Accu Stuff,Negative,Negative
+287STUDID,HCG,Negative,Negative
+287STUDID,ChemicalBrothers,Negative,Negative
+287STUDID,Biomangrooves,Negative,Negative
+287STUDID,SAT Tec,Negative,Negative
+288STUDID,ABC,Positive,Positive
+288STUDID,ddfs,Positive,Positive
+288STUDID,LLJK,Positive,Positive
+288STUDID,DST,Positive,Positive
+288STUDID,Accu Stuff,Positive,Positive
+288STUDID,Weird Lab,Positive,Positive
+288STUDID,HCG,Positive,Positive
+288STUDID,ChemicalBrothers,Positive,Positive
+288STUDID,Biomangrooves,Positive,Positive
+288STUDID,SAT Tec,Positive,Positive
+289STUDID,Weird Lab,Negative,Negative
+289STUDID,HCG,Negative,Negative
+289STUDID,ABC,Negative,Negative
+289STUDID,DST,Negative,Negative
+289STUDID,SAT Tec,Negative,Negative
+289STUDID,LLJK,Negative,Negative
+289STUDID,ddfs,Negative,Negative
+289STUDID,ChemicalBrothers,Negative,Negative
+289STUDID,Accu Stuff,Negative,Negative
+289STUDID,Biomangrooves,Negative,Negative
+28STUDID,ABC,Negative,Negative
+28STUDID,HCG,Negative,Negative
+28STUDID,Weird Lab,Negative,Negative
+28STUDID,ChemicalBrothers,Negative,Negative
+28STUDID,LLJK,Negative,Negative
+28STUDID,SAT Tec,Negative,Negative
+28STUDID,ddfs,Negative,Negative
+28STUDID,DST,Negative,Negative
+28STUDID,Biomangrooves,Negative,Negative
+28STUDID,Accu Stuff,Negative,Negative
+290STUDID,DST,Negative,Negative
+290STUDID,SAT Tec,Negative,Negative
+290STUDID,Weird Lab,Negative,Negative
+290STUDID,LLJK,Negative,Negative
+290STUDID,HCG,Negative,Negative
+290STUDID,Accu Stuff,Negative,Negative
+290STUDID,ddfs,Negative,Negative
+290STUDID,ChemicalBrothers,Negative,Negative
+290STUDID,Biomangrooves,Negative,Negative
+290STUDID,ABC,Negative,Negative
+291STUDID,Biomangrooves,Negative,Negative
+291STUDID,SAT Tec,Negative,Negative
+291STUDID,DST,Negative,Negative
+291STUDID,HCG,Negative,Negative
+291STUDID,Accu Stuff,Negative,Negative
+291STUDID,ABC,Negative,Negative
+291STUDID,Weird Lab,Negative,Negative
+291STUDID,ChemicalBrothers,Negative,Negative
+291STUDID,LLJK,Negative,Negative
+291STUDID,ddfs,Negative,Negative
+292STUDID,HCG,Positive,Positive
+292STUDID,ChemicalBrothers,Positive,Positive
+292STUDID,DST,Positive,Positive
+292STUDID,Weird Lab,Positive,Positive
+292STUDID,LLJK,Positive,Positive
+292STUDID,Biomangrooves,Positive,Positive
+292STUDID,ddfs,Negative,Positive
+292STUDID,Accu Stuff,Positive,Positive
+292STUDID,ABC,Positive,Positive
+292STUDID,SAT Tec,Positive,Positive
+292STUDID,ddfs,Positive,Positive
+292STUDID,ABC,Negative,Positive
+293STUDID,Weird Lab,Positive,Positive
+293STUDID,ddfs,Positive,Positive
+293STUDID,ABC,Positive,Positive
+293STUDID,HCG,Positive,Positive
+293STUDID,Biomangrooves,Positive,Positive
+293STUDID,ChemicalBrothers,Positive,Positive
+293STUDID,LLJK,Positive,Positive
+293STUDID,Accu Stuff,Positive,Positive
+293STUDID,SAT Tec,Negative,Positive
+293STUDID,ABC,Negative,Positive
+293STUDID,DST,Positive,Positive
+293STUDID,ddfs,Negative,Positive
+294STUDID,Weird Lab,Positive,Positive
+294STUDID,LLJK,Positive,Positive
+294STUDID,ddfs,Positive,Positive
+294STUDID,Biomangrooves,Positive,Positive
+294STUDID,ABC,Positive,Positive
+294STUDID,ChemicalBrothers,Positive,Positive
+294STUDID,Accu Stuff,Positive,Positive
+294STUDID,SAT Tec,Positive,Positive
+294STUDID,HCG,Positive,Positive
+294STUDID,DST,Positive,Positive
+295STUDID,Accu Stuff,Positive,Positive
+295STUDID,ChemicalBrothers,Positive,Positive
+295STUDID,ddfs,Positive,Positive
+295STUDID,LLJK,Positive,Positive
+295STUDID,Biomangrooves,Positive,Positive
+295STUDID,ABC,Negative,Positive
+295STUDID,Weird Lab,Positive,Positive
+295STUDID,SAT Tec,Positive,Positive
+295STUDID,HCG,Positive,Positive
+295STUDID,ddfs,Negative,Positive
+295STUDID,DST,Positive,Positive
+296STUDID,Weird Lab,Negative,Positive
+296STUDID,Biomangrooves,Negative,Positive
+296STUDID,LLJK,Negative,Positive
+296STUDID,ChemicalBrothers,Negative,Positive
+296STUDID,ddfs,Positive,Positive
+296STUDID,SAT Tec,Invalid,Positive
+296STUDID,Accu Stuff,Negative,Positive
+296STUDID,ddfs,Negative,Positive
+296STUDID,HCG,Negative,Positive
+296STUDID,SAT Tec,Negative,Positive
+296STUDID,ABC,Positive,Positive
+296STUDID,ABC,Negative,Positive
+296STUDID,DST,Negative,Positive
+297STUDID,Weird Lab,Negative,Negative
+297STUDID,LLJK,Negative,Negative
+297STUDID,ABC,Negative,Negative
+297STUDID,Biomangrooves,Negative,Negative
+297STUDID,Accu Stuff,Negative,Negative
+297STUDID,ddfs,Negative,Negative
+297STUDID,ChemicalBrothers,Negative,Negative
+297STUDID,DST,Negative,Negative
+297STUDID,HCG,Negative,Negative
+297STUDID,SAT Tec,Negative,Negative
+298STUDID,ddfs,Negative,Negative
+298STUDID,LLJK,Negative,Negative
+298STUDID,ABC,Negative,Negative
+298STUDID,Biomangrooves,Negative,Negative
+298STUDID,Biomangrooves,Positive,Negative
+298STUDID,Accu Stuff,Negative,Negative
+298STUDID,Weird Lab,Negative,Negative
+298STUDID,HCG,Negative,Negative
+298STUDID,ChemicalBrothers,Negative,Negative
+298STUDID,DST,Negative,Negative
+298STUDID,SAT Tec,Negative,Negative
+299STUDID,LLJK,Negative,Negative
+299STUDID,Accu Stuff,Negative,Negative
+299STUDID,ddfs,Negative,Negative
+299STUDID,Biomangrooves,Negative,Negative
+299STUDID,ChemicalBrothers,Negative,Negative
+299STUDID,HCG,Negative,Negative
+299STUDID,ABC,Negative,Negative
+299STUDID,Weird Lab,Negative,Negative
+299STUDID,DST,Negative,Negative
+299STUDID,SAT Tec,Negative,Negative
+29STUDID,LLJK,Positive,Positive
+29STUDID,ABC,Positive,Positive
+29STUDID,Biomangrooves,Positive,Positive
+29STUDID,ChemicalBrothers,Positive,Positive
+29STUDID,ddfs,Positive,Positive
+29STUDID,HCG,Positive,Positive
+29STUDID,DST,Positive,Positive
+29STUDID,Accu Stuff,Positive,Positive
+29STUDID,Weird Lab,Positive,Positive
+29STUDID,SAT Tec,Positive,Positive
+300STUDID,Biomangrooves,Negative,Negative
+300STUDID,LLJK,Negative,Negative
+300STUDID,Accu Stuff,Negative,Negative
+300STUDID,Weird Lab,Negative,Negative
+300STUDID,ABC,Negative,Negative
+300STUDID,HCG,Negative,Negative
+300STUDID,ChemicalBrothers,Negative,Negative
+300STUDID,Biomangrooves,Positive,Negative
+300STUDID,SAT Tec,Negative,Negative
+300STUDID,ddfs,Negative,Negative
+300STUDID,DST,Negative,Negative
+301STUDID,Weird Lab,Negative,Negative
+301STUDID,ABC,Negative,Negative
+301STUDID,LLJK,Negative,Negative
+301STUDID,Accu Stuff,Negative,Negative
+301STUDID,Biomangrooves,Negative,Negative
+301STUDID,ChemicalBrothers,Negative,Negative
+301STUDID,ddfs,Negative,Negative
+301STUDID,SAT Tec,Negative,Negative
+301STUDID,HCG,Negative,Negative
+301STUDID,DST,Negative,Negative
+302STUDID,Weird Lab,Negative,Negative
+302STUDID,HCG,Negative,Negative
+302STUDID,ABC,Negative,Negative
+302STUDID,ChemicalBrothers,Negative,Negative
+302STUDID,LLJK,Negative,Negative
+302STUDID,Biomangrooves,Negative,Negative
+302STUDID,Accu Stuff,Negative,Negative
+302STUDID,ddfs,Negative,Negative
+302STUDID,SAT Tec,Negative,Negative
+302STUDID,DST,Negative,Negative
+303STUDID,ChemicalBrothers,Negative,Negative
+303STUDID,Weird Lab,Negative,Negative
+303STUDID,ABC,Negative,Negative
+303STUDID,Accu Stuff,Negative,Negative
+303STUDID,LLJK,Negative,Negative
+303STUDID,DST,Negative,Negative
+303STUDID,Biomangrooves,Positive,Negative
+303STUDID,ddfs,Negative,Negative
+303STUDID,SAT Tec,Negative,Negative
+303STUDID,HCG,Positive,Negative
+304STUDID,LLJK,Positive,Positive
+304STUDID,Biomangrooves,Positive,Positive
+304STUDID,ABC,Positive,Positive
+304STUDID,SAT Tec,Positive,Positive
+304STUDID,ddfs,Positive,Positive
+304STUDID,DST,Positive,Positive
+304STUDID,HCG,Positive,Positive
+304STUDID,Accu Stuff,Positive,Positive
+304STUDID,Weird Lab,Positive,Positive
+304STUDID,ChemicalBrothers,Positive,Positive
+305STUDID,ddfs,Positive,Positive
+305STUDID,DST,Positive,Positive
+305STUDID,Biomangrooves,Negative,Positive
+305STUDID,LLJK,Negative,Positive
+305STUDID,HCG,Positive,Positive
+305STUDID,Weird Lab,Negative,Positive
+305STUDID,Biomangrooves,Positive,Positive
+305STUDID,Accu Stuff,Negative,Positive
+305STUDID,ChemicalBrothers,Negative,Positive
+305STUDID,SAT Tec,Negative,Positive
+305STUDID,ABC,Positive,Positive
+306STUDID,HCG,Negative,Negative
+306STUDID,ABC,Negative,Negative
+306STUDID,Weird Lab,Negative,Negative
+306STUDID,SAT Tec,Negative,Negative
+306STUDID,ddfs,Negative,Negative
+306STUDID,LLJK,Negative,Negative
+306STUDID,DST,Negative,Negative
+306STUDID,ddfs,Positive,Negative
+306STUDID,Biomangrooves,Positive,Negative
+306STUDID,ChemicalBrothers,Negative,Negative
+306STUDID,Accu Stuff,Negative,Negative
+306STUDID,Biomangrooves,Negative,Negative
+307STUDID,HCG,Positive,Positive
+307STUDID,SAT Tec,Positive,Positive
+307STUDID,ABC,Negative,Positive
+307STUDID,Weird Lab,Positive,Positive
+307STUDID,ddfs,Negative,Positive
+307STUDID,Accu Stuff,Positive,Positive
+307STUDID,ChemicalBrothers,Positive,Positive
+307STUDID,Biomangrooves,Positive,Positive
+307STUDID,DST,Positive,Positive
+307STUDID,LLJK,Positive,Positive
+308STUDID,HCG,Positive,Positive
+308STUDID,Accu Stuff,Positive,Positive
+308STUDID,ddfs,Positive,Positive
+308STUDID,SAT Tec,Positive,Positive
+308STUDID,DST,Positive,Positive
+308STUDID,ABC,Positive,Positive
+308STUDID,Biomangrooves,Positive,Positive
+308STUDID,Weird Lab,Positive,Positive
+308STUDID,ChemicalBrothers,Positive,Positive
+308STUDID,LLJK,Positive,Positive
+309STUDID,ABC,Positive,Positive
+309STUDID,Weird Lab,Positive,Positive
+309STUDID,LLJK,Negative,Positive
+309STUDID,ChemicalBrothers,Negative,Positive
+309STUDID,ddfs,Positive,Positive
+309STUDID,HCG,Positive,Positive
+309STUDID,Biomangrooves,Positive,Positive
+309STUDID,DST,Positive,Positive
+309STUDID,SAT Tec,Negative,Positive
+309STUDID,Accu Stuff,Negative,Positive
+30STUDID,Biomangrooves,Negative,Negative
+30STUDID,DST,Negative,Negative
+30STUDID,HCG,Negative,Negative
+30STUDID,Weird Lab,Negative,Negative
+30STUDID,LLJK,Negative,Negative
+30STUDID,ABC,Negative,Negative
+30STUDID,ChemicalBrothers,Negative,Negative
+30STUDID,ddfs,Negative,Negative
+30STUDID,ABC,Positive,Negative
+30STUDID,ddfs,Positive,Negative
+30STUDID,Accu Stuff,Negative,Negative
+30STUDID,SAT Tec,Negative,Negative
+310STUDID,ChemicalBrothers,Negative,Negative
+310STUDID,ddfs,Negative,Negative
+310STUDID,ABC,Negative,Negative
+310STUDID,Biomangrooves,Negative,Negative
+310STUDID,LLJK,Negative,Negative
+310STUDID,Weird Lab,Negative,Negative
+310STUDID,HCG,Negative,Negative
+310STUDID,SAT Tec,Negative,Negative
+310STUDID,Accu Stuff,Negative,Negative
+310STUDID,DST,Negative,Negative
+311STUDID,Biomangrooves,Positive,Negative
+311STUDID,ChemicalBrothers,Negative,Negative
+311STUDID,Accu Stuff,Negative,Negative
+311STUDID,Biomangrooves,Negative,Negative
+311STUDID,LLJK,Negative,Negative
+311STUDID,ddfs,Negative,Negative
+311STUDID,DST,Negative,Negative
+311STUDID,Weird Lab,Negative,Negative
+311STUDID,HCG,Negative,Negative
+311STUDID,ABC,Negative,Negative
+311STUDID,SAT Tec,Negative,Negative
+312STUDID,Biomangrooves,Positive,Negative
+312STUDID,ChemicalBrothers,Negative,Negative
+312STUDID,Biomangrooves,Negative,Negative
+312STUDID,Accu Stuff,Negative,Negative
+312STUDID,Weird Lab,Negative,Negative
+312STUDID,HCG,Negative,Negative
+312STUDID,LLJK,Negative,Negative
+312STUDID,ABC,Negative,Negative
+312STUDID,DST,Negative,Negative
+312STUDID,ddfs,Negative,Negative
+312STUDID,SAT Tec,Negative,Negative
+313STUDID,Weird Lab,Positive,Positive
+313STUDID,Accu Stuff,Positive,Positive
+313STUDID,Biomangrooves,Positive,Positive
+313STUDID,ChemicalBrothers,Positive,Positive
+313STUDID,SAT Tec,Positive,Positive
+313STUDID,Biomangrooves,Negative,Positive
+313STUDID,LLJK,Positive,Positive
+313STUDID,ddfs,Negative,Positive
+313STUDID,DST,Positive,Positive
+313STUDID,ABC,Negative,Positive
+313STUDID,HCG,Negative,Positive
+313STUDID,SAT Tec,Negative,Positive
+313STUDID,ABC,Positive,Positive
+313STUDID,HCG,Positive,Positive
+314STUDID,ChemicalBrothers,Negative,Negative
+314STUDID,HCG,Negative,Negative
+314STUDID,Weird Lab,Negative,Negative
+314STUDID,Biomangrooves,Negative,Negative
+314STUDID,SAT Tec,Negative,Negative
+314STUDID,Accu Stuff,Negative,Negative
+314STUDID,ddfs,Negative,Negative
+314STUDID,ABC,Negative,Negative
+314STUDID,DST,Negative,Negative
+314STUDID,LLJK,Negative,Negative
+315STUDID,ChemicalBrothers,Negative,Negative
+315STUDID,HCG,Negative,Negative
+315STUDID,DST,Negative,Negative
+315STUDID,ABC,Negative,Negative
+315STUDID,Biomangrooves,Negative,Negative
+315STUDID,ddfs,Negative,Negative
+315STUDID,Weird Lab,Negative,Negative
+315STUDID,SAT Tec,Negative,Negative
+315STUDID,Accu Stuff,Negative,Negative
+315STUDID,LLJK,Negative,Negative
+316STUDID,DST,Negative,Negative
+316STUDID,ChemicalBrothers,Negative,Negative
+316STUDID,HCG,Negative,Negative
+316STUDID,SAT Tec,Negative,Negative
+316STUDID,Biomangrooves,Negative,Negative
+316STUDID,ddfs,Negative,Negative
+316STUDID,LLJK,Negative,Negative
+316STUDID,ABC,Negative,Negative
+316STUDID,Weird Lab,Negative,Negative
+316STUDID,Accu Stuff,Negative,Negative
+317STUDID,DST,Negative,Negative
+317STUDID,ddfs,Negative,Negative
+317STUDID,Weird Lab,Negative,Negative
+317STUDID,HCG,Negative,Negative
+317STUDID,ABC,Negative,Negative
+317STUDID,ChemicalBrothers,Negative,Negative
+317STUDID,SAT Tec,Negative,Negative
+317STUDID,Biomangrooves,Negative,Negative
+317STUDID,LLJK,Negative,Negative
+317STUDID,Accu Stuff,Negative,Negative
+318STUDID,Biomangrooves,Negative,Negative
+318STUDID,ABC,Negative,Negative
+318STUDID,DST,Negative,Negative
+318STUDID,Accu Stuff,Negative,Negative
+318STUDID,HCG,Negative,Negative
+318STUDID,LLJK,Negative,Negative
+318STUDID,Weird Lab,Negative,Negative
+318STUDID,SAT Tec,Negative,Negative
+318STUDID,ddfs,Negative,Negative
+318STUDID,ChemicalBrothers,Negative,Negative
+319STUDID,Biomangrooves,Negative,Negative
+319STUDID,Weird Lab,Negative,Negative
+319STUDID,LLJK,Negative,Negative
+319STUDID,Biomangrooves,Positive,Negative
+319STUDID,ddfs,Negative,Negative
+319STUDID,Accu Stuff,Negative,Negative
+319STUDID,SAT Tec,Negative,Negative
+319STUDID,ChemicalBrothers,Negative,Negative
+319STUDID,ABC,Negative,Negative
+319STUDID,HCG,Negative,Negative
+319STUDID,DST,Negative,Negative
+31STUDID,Weird Lab,Negative,Negative
+31STUDID,Biomangrooves,Positive,Negative
+31STUDID,DST,Negative,Negative
+31STUDID,LLJK,Negative,Negative
+31STUDID,HCG,Negative,Negative
+31STUDID,ChemicalBrothers,Negative,Negative
+31STUDID,SAT Tec,Negative,Negative
+31STUDID,Accu Stuff,Negative,Negative
+31STUDID,ddfs,Negative,Negative
+31STUDID,ABC,Negative,Negative
+320STUDID,DST,Negative,Negative
+320STUDID,Weird Lab,Negative,Negative
+320STUDID,Biomangrooves,Negative,Negative
+320STUDID,HCG,Negative,Negative
+320STUDID,Accu Stuff,Negative,Negative
+320STUDID,LLJK,Negative,Negative
+320STUDID,ddfs,Positive,Negative
+320STUDID,ChemicalBrothers,Negative,Negative
+320STUDID,SAT Tec,Negative,Negative
+320STUDID,ABC,Negative,Negative
+320STUDID,ddfs,Negative,Negative
+321STUDID,Weird Lab,Negative,Negative
+321STUDID,DST,Negative,Negative
+321STUDID,ChemicalBrothers,Negative,Negative
+321STUDID,Biomangrooves,Negative,Negative
+321STUDID,Accu Stuff,Negative,Negative
+321STUDID,LLJK,Negative,Negative
+321STUDID,SAT Tec,Negative,Negative
+321STUDID,ddfs,Negative,Negative
+321STUDID,ABC,Positive,Negative
+321STUDID,HCG,Negative,Negative
+321STUDID,ABC,Negative,Negative
+322STUDID,Weird Lab,Negative,Negative
+322STUDID,DST,Negative,Negative
+322STUDID,Accu Stuff,Negative,Negative
+322STUDID,SAT Tec,Negative,Negative
+322STUDID,HCG,Negative,Negative
+322STUDID,ddfs,Negative,Negative
+322STUDID,Biomangrooves,Negative,Negative
+322STUDID,ChemicalBrothers,Negative,Negative
+322STUDID,LLJK,Negative,Negative
+322STUDID,ABC,Negative,Negative
+323STUDID,ChemicalBrothers,Positive,Positive
+323STUDID,LLJK,Positive,Positive
+323STUDID,Accu Stuff,Positive,Positive
+323STUDID,SAT Tec,Positive,Positive
+323STUDID,Biomangrooves,Positive,Positive
+323STUDID,DST,Positive,Positive
+323STUDID,ABC,Positive,Positive
+323STUDID,Weird Lab,Positive,Positive
+323STUDID,HCG,Positive,Positive
+323STUDID,ddfs,Negative,Positive
+324STUDID,ABC,Negative,Negative
+324STUDID,DST,Negative,Negative
+324STUDID,SAT Tec,Negative,Negative
+324STUDID,HCG,Negative,Negative
+324STUDID,LLJK,Negative,Negative
+324STUDID,Weird Lab,Negative,Negative
+324STUDID,Accu Stuff,Negative,Negative
+324STUDID,Biomangrooves,Negative,Negative
+324STUDID,ddfs,Negative,Negative
+324STUDID,ChemicalBrothers,Negative,Negative
+325STUDID,ABC,Positive,Negative
+325STUDID,Weird Lab,Negative,Negative
+325STUDID,ChemicalBrothers,Negative,Negative
+325STUDID,Accu Stuff,Negative,Negative
+325STUDID,ddfs,Positive,Negative
+325STUDID,Biomangrooves,Negative,Negative
+325STUDID,DST,Negative,Negative
+325STUDID,SAT Tec,Negative,Negative
+325STUDID,LLJK,Negative,Negative
+325STUDID,Biomangrooves,Positive,Negative
+325STUDID,HCG,Positive,Negative
+325STUDID,HCG,Negative,Negative
+326STUDID,Accu Stuff,Negative,Negative
+326STUDID,Biomangrooves,Negative,Negative
+326STUDID,Weird Lab,Negative,Negative
+326STUDID,ChemicalBrothers,Negative,Negative
+326STUDID,ddfs,Negative,Negative
+326STUDID,SAT Tec,Negative,Negative
+326STUDID,HCG,Negative,Negative
+326STUDID,LLJK,Negative,Negative
+326STUDID,ABC,Negative,Negative
+326STUDID,DST,Negative,Negative
+327STUDID,LLJK,Negative,Negative
+327STUDID,Biomangrooves,Negative,Negative
+327STUDID,ddfs,Negative,Negative
+327STUDID,ChemicalBrothers,Negative,Negative
+327STUDID,Accu Stuff,Negative,Negative
+327STUDID,HCG,Negative,Negative
+327STUDID,Weird Lab,Negative,Negative
+327STUDID,SAT Tec,Negative,Negative
+327STUDID,ABC,Negative,Negative
+327STUDID,DST,Negative,Negative
+328STUDID,Weird Lab,Positive,Positive
+328STUDID,Biomangrooves,Positive,Positive
+328STUDID,ddfs,Positive,Positive
+328STUDID,DST,Positive,Positive
+328STUDID,SAT Tec,Positive,Positive
+328STUDID,ABC,Positive,Positive
+328STUDID,Accu Stuff,Positive,Positive
+328STUDID,ChemicalBrothers,Positive,Positive
+328STUDID,HCG,Positive,Positive
+328STUDID,LLJK,Positive,Positive
+329STUDID,Biomangrooves,Positive,Positive
+329STUDID,DST,Positive,Positive
+329STUDID,SAT Tec,Positive,Positive
+329STUDID,ddfs,Positive,Positive
+329STUDID,HCG,Positive,Positive
+329STUDID,ABC,Positive,Positive
+329STUDID,Weird Lab,Positive,Positive
+329STUDID,Accu Stuff,Positive,Positive
+329STUDID,ChemicalBrothers,Positive,Positive
+329STUDID,LLJK,Positive,Positive
+32STUDID,ABC,Positive,Positive
+32STUDID,SAT Tec,Positive,Positive
+32STUDID,DST,Positive,Positive
+32STUDID,Biomangrooves,Positive,Positive
+32STUDID,ddfs,Positive,Positive
+32STUDID,ChemicalBrothers,Positive,Positive
+32STUDID,LLJK,Positive,Positive
+32STUDID,HCG,Positive,Positive
+32STUDID,Weird Lab,Positive,Positive
+32STUDID,Accu Stuff,Positive,Positive
+330STUDID,SAT Tec,Negative,Positive
+330STUDID,ChemicalBrothers,Negative,Positive
+330STUDID,ddfs,Negative,Positive
+330STUDID,Accu Stuff,Negative,Positive
+330STUDID,ABC,Negative,Positive
+330STUDID,Biomangrooves,Positive,Positive
+330STUDID,LLJK,Negative,Positive
+330STUDID,Weird Lab,Negative,Positive
+330STUDID,HCG,Positive,Positive
+330STUDID,HCG,Negative,Positive
+330STUDID,DST,Negative,Positive
+331STUDID,Biomangrooves,Positive,Positive
+331STUDID,LLJK,Negative,Positive
+331STUDID,Weird Lab,Negative,Positive
+331STUDID,DST,Negative,Positive
+331STUDID,SAT Tec,Negative,Positive
+331STUDID,ABC,Positive,Positive
+331STUDID,Accu Stuff,Negative,Positive
+331STUDID,HCG,Negative,Positive
+331STUDID,Biomangrooves,Negative,Positive
+331STUDID,HCG,Positive,Positive
+331STUDID,ddfs,Positive,Positive
+331STUDID,ChemicalBrothers,Negative,Positive
+332STUDID,Biomangrooves,Negative,Negative
+332STUDID,ddfs,Negative,Negative
+332STUDID,HCG,Negative,Negative
+332STUDID,ABC,Negative,Negative
+332STUDID,Weird Lab,Negative,Negative
+332STUDID,LLJK,Negative,Negative
+332STUDID,DST,Negative,Negative
+332STUDID,SAT Tec,Negative,Negative
+332STUDID,ChemicalBrothers,Negative,Negative
+332STUDID,Accu Stuff,Negative,Negative
+333STUDID,ABC,Negative,Positive
+333STUDID,HCG,Positive,Positive
+333STUDID,LLJK,Positive,Positive
+333STUDID,ChemicalBrothers,Positive,Positive
+333STUDID,DST,Positive,Positive
+333STUDID,Weird Lab,Positive,Positive
+333STUDID,SAT Tec,Negative,Positive
+333STUDID,ddfs,Positive,Positive
+333STUDID,ABC,Invalid,Positive
+333STUDID,Accu Stuff,Positive,Positive
+333STUDID,Biomangrooves,Positive,Positive
+334STUDID,DST,Negative,Negative
+334STUDID,LLJK,Negative,Negative
+334STUDID,ddfs,Negative,Negative
+334STUDID,Accu Stuff,Negative,Negative
+334STUDID,Weird Lab,Negative,Negative
+334STUDID,ChemicalBrothers,Negative,Negative
+334STUDID,ABC,Negative,Negative
+334STUDID,Biomangrooves,Negative,Negative
+334STUDID,HCG,Negative,Negative
+334STUDID,SAT Tec,Negative,Negative
+335STUDID,LLJK,Positive,Positive
+335STUDID,Weird Lab,Positive,Positive
+335STUDID,DST,Positive,Positive
+335STUDID,ddfs,Negative,Positive
+335STUDID,ABC,Negative,Positive
+335STUDID,Accu Stuff,Positive,Positive
+335STUDID,ChemicalBrothers,Positive,Positive
+335STUDID,SAT Tec,Negative,Positive
+335STUDID,HCG,Positive,Positive
+335STUDID,Biomangrooves,Positive,Positive
+336STUDID,Weird Lab,Negative,Negative
+336STUDID,Biomangrooves,Negative,Negative
+336STUDID,ddfs,Negative,Negative
+336STUDID,HCG,Negative,Negative
+336STUDID,ABC,Negative,Negative
+336STUDID,ChemicalBrothers,Negative,Negative
+336STUDID,LLJK,Negative,Negative
+336STUDID,SAT Tec,Negative,Negative
+336STUDID,Accu Stuff,Negative,Negative
+336STUDID,DST,Negative,Negative
+337STUDID,HCG,Negative,Negative
+337STUDID,ABC,Negative,Negative
+337STUDID,DST,Negative,Negative
+337STUDID,LLJK,Negative,Negative
+337STUDID,ChemicalBrothers,Negative,Negative
+337STUDID,SAT Tec,Negative,Negative
+337STUDID,Biomangrooves,Negative,Negative
+337STUDID,ddfs,Negative,Negative
+337STUDID,Weird Lab,Negative,Negative
+337STUDID,Accu Stuff,Negative,Negative
+338STUDID,Biomangrooves,Negative,Negative
+338STUDID,Accu Stuff,Negative,Negative
+338STUDID,ChemicalBrothers,Negative,Negative
+338STUDID,DST,Negative,Negative
+338STUDID,SAT Tec,Negative,Negative
+338STUDID,ddfs,Negative,Negative
+338STUDID,Weird Lab,Negative,Negative
+338STUDID,LLJK,Negative,Negative
+338STUDID,ABC,Negative,Negative
+338STUDID,HCG,Negative,Negative
+339STUDID,Accu Stuff,Positive,Positive
+339STUDID,Biomangrooves,Positive,Positive
+339STUDID,SAT Tec,Positive,Positive
+339STUDID,ddfs,Positive,Positive
+339STUDID,LLJK,Positive,Positive
+339STUDID,ChemicalBrothers,Positive,Positive
+339STUDID,DST,Positive,Positive
+339STUDID,ABC,Positive,Positive
+339STUDID,HCG,Positive,Positive
+339STUDID,Weird Lab,Positive,Positive
+33STUDID,ChemicalBrothers,Negative,Negative
+33STUDID,ABC,Negative,Negative
+33STUDID,ddfs,Negative,Negative
+33STUDID,Weird Lab,Negative,Negative
+33STUDID,SAT Tec,Negative,Negative
+33STUDID,LLJK,Negative,Negative
+33STUDID,HCG,Negative,Negative
+33STUDID,Biomangrooves,Positive,Negative
+33STUDID,DST,Negative,Negative
+33STUDID,Accu Stuff,Negative,Negative
+340STUDID,ABC,Negative,Negative
+340STUDID,LLJK,Negative,Negative
+340STUDID,Biomangrooves,Negative,Negative
+340STUDID,ABC,Positive,Negative
+340STUDID,ddfs,Negative,Negative
+340STUDID,SAT Tec,Negative,Negative
+340STUDID,DST,Negative,Negative
+340STUDID,Accu Stuff,Negative,Negative
+340STUDID,HCG,Negative,Negative
+340STUDID,Weird Lab,Negative,Negative
+340STUDID,ChemicalBrothers,Negative,Negative
+341STUDID,ABC,Negative,Negative
+341STUDID,ABC,Positive,Negative
+341STUDID,ddfs,Negative,Negative
+341STUDID,Weird Lab,Negative,Negative
+341STUDID,HCG,Negative,Negative
+341STUDID,SAT Tec,Negative,Negative
+341STUDID,Biomangrooves,Negative,Negative
+341STUDID,LLJK,Negative,Negative
+341STUDID,ChemicalBrothers,Negative,Negative
+341STUDID,DST,Negative,Negative
+341STUDID,ddfs,Positive,Negative
+341STUDID,Accu Stuff,Negative,Negative
+342STUDID,HCG,Negative,Negative
+342STUDID,Accu Stuff,Negative,Negative
+342STUDID,Biomangrooves,Negative,Negative
+342STUDID,ddfs,Negative,Negative
+342STUDID,LLJK,Negative,Negative
+342STUDID,ChemicalBrothers,Negative,Negative
+342STUDID,Weird Lab,Negative,Negative
+342STUDID,ABC,Negative,Negative
+342STUDID,DST,Negative,Negative
+342STUDID,SAT Tec,Negative,Negative
+343STUDID,ddfs,Positive,Positive
+343STUDID,Biomangrooves,Positive,Positive
+343STUDID,LLJK,Positive,Positive
+343STUDID,Accu Stuff,Positive,Positive
+343STUDID,Weird Lab,Positive,Positive
+343STUDID,HCG,Positive,Positive
+343STUDID,DST,Positive,Positive
+343STUDID,ChemicalBrothers,Positive,Positive
+343STUDID,SAT Tec,Positive,Positive
+343STUDID,ABC,Positive,Positive
+344STUDID,Accu Stuff,Negative,Negative
+344STUDID,Biomangrooves,Negative,Negative
+344STUDID,DST,Negative,Negative
+344STUDID,Weird Lab,Negative,Negative
+344STUDID,HCG,Negative,Negative
+344STUDID,ddfs,Negative,Negative
+344STUDID,LLJK,Negative,Negative
+344STUDID,ABC,Negative,Negative
+344STUDID,ChemicalBrothers,Negative,Negative
+344STUDID,SAT Tec,Negative,Negative
+345STUDID,Biomangrooves,Negative,Negative
+345STUDID,LLJK,Negative,Negative
+345STUDID,ddfs,Negative,Negative
+345STUDID,SAT Tec,Negative,Negative
+345STUDID,ChemicalBrothers,Negative,Negative
+345STUDID,HCG,Negative,Negative
+345STUDID,DST,Negative,Negative
+345STUDID,Weird Lab,Negative,Negative
+345STUDID,ABC,Negative,Negative
+345STUDID,Accu Stuff,Negative,Negative
+346STUDID,Weird Lab,Negative,Positive
+346STUDID,HCG,Positive,Positive
+346STUDID,ChemicalBrothers,Negative,Positive
+346STUDID,ddfs,Positive,Positive
+346STUDID,LLJK,Negative,Positive
+346STUDID,Biomangrooves,Positive,Positive
+346STUDID,Accu Stuff,Negative,Positive
+346STUDID,DST,Negative,Positive
+346STUDID,SAT Tec,Positive,Positive
+346STUDID,ABC,Positive,Positive
+347STUDID,ABC,Negative,Negative
+347STUDID,ddfs,Negative,Negative
+347STUDID,ChemicalBrothers,Negative,Negative
+347STUDID,LLJK,Negative,Negative
+347STUDID,SAT Tec,Negative,Negative
+347STUDID,Weird Lab,Negative,Negative
+347STUDID,Biomangrooves,Negative,Negative
+347STUDID,Accu Stuff,Negative,Negative
+347STUDID,HCG,Negative,Negative
+347STUDID,DST,Negative,Negative
+348STUDID,Biomangrooves,Negative,Negative
+348STUDID,ChemicalBrothers,Negative,Negative
+348STUDID,ddfs,Negative,Negative
+348STUDID,SAT Tec,Negative,Negative
+348STUDID,DST,Negative,Negative
+348STUDID,LLJK,Negative,Negative
+348STUDID,Accu Stuff,Negative,Negative
+348STUDID,HCG,Negative,Negative
+348STUDID,ABC,Negative,Negative
+348STUDID,Weird Lab,Negative,Negative
+349STUDID,HCG,Negative,Negative
+349STUDID,Weird Lab,Negative,Negative
+349STUDID,Biomangrooves,Negative,Negative
+349STUDID,ChemicalBrothers,Negative,Negative
+349STUDID,Accu Stuff,Negative,Negative
+349STUDID,SAT Tec,Negative,Negative
+349STUDID,ddfs,Negative,Negative
+349STUDID,LLJK,Negative,Negative
+349STUDID,ABC,Negative,Negative
+349STUDID,DST,Negative,Negative
+34STUDID,Weird Lab,Positive,Positive
+34STUDID,Biomangrooves,Positive,Positive
+34STUDID,HCG,Positive,Positive
+34STUDID,SAT Tec,Negative,Positive
+34STUDID,DST,Positive,Positive
+34STUDID,LLJK,Positive,Positive
+34STUDID,ddfs,Positive,Positive
+34STUDID,ChemicalBrothers,Positive,Positive
+34STUDID,ABC,Positive,Positive
+34STUDID,Accu Stuff,Positive,Positive
+350STUDID,ChemicalBrothers,Negative,Negative
+350STUDID,HCG,Negative,Negative
+350STUDID,SAT Tec,Negative,Negative
+350STUDID,ABC,Positive,Negative
+350STUDID,Weird Lab,Negative,Negative
+350STUDID,LLJK,Negative,Negative
+350STUDID,Biomangrooves,Negative,Negative
+350STUDID,ddfs,Negative,Negative
+350STUDID,Accu Stuff,Negative,Negative
+350STUDID,ddfs,Positive,Negative
+350STUDID,DST,Negative,Negative
+351STUDID,HCG,Negative,Negative
+351STUDID,ABC,Negative,Negative
+351STUDID,Accu Stuff,Negative,Negative
+351STUDID,LLJK,Negative,Negative
+351STUDID,Accu Stuff,Positive,Negative
+351STUDID,SAT Tec,Negative,Negative
+351STUDID,ddfs,Negative,Negative
+351STUDID,ChemicalBrothers,Negative,Negative
+351STUDID,Weird Lab,Negative,Negative
+351STUDID,Biomangrooves,Negative,Negative
+351STUDID,DST,Negative,Negative
+352STUDID,ABC,Positive,Positive
+352STUDID,LLJK,Positive,Positive
+352STUDID,Weird Lab,Positive,Positive
+352STUDID,ddfs,Positive,Positive
+352STUDID,Biomangrooves,Positive,Positive
+352STUDID,Accu Stuff,Positive,Positive
+352STUDID,SAT Tec,Positive,Positive
+352STUDID,DST,Positive,Positive
+352STUDID,Accu Stuff,Negative,Positive
+352STUDID,HCG,Positive,Positive
+352STUDID,ChemicalBrothers,Positive,Positive
+353STUDID,ABC,Negative,Negative
+353STUDID,HCG,Negative,Negative
+353STUDID,SAT Tec,Negative,Negative
+353STUDID,ddfs,Negative,Negative
+353STUDID,Biomangrooves,Negative,Negative
+353STUDID,Accu Stuff,Negative,Negative
+353STUDID,Weird Lab,Negative,Negative
+353STUDID,LLJK,Negative,Negative
+353STUDID,ChemicalBrothers,Negative,Negative
+353STUDID,DST,Negative,Negative
+354STUDID,ABC,Positive,Positive
+354STUDID,Accu Stuff,Positive,Positive
+354STUDID,LLJK,Positive,Positive
+354STUDID,HCG,Positive,Positive
+354STUDID,Biomangrooves,Positive,Positive
+354STUDID,Weird Lab,Positive,Positive
+354STUDID,ChemicalBrothers,Positive,Positive
+354STUDID,ddfs,Positive,Positive
+354STUDID,DST,Positive,Positive
+354STUDID,SAT Tec,Positive,Positive
+355STUDID,Accu Stuff,Positive,Positive
+355STUDID,ABC,Positive,Positive
+355STUDID,Weird Lab,Positive,Positive
+355STUDID,LLJK,Positive,Positive
+355STUDID,HCG,Positive,Positive
+355STUDID,ddfs,Negative,Positive
+355STUDID,DST,Positive,Positive
+355STUDID,SAT Tec,Positive,Positive
+355STUDID,Biomangrooves,Positive,Positive
+355STUDID,ChemicalBrothers,Positive,Positive
+356STUDID,DST,Positive,Negative
+357STUDID,Biomangrooves,Positive,Positive
+357STUDID,HCG,Positive,Positive
+357STUDID,LLJK,Positive,Positive
+357STUDID,SAT Tec,Positive,Positive
+357STUDID,ddfs,Positive,Positive
+357STUDID,Accu Stuff,Positive,Positive
+357STUDID,DST,Positive,Positive
+357STUDID,Weird Lab,Positive,Positive
+357STUDID,ChemicalBrothers,Positive,Positive
+357STUDID,ABC,Positive,Positive
+358STUDID,NA,NA,Negative
+359STUDID,NA,NA,Negative
+35STUDID,Biomangrooves,Negative,Negative
+35STUDID,ChemicalBrothers,Negative,Negative
+35STUDID,LLJK,Negative,Negative
+35STUDID,HCG,Negative,Negative
+35STUDID,Weird Lab,Negative,Negative
+35STUDID,SAT Tec,Negative,Negative
+35STUDID,ddfs,Negative,Negative
+35STUDID,DST,Negative,Negative
+35STUDID,ABC,Negative,Negative
+35STUDID,Accu Stuff,Negative,Negative
+360STUDID,ddfs,Negative,Positive
+360STUDID,LLJK,Positive,Positive
+360STUDID,SAT Tec,Positive,Positive
+360STUDID,Biomangrooves,Positive,Positive
+360STUDID,HCG,Positive,Positive
+360STUDID,ChemicalBrothers,Positive,Positive
+360STUDID,ABC,Positive,Positive
+360STUDID,Weird Lab,Positive,Positive
+360STUDID,SAT Tec,Negative,Positive
+360STUDID,Accu Stuff,Positive,Positive
+360STUDID,DST,Positive,Positive
+360STUDID,ABC,Negative,Positive
+361STUDID,NA,NA,Positive
+362STUDID,NA,NA,Negative
+363STUDID,Weird Lab,Positive,Positive
+363STUDID,Biomangrooves,Positive,Positive
+363STUDID,ddfs,Positive,Positive
+363STUDID,ChemicalBrothers,Positive,Positive
+363STUDID,HCG,Positive,Positive
+363STUDID,Accu Stuff,Positive,Positive
+363STUDID,LLJK,Positive,Positive
+363STUDID,SAT Tec,Positive,Positive
+363STUDID,DST,Positive,Positive
+363STUDID,ABC,Positive,Positive
+364STUDID,Weird Lab,Positive,Positive
+364STUDID,ABC,Positive,Positive
+364STUDID,SAT Tec,Positive,Positive
+364STUDID,ddfs,Positive,Positive
+364STUDID,Biomangrooves,Positive,Positive
+364STUDID,ChemicalBrothers,Positive,Positive
+364STUDID,LLJK,Positive,Positive
+364STUDID,HCG,Positive,Positive
+364STUDID,DST,Positive,Positive
+364STUDID,Accu Stuff,Positive,Positive
+365STUDID,SAT Tec,Positive,Positive
+365STUDID,HCG,Positive,Positive
+365STUDID,Weird Lab,Positive,Positive
+365STUDID,LLJK,Positive,Positive
+365STUDID,Accu Stuff,Positive,Positive
+365STUDID,ABC,Negative,Positive
+365STUDID,ddfs,Negative,Positive
+365STUDID,Biomangrooves,Positive,Positive
+365STUDID,ChemicalBrothers,Positive,Positive
+365STUDID,DST,Positive,Positive
+365STUDID,SAT Tec,Negative,Positive
+366STUDID,ddfs,Positive,Positive
+366STUDID,Weird Lab,Positive,Positive
+366STUDID,ChemicalBrothers,Positive,Positive
+366STUDID,ABC,Positive,Positive
+366STUDID,Biomangrooves,Positive,Positive
+366STUDID,LLJK,Positive,Positive
+366STUDID,DST,Positive,Positive
+366STUDID,SAT Tec,Positive,Positive
+366STUDID,HCG,Positive,Positive
+366STUDID,Accu Stuff,Positive,Positive
+366STUDID,SAT Tec,Negative,Positive
+367STUDID,NA,NA,Negative
+368STUDID,SAT Tec,Positive,Positive
+368STUDID,LLJK,Positive,Positive
+368STUDID,ChemicalBrothers,Positive,Positive
+368STUDID,ddfs,Positive,Positive
+368STUDID,HCG,Positive,Positive
+368STUDID,Weird Lab,Positive,Positive
+368STUDID,Accu Stuff,Positive,Positive
+368STUDID,Biomangrooves,Positive,Positive
+368STUDID,DST,Positive,Positive
+368STUDID,ABC,Positive,Positive
+369STUDID,SAT Tec,Positive,Positive
+369STUDID,Accu Stuff,Positive,Positive
+369STUDID,ABC,Positive,Positive
+369STUDID,Weird Lab,Positive,Positive
+369STUDID,ddfs,Positive,Positive
+369STUDID,HCG,Positive,Positive
+369STUDID,LLJK,Positive,Positive
+369STUDID,ChemicalBrothers,Positive,Positive
+369STUDID,DST,Positive,Positive
+369STUDID,Biomangrooves,Positive,Positive
+36STUDID,ABC,Negative,Negative
+36STUDID,Biomangrooves,Negative,Negative
+36STUDID,LLJK,Negative,Negative
+36STUDID,SAT Tec,Negative,Negative
+36STUDID,HCG,Negative,Negative
+36STUDID,ChemicalBrothers,Negative,Negative
+36STUDID,ddfs,Negative,Negative
+36STUDID,Biomangrooves,Positive,Negative
+36STUDID,Weird Lab,Negative,Negative
+36STUDID,Accu Stuff,Negative,Negative
+36STUDID,DST,Negative,Negative
+370STUDID,NA,NA,Negative
+371STUDID,NA,NA,Negative
+372STUDID,NA,NA,Negative
+373STUDID,NA,NA,Negative
+374STUDID,ABC,Positive,Positive
+374STUDID,ddfs,Positive,Positive
+374STUDID,HCG,Positive,Positive
+374STUDID,Weird Lab,Positive,Positive
+374STUDID,SAT Tec,Positive,Positive
+374STUDID,LLJK,Negative,Positive
+374STUDID,DST,Positive,Positive
+374STUDID,Accu Stuff,Negative,Positive
+374STUDID,Biomangrooves,Positive,Positive
+374STUDID,ChemicalBrothers,Positive,Positive
+375STUDID,ABC,Positive,Positive
+375STUDID,ddfs,Positive,Positive
+375STUDID,HCG,Positive,Positive
+375STUDID,LLJK,Positive,Positive
+375STUDID,SAT Tec,Positive,Positive
+375STUDID,DST,Positive,Positive
+375STUDID,Weird Lab,Positive,Positive
+375STUDID,Biomangrooves,Positive,Positive
+375STUDID,Accu Stuff,Positive,Positive
+375STUDID,ChemicalBrothers,Positive,Positive
+376STUDID,Biomangrooves,Negative,Positive
+376STUDID,LLJK,Negative,Positive
+376STUDID,ddfs,Negative,Positive
+376STUDID,Weird Lab,Negative,Positive
+376STUDID,HCG,Negative,Positive
+376STUDID,DST,Negative,Positive
+376STUDID,SAT Tec,Negative,Positive
+376STUDID,ABC,Negative,Positive
+376STUDID,ChemicalBrothers,Negative,Positive
+376STUDID,Accu Stuff,Negative,Positive
+377STUDID,SAT Tec,Positive,Positive
+377STUDID,ABC,Positive,Positive
+377STUDID,ddfs,Positive,Positive
+377STUDID,HCG,Positive,Positive
+377STUDID,Accu Stuff,Positive,Positive
+377STUDID,ChemicalBrothers,Positive,Positive
+377STUDID,Weird Lab,Positive,Positive
+377STUDID,LLJK,Positive,Positive
+377STUDID,SAT Tec,Negative,Positive
+377STUDID,DST,Positive,Positive
+377STUDID,Biomangrooves,Positive,Positive
+377STUDID,Accu Stuff,Negative,Positive
+378STUDID,ddfs,Positive,Positive
+378STUDID,LLJK,Positive,Positive
+378STUDID,HCG,Positive,Positive
+378STUDID,DST,Positive,Positive
+378STUDID,SAT Tec,Positive,Positive
+378STUDID,Weird Lab,Positive,Positive
+378STUDID,ABC,Positive,Positive
+378STUDID,Accu Stuff,Positive,Positive
+378STUDID,Biomangrooves,Positive,Positive
+378STUDID,ChemicalBrothers,Positive,Positive
+379STUDID,NA,NA,IND
+37STUDID,ddfs,Negative,Negative
+37STUDID,LLJK,Negative,Negative
+37STUDID,HCG,Negative,Negative
+37STUDID,Biomangrooves,Positive,Negative
+37STUDID,Accu Stuff,Negative,Negative
+37STUDID,ABC,Negative,Negative
+37STUDID,ChemicalBrothers,Negative,Negative
+37STUDID,SAT Tec,Negative,Negative
+37STUDID,DST,Negative,Negative
+37STUDID,Weird Lab,Negative,Negative
+380STUDID,NA,NA,Negative
+381STUDID,NA,NA,Negative
+382STUDID,Biomangrooves,Positive,Positive
+382STUDID,LLJK,Positive,Positive
+382STUDID,ABC,Positive,Positive
+382STUDID,Accu Stuff,Positive,Positive
+382STUDID,SAT Tec,Negative,Positive
+382STUDID,Weird Lab,Positive,Positive
+382STUDID,ddfs,Negative,Positive
+382STUDID,ddfs,Positive,Positive
+382STUDID,DST,Positive,Positive
+382STUDID,ChemicalBrothers,Positive,Positive
+382STUDID,HCG,Positive,Positive
+383STUDID,NA,NA,Negative
+384STUDID,HCG,Positive,Positive
+384STUDID,Weird Lab,Positive,Positive
+384STUDID,ABC,Positive,Positive
+384STUDID,Accu Stuff,Positive,Positive
+384STUDID,Biomangrooves,Positive,Positive
+384STUDID,ChemicalBrothers,Positive,Positive
+384STUDID,DST,Positive,Positive
+384STUDID,SAT Tec,Negative,Positive
+384STUDID,LLJK,Positive,Positive
+384STUDID,ddfs,Positive,Positive
+385STUDID,NA,NA,Positive
+386STUDID,NA,NA,Negative
+387STUDID,NA,NA,Positive
+388STUDID,NA,NA,Negative
+389STUDID,NA,NA,Negative
+38STUDID,ddfs,Positive,Positive
+38STUDID,Weird Lab,Positive,Positive
+38STUDID,Accu Stuff,Negative,Positive
+38STUDID,DST,Positive,Positive
+38STUDID,HCG,Positive,Positive
+38STUDID,SAT Tec,Positive,Positive
+38STUDID,LLJK,Negative,Positive
+38STUDID,ABC,Positive,Positive
+38STUDID,Biomangrooves,Positive,Positive
+38STUDID,ChemicalBrothers,Negative,Positive
+390STUDID,NA,NA,Positive
+391STUDID,NA,NA,Negative
+392STUDID,NA,NA,Negative
+393STUDID,NA,NA,Positive
+394STUDID,Accu Stuff,Positive,Positive
+394STUDID,Biomangrooves,Positive,Positive
+394STUDID,DST,Positive,Positive
+394STUDID,Weird Lab,Positive,Positive
+394STUDID,SAT Tec,Positive,Positive
+394STUDID,LLJK,Positive,Positive
+394STUDID,ChemicalBrothers,Positive,Positive
+394STUDID,HCG,Positive,Positive
+394STUDID,ddfs,Positive,Positive
+394STUDID,SAT Tec,Negative,Positive
+394STUDID,ABC,Positive,Positive
+395STUDID,NA,NA,Negative
+396STUDID,DST,Positive,Positive
+396STUDID,Biomangrooves,Positive,Positive
+396STUDID,LLJK,Positive,Positive
+396STUDID,ChemicalBrothers,Positive,Positive
+396STUDID,ABC,Positive,Positive
+396STUDID,HCG,Positive,Positive
+396STUDID,ddfs,Positive,Positive
+396STUDID,SAT Tec,Positive,Positive
+396STUDID,Accu Stuff,Positive,Positive
+396STUDID,Weird Lab,Positive,Positive
+397STUDID,ABC,Positive,Positive
+397STUDID,Biomangrooves,Positive,Positive
+397STUDID,Accu Stuff,Positive,Positive
+397STUDID,LLJK,Positive,Positive
+397STUDID,HCG,Positive,Positive
+397STUDID,DST,Positive,Positive
+397STUDID,ChemicalBrothers,Positive,Positive
+397STUDID,ddfs,Positive,Positive
+397STUDID,Weird Lab,Positive,Positive
+397STUDID,SAT Tec,Positive,Positive
+398STUDID,NA,NA,Negative
+399STUDID,HCG,Positive,Positive
+399STUDID,ABC,Positive,Positive
+399STUDID,ChemicalBrothers,Positive,Positive
+399STUDID,Accu Stuff,Positive,Positive
+399STUDID,Biomangrooves,Positive,Positive
+399STUDID,LLJK,Positive,Positive
+399STUDID,DST,Positive,Positive
+399STUDID,Weird Lab,Positive,Positive
+399STUDID,SAT Tec,Positive,Positive
+399STUDID,ddfs,Positive,Positive
+39STUDID,Weird Lab,Positive,Positive
+39STUDID,ChemicalBrothers,Positive,Positive
+39STUDID,ABC,Positive,Positive
+39STUDID,Biomangrooves,Positive,Positive
+39STUDID,ddfs,Positive,Positive
+39STUDID,DST,Positive,Positive
+39STUDID,SAT Tec,Positive,Positive
+39STUDID,LLJK,Positive,Positive
+39STUDID,Accu Stuff,Positive,Positive
+39STUDID,HCG,Positive,Positive
+400STUDID,NA,NA,Negative
+401STUDID,NA,NA,Negative
+402STUDID,NA,NA,Negative
+403STUDID,HCG,Positive,Positive
+403STUDID,LLJK,Positive,Positive
+403STUDID,ABC,Positive,Positive
+403STUDID,Accu Stuff,Positive,Positive
+403STUDID,DST,Positive,Positive
+403STUDID,ChemicalBrothers,Positive,Positive
+403STUDID,Biomangrooves,Positive,Positive
+403STUDID,Weird Lab,Positive,Positive
+403STUDID,SAT Tec,Positive,Positive
+403STUDID,ddfs,Positive,Positive
+404STUDID,NA,NA,Negative
+405STUDID,Weird Lab,Positive,Positive
+405STUDID,Biomangrooves,Positive,Positive
+405STUDID,ChemicalBrothers,Positive,Positive
+405STUDID,DST,Positive,Positive
+405STUDID,Accu Stuff,Positive,Positive
+405STUDID,LLJK,Negative,Positive
+405STUDID,SAT Tec,Positive,Positive
+405STUDID,ABC,Positive,Positive
+405STUDID,HCG,Positive,Positive
+405STUDID,ddfs,Positive,Positive
+405STUDID,Accu Stuff,Negative,Positive
+406STUDID,ABC,Positive,Positive
+406STUDID,ddfs,Positive,Positive
+406STUDID,Accu Stuff,Positive,Positive
+406STUDID,SAT Tec,Positive,Positive
+406STUDID,HCG,Positive,Positive
+406STUDID,Biomangrooves,Positive,Positive
+406STUDID,DST,Positive,Positive
+406STUDID,ChemicalBrothers,Positive,Positive
+406STUDID,Weird Lab,Positive,Positive
+406STUDID,LLJK,Positive,Positive
+407STUDID,NA,NA,Negative
+408STUDID,NA,NA,Negative
+409STUDID,NA,NA,Negative
+40STUDID,ABC,Positive,Positive
+40STUDID,SAT Tec,Positive,Positive
+40STUDID,LLJK,Positive,Positive
+40STUDID,DST,Positive,Positive
+40STUDID,Biomangrooves,Positive,Positive
+40STUDID,Accu Stuff,Positive,Positive
+40STUDID,ddfs,Positive,Positive
+40STUDID,HCG,Positive,Positive
+40STUDID,Weird Lab,Positive,Positive
+40STUDID,ChemicalBrothers,Positive,Positive
+410STUDID,NA,NA,Negative
+411STUDID,NA,NA,Negative
+412STUDID,ddfs,Positive,Positive
+412STUDID,Accu Stuff,Negative,Positive
+412STUDID,ABC,Positive,Positive
+412STUDID,ChemicalBrothers,Negative,Positive
+412STUDID,Weird Lab,Negative,Positive
+412STUDID,LLJK,Negative,Positive
+412STUDID,Biomangrooves,Negative,Positive
+412STUDID,DST,Negative,Positive
+412STUDID,SAT Tec,Negative,Positive
+412STUDID,HCG,Negative,Positive
+412STUDID,Biomangrooves,Positive,Positive
+413STUDID,ABC,Positive,Positive
+413STUDID,ChemicalBrothers,Positive,Positive
+413STUDID,Biomangrooves,Positive,Positive
+413STUDID,Weird Lab,Positive,Positive
+413STUDID,DST,Negative,Positive
+413STUDID,LLJK,Positive,Positive
+413STUDID,ddfs,Positive,Positive
+413STUDID,SAT Tec,Positive,Positive
+413STUDID,DST,Positive,Positive
+413STUDID,Accu Stuff,Positive,Positive
+413STUDID,HCG,Positive,Positive
+413STUDID,Weird Lab,Negative,Positive
+414STUDID,NA,NA,Positive
+415STUDID,Weird Lab,Positive,Positive
+415STUDID,SAT Tec,Negative,Positive
+415STUDID,HCG,Positive,Positive
+415STUDID,ChemicalBrothers,Positive,Positive
+415STUDID,DST,Positive,Positive
+415STUDID,LLJK,Positive,Positive
+415STUDID,ABC,Positive,Positive
+415STUDID,ddfs,Positive,Positive
+415STUDID,Accu Stuff,Positive,Positive
+415STUDID,Biomangrooves,Positive,Positive
+416STUDID,ChemicalBrothers,Negative,Positive
+416STUDID,ddfs,Negative,Positive
+416STUDID,HCG,Negative,Positive
+416STUDID,SAT Tec,Negative,Positive
+416STUDID,DST,Negative,Positive
+416STUDID,LLJK,Negative,Positive
+416STUDID,Accu Stuff,Negative,Positive
+416STUDID,Biomangrooves,Negative,Positive
+416STUDID,ABC,Negative,Positive
+416STUDID,Weird Lab,Negative,Positive
+417STUDID,NA,NA,Negative
+418STUDID,ddfs,Positive,Positive
+418STUDID,HCG,Positive,Positive
+418STUDID,Weird Lab,Positive,Positive
+418STUDID,Accu Stuff,Positive,Positive
+418STUDID,DST,Positive,Positive
+418STUDID,ChemicalBrothers,Positive,Positive
+418STUDID,SAT Tec,Positive,Positive
+418STUDID,Biomangrooves,Positive,Positive
+418STUDID,ABC,Positive,Positive
+418STUDID,LLJK,Positive,Positive
+419STUDID,NA,NA,Negative
+41STUDID,SAT Tec,Negative,Positive
+41STUDID,LLJK,Positive,Positive
+41STUDID,ddfs,Negative,Positive
+41STUDID,ChemicalBrothers,Positive,Positive
+41STUDID,ABC,Negative,Positive
+41STUDID,Accu Stuff,Positive,Positive
+41STUDID,Biomangrooves,Positive,Positive
+41STUDID,Weird Lab,Positive,Positive
+41STUDID,DST,Positive,Positive
+41STUDID,HCG,Positive,Positive
+420STUDID,NA,NA,Negative
+421STUDID,NA,NA,Negative
+422STUDID,Weird Lab,Positive,Positive
+422STUDID,DST,Positive,Positive
+422STUDID,Biomangrooves,Positive,Positive
+422STUDID,Accu Stuff,Positive,Positive
+422STUDID,SAT Tec,Positive,Positive
+422STUDID,ddfs,Positive,Positive
+422STUDID,HCG,Positive,Positive
+422STUDID,LLJK,Positive,Positive
+422STUDID,ChemicalBrothers,Positive,Positive
+422STUDID,ABC,Positive,Positive
+423STUDID,SAT Tec,Positive,Positive
+423STUDID,Biomangrooves,Positive,Positive
+423STUDID,ABC,Positive,Positive
+423STUDID,Accu Stuff,Negative,Positive
+423STUDID,ChemicalBrothers,Positive,Positive
+423STUDID,HCG,Positive,Positive
+423STUDID,Accu Stuff,Positive,Positive
+423STUDID,LLJK,Positive,Positive
+423STUDID,Weird Lab,Positive,Positive
+423STUDID,ddfs,Positive,Positive
+423STUDID,SAT Tec,Negative,Positive
+423STUDID,DST,Positive,Positive
+424STUDID,ChemicalBrothers,Positive,Positive
+424STUDID,HCG,Positive,Positive
+424STUDID,Biomangrooves,Positive,Positive
+424STUDID,LLJK,Positive,Positive
+424STUDID,Weird Lab,Positive,Positive
+424STUDID,SAT Tec,Positive,Positive
+424STUDID,Accu Stuff,Positive,Positive
+424STUDID,ABC,Positive,Positive
+424STUDID,ddfs,Positive,Positive
+424STUDID,DST,Positive,Positive
+425STUDID,ChemicalBrothers,Positive,Positive
+425STUDID,ddfs,Positive,Positive
+425STUDID,Accu Stuff,Negative,Positive
+425STUDID,ABC,Negative,Positive
+425STUDID,Weird Lab,Positive,Positive
+425STUDID,HCG,Positive,Positive
+425STUDID,Biomangrooves,Positive,Positive
+425STUDID,LLJK,Positive,Positive
+425STUDID,SAT Tec,Negative,Positive
+425STUDID,DST,Positive,Positive
+426STUDID,ddfs,Positive,Positive
+426STUDID,ChemicalBrothers,Positive,Positive
+426STUDID,Weird Lab,Positive,Positive
+426STUDID,Accu Stuff,Positive,Positive
+426STUDID,LLJK,Positive,Positive
+426STUDID,DST,Positive,Positive
+426STUDID,ABC,Positive,Positive
+426STUDID,Biomangrooves,Positive,Positive
+426STUDID,HCG,Positive,Positive
+426STUDID,SAT Tec,Positive,Positive
+427STUDID,NA,NA,Negative
+428STUDID,ddfs,Negative,Positive
+428STUDID,LLJK,Negative,Positive
+428STUDID,Accu Stuff,Negative,Positive
+428STUDID,Biomangrooves,Positive,Positive
+428STUDID,ChemicalBrothers,Positive,Positive
+428STUDID,DST,Positive,Positive
+428STUDID,HCG,Negative,Positive
+428STUDID,ddfs,Positive,Positive
+428STUDID,Weird Lab,Positive,Positive
+428STUDID,ABC,Positive,Positive
+428STUDID,ABC,Negative,Positive
+428STUDID,Weird Lab,Negative,Positive
+428STUDID,LLJK,Positive,Positive
+428STUDID,SAT Tec,Negative,Positive
+429STUDID,NA,NA,Negative
+42STUDID,ddfs,Positive,Positive
+42STUDID,Weird Lab,Positive,Positive
+42STUDID,ChemicalBrothers,Positive,Positive
+42STUDID,ABC,Positive,Positive
+42STUDID,DST,Positive,Positive
+42STUDID,SAT Tec,Positive,Positive
+42STUDID,HCG,Positive,Positive
+42STUDID,Accu Stuff,Positive,Positive
+42STUDID,Biomangrooves,Positive,Positive
+42STUDID,LLJK,Positive,Positive
+430STUDID,Accu Stuff,Positive,Positive
+430STUDID,LLJK,Positive,Positive
+430STUDID,ddfs,Positive,Positive
+430STUDID,Biomangrooves,Positive,Positive
+430STUDID,ABC,Positive,Positive
+430STUDID,Weird Lab,Positive,Positive
+430STUDID,ChemicalBrothers,Positive,Positive
+430STUDID,SAT Tec,Positive,Positive
+430STUDID,HCG,Positive,Positive
+430STUDID,DST,Positive,Positive
+431STUDID,NA,NA,Negative
+432STUDID,Accu Stuff,Negative,Positive
+432STUDID,LLJK,Negative,Positive
+432STUDID,ChemicalBrothers,Positive,Positive
+432STUDID,DST,Positive,Positive
+432STUDID,HCG,Negative,Positive
+432STUDID,Weird Lab,Positive,Positive
+432STUDID,SAT Tec,Positive,Positive
+432STUDID,ABC,Positive,Positive
+432STUDID,Biomangrooves,Positive,Positive
+432STUDID,ddfs,Positive,Positive
+433STUDID,NA,NA,Negative
+434STUDID,NA,NA,Negative
+435STUDID,NA,NA,Negative
+436STUDID,Biomangrooves,Positive,Positive
+436STUDID,DST,Positive,Positive
+436STUDID,Accu Stuff,Positive,Positive
+436STUDID,Weird Lab,Positive,Positive
+436STUDID,LLJK,Positive,Positive
+436STUDID,ChemicalBrothers,Positive,Positive
+436STUDID,ABC,Positive,Positive
+436STUDID,HCG,Positive,Positive
+436STUDID,SAT Tec,Positive,Positive
+436STUDID,ddfs,Positive,Positive
+437STUDID,NA,NA,Negative
+438STUDID,NA,NA,Negative
+439STUDID,NA,NA,Negative
+43STUDID,DST,Negative,Negative
+43STUDID,Weird Lab,Negative,Negative
+43STUDID,LLJK,Negative,Negative
+43STUDID,ChemicalBrothers,Negative,Negative
+43STUDID,ABC,Negative,Negative
+43STUDID,Biomangrooves,Negative,Negative
+43STUDID,Accu Stuff,Negative,Negative
+43STUDID,SAT Tec,Negative,Negative
+43STUDID,HCG,Negative,Negative
+43STUDID,ddfs,Negative,Negative
+440STUDID,Accu Stuff,Positive,Positive
+440STUDID,Weird Lab,Positive,Positive
+440STUDID,Biomangrooves,Positive,Positive
+440STUDID,LLJK,Positive,Positive
+440STUDID,ChemicalBrothers,Positive,Positive
+440STUDID,ABC,Positive,Positive
+440STUDID,ddfs,Positive,Positive
+440STUDID,SAT Tec,Positive,Positive
+440STUDID,SAT Tec,Negative,Positive
+440STUDID,HCG,Positive,Positive
+440STUDID,DST,Positive,Positive
+441STUDID,NA,NA,Negative
+442STUDID,NA,NA,Negative
+443STUDID,NA,NA,Negative
+444STUDID,ddfs,Positive,Positive
+444STUDID,ChemicalBrothers,Positive,Positive
+444STUDID,SAT Tec,Positive,Positive
+444STUDID,ABC,Positive,Positive
+444STUDID,Weird Lab,Positive,Positive
+444STUDID,Accu Stuff,Positive,Positive
+444STUDID,Biomangrooves,Positive,Positive
+444STUDID,HCG,Positive,Positive
+444STUDID,DST,Positive,Positive
+444STUDID,LLJK,Positive,Positive
+445STUDID,NA,NA,Negative
+446STUDID,ddfs,Positive,Positive
+446STUDID,Weird Lab,Positive,Positive
+446STUDID,Accu Stuff,Positive,Positive
+446STUDID,ChemicalBrothers,Positive,Positive
+446STUDID,ABC,Positive,Positive
+446STUDID,SAT Tec,Negative,Positive
+446STUDID,LLJK,Positive,Positive
+446STUDID,SAT Tec,Positive,Positive
+446STUDID,HCG,Positive,Positive
+446STUDID,Biomangrooves,Positive,Positive
+446STUDID,DST,Positive,Positive
+447STUDID,ddfs,Positive,Positive
+447STUDID,ChemicalBrothers,Positive,Positive
+447STUDID,SAT Tec,Positive,Positive
+447STUDID,HCG,Positive,Positive
+447STUDID,ABC,Positive,Positive
+447STUDID,Weird Lab,Positive,Positive
+447STUDID,LLJK,Positive,Positive
+447STUDID,Biomangrooves,Positive,Positive
+447STUDID,Accu Stuff,Positive,Positive
+447STUDID,DST,Positive,Positive
+448STUDID,NA,NA,Negative
+449STUDID,NA,NA,Negative
+44STUDID,HCG,Positive,Positive
+44STUDID,LLJK,Negative,Positive
+44STUDID,Weird Lab,Negative,Positive
+44STUDID,Biomangrooves,Positive,Positive
+44STUDID,SAT Tec,Positive,Positive
+44STUDID,DST,Positive,Positive
+44STUDID,Accu Stuff,Negative,Positive
+44STUDID,ABC,Positive,Positive
+44STUDID,ChemicalBrothers,Positive,Positive
+44STUDID,DST,Negative,Positive
+44STUDID,ddfs,Positive,Positive
+450STUDID,Weird Lab,Positive,Positive
+450STUDID,ddfs,Positive,Positive
+450STUDID,HCG,Positive,Positive
+450STUDID,Accu Stuff,Positive,Positive
+450STUDID,SAT Tec,Positive,Positive
+450STUDID,Biomangrooves,Positive,Positive
+450STUDID,ChemicalBrothers,Positive,Positive
+450STUDID,LLJK,Positive,Positive
+450STUDID,ABC,Positive,Positive
+450STUDID,DST,Positive,Positive
+451STUDID,NA,NA,Negative
+452STUDID,ABC,Positive,Positive
+452STUDID,HCG,Positive,Positive
+452STUDID,Accu Stuff,Positive,Positive
+452STUDID,ChemicalBrothers,Positive,Positive
+452STUDID,SAT Tec,Positive,Positive
+452STUDID,DST,Positive,Positive
+452STUDID,ddfs,Positive,Positive
+452STUDID,LLJK,Positive,Positive
+452STUDID,Biomangrooves,Positive,Positive
+452STUDID,Weird Lab,Positive,Positive
+453STUDID,Weird Lab,Positive,Positive
+453STUDID,ABC,Positive,Positive
+453STUDID,LLJK,Positive,Positive
+453STUDID,ddfs,Positive,Positive
+453STUDID,ChemicalBrothers,Positive,Positive
+453STUDID,Biomangrooves,Positive,Positive
+453STUDID,SAT Tec,Negative,Positive
+453STUDID,HCG,Positive,Positive
+453STUDID,Accu Stuff,Positive,Positive
+453STUDID,DST,Positive,Positive
+454STUDID,ChemicalBrothers,Positive,Positive
+454STUDID,SAT Tec,Positive,Positive
+454STUDID,Weird Lab,Positive,Positive
+454STUDID,ABC,Positive,Positive
+454STUDID,ddfs,Positive,Positive
+454STUDID,HCG,Positive,Positive
+454STUDID,LLJK,Positive,Positive
+454STUDID,Biomangrooves,Positive,Positive
+454STUDID,DST,Positive,Positive
+454STUDID,Accu Stuff,Negative,Positive
+455STUDID,NA,NA,Negative
+456STUDID,NA,NA,Negative
+457STUDID,NA,NA,Negative
+458STUDID,ABC,Positive,Positive
+458STUDID,ddfs,Positive,Positive
+458STUDID,DST,Positive,Positive
+458STUDID,Weird Lab,Positive,Positive
+458STUDID,Accu Stuff,Positive,Positive
+458STUDID,Biomangrooves,Positive,Positive
+458STUDID,LLJK,Positive,Positive
+458STUDID,SAT Tec,Positive,Positive
+458STUDID,HCG,Positive,Positive
+458STUDID,ChemicalBrothers,Positive,Positive
+459STUDID,Biomangrooves,Positive,Negative
+45STUDID,Accu Stuff,Negative,Negative
+45STUDID,HCG,Negative,Negative
+45STUDID,SAT Tec,Negative,Negative
+45STUDID,DST,Negative,Negative
+45STUDID,ChemicalBrothers,Negative,Negative
+45STUDID,LLJK,Negative,Negative
+45STUDID,ddfs,Negative,Negative
+45STUDID,Biomangrooves,Positive,Negative
+45STUDID,Weird Lab,Positive,Negative
+45STUDID,ABC,Negative,Negative
+460STUDID,NA,NA,Negative
+461STUDID,NA,NA,Negative
+462STUDID,ABC,Positive,Positive
+462STUDID,ChemicalBrothers,Positive,Positive
+462STUDID,LLJK,Positive,Positive
+462STUDID,ddfs,Positive,Positive
+462STUDID,HCG,Positive,Positive
+462STUDID,Weird Lab,Positive,Positive
+462STUDID,SAT Tec,Positive,Positive
+462STUDID,Accu Stuff,Positive,Positive
+462STUDID,DST,Positive,Positive
+462STUDID,Biomangrooves,Positive,Positive
+463STUDID,NA,NA,Negative
+464STUDID,NA,NA,Negative
+465STUDID,NA,NA,Negative
+466STUDID,NA,NA,Negative
+467STUDID,SAT Tec,Positive,Positive
+467STUDID,Accu Stuff,Positive,Positive
+467STUDID,ChemicalBrothers,Positive,Positive
+467STUDID,DST,Positive,Positive
+467STUDID,Weird Lab,Positive,Positive
+467STUDID,ABC,Positive,Positive
+467STUDID,LLJK,Positive,Positive
+467STUDID,Biomangrooves,Positive,Positive
+467STUDID,HCG,Positive,Positive
+467STUDID,ddfs,Positive,Positive
+468STUDID,ChemicalBrothers,Negative,Positive
+468STUDID,SAT Tec,Negative,Positive
+468STUDID,Biomangrooves,Positive,Positive
+468STUDID,Accu Stuff,Negative,Positive
+468STUDID,HCG,Negative,Positive
+468STUDID,ddfs,Negative,Positive
+468STUDID,LLJK,Negative,Positive
+468STUDID,Weird Lab,Negative,Positive
+468STUDID,DST,Negative,Positive
+468STUDID,ABC,Negative,Positive
+469STUDID,DST,Positive,Positive
+469STUDID,Accu Stuff,Negative,Positive
+469STUDID,HCG,Positive,Positive
+469STUDID,SAT Tec,Negative,Positive
+469STUDID,Biomangrooves,Positive,Positive
+469STUDID,ddfs,Negative,Positive
+469STUDID,Weird Lab,Positive,Positive
+469STUDID,ABC,Negative,Positive
+469STUDID,ChemicalBrothers,Positive,Positive
+469STUDID,LLJK,Positive,Positive
+469STUDID,HCG,Negative,Positive
+46STUDID,ABC,Negative,Positive
+46STUDID,ChemicalBrothers,Positive,Positive
+46STUDID,LLJK,Positive,Positive
+46STUDID,Biomangrooves,Positive,Positive
+46STUDID,Accu Stuff,Positive,Positive
+46STUDID,Weird Lab,Positive,Positive
+46STUDID,SAT Tec,Positive,Positive
+46STUDID,DST,Positive,Positive
+46STUDID,ddfs,Negative,Positive
+46STUDID,HCG,Positive,Positive
+46STUDID,ABC,Positive,Positive
+46STUDID,ddfs,Positive,Positive
+470STUDID,Biomangrooves,Positive,Positive
+470STUDID,Accu Stuff,Positive,Positive
+470STUDID,SAT Tec,Positive,Positive
+470STUDID,ddfs,Positive,Positive
+470STUDID,LLJK,Positive,Positive
+470STUDID,DST,Positive,Positive
+470STUDID,HCG,Positive,Positive
+470STUDID,Weird Lab,Positive,Positive
+470STUDID,ChemicalBrothers,Positive,Positive
+470STUDID,ABC,Positive,Positive
+47STUDID,ABC,Positive,Positive
+47STUDID,Weird Lab,Positive,Positive
+47STUDID,Biomangrooves,Positive,Positive
+47STUDID,LLJK,Positive,Positive
+47STUDID,ddfs,Positive,Positive
+47STUDID,ChemicalBrothers,Positive,Positive
+47STUDID,DST,Positive,Positive
+47STUDID,SAT Tec,Positive,Positive
+47STUDID,HCG,Positive,Positive
+47STUDID,Accu Stuff,Positive,Positive
+48STUDID,ABC,Positive,Positive
+48STUDID,DST,Positive,Positive
+48STUDID,Weird Lab,Positive,Positive
+48STUDID,Accu Stuff,Positive,Positive
+48STUDID,LLJK,Positive,Positive
+48STUDID,ddfs,Positive,Positive
+48STUDID,Biomangrooves,Positive,Positive
+48STUDID,HCG,Positive,Positive
+48STUDID,SAT Tec,Negative,Positive
+48STUDID,ChemicalBrothers,Positive,Positive
+49STUDID,LLJK,Positive,Positive
+49STUDID,ABC,Positive,Positive
+49STUDID,ddfs,Positive,Positive
+49STUDID,DST,Positive,Positive
+49STUDID,HCG,Positive,Positive
+49STUDID,Biomangrooves,Positive,Positive
+49STUDID,SAT Tec,Positive,Positive
+49STUDID,ChemicalBrothers,Positive,Positive
+49STUDID,Weird Lab,Positive,Positive
+49STUDID,Accu Stuff,Positive,Positive
+50STUDID,ddfs,Positive,Positive
+50STUDID,ChemicalBrothers,Positive,Positive
+50STUDID,ddfs,Negative,Positive
+50STUDID,LLJK,Positive,Positive
+50STUDID,Weird Lab,Positive,Positive
+50STUDID,SAT Tec,Positive,Positive
+50STUDID,DST,Positive,Positive
+50STUDID,ABC,Positive,Positive
+50STUDID,Biomangrooves,Positive,Positive
+50STUDID,HCG,Positive,Positive
+50STUDID,Accu Stuff,Positive,Positive
+51STUDID,HCG,Positive,Positive
+51STUDID,SAT Tec,Negative,Positive
+51STUDID,Biomangrooves,Positive,Positive
+51STUDID,LLJK,Positive,Positive
+51STUDID,DST,Positive,Positive
+51STUDID,ChemicalBrothers,Positive,Positive
+51STUDID,ABC,Positive,Positive
+51STUDID,ddfs,Positive,Positive
+51STUDID,Accu Stuff,Positive,Positive
+51STUDID,Weird Lab,Positive,Positive
+52STUDID,ChemicalBrothers,Positive,Positive
+52STUDID,DST,Positive,Positive
+52STUDID,ddfs,Positive,Positive
+52STUDID,Biomangrooves,Positive,Positive
+52STUDID,Weird Lab,Positive,Positive
+52STUDID,HCG,Positive,Positive
+52STUDID,ABC,Positive,Positive
+52STUDID,LLJK,Positive,Positive
+52STUDID,SAT Tec,Positive,Positive
+52STUDID,Accu Stuff,Positive,Positive
+53STUDID,HCG,Negative,Negative
+53STUDID,ChemicalBrothers,Negative,Negative
+53STUDID,Biomangrooves,Positive,Negative
+53STUDID,Biomangrooves,Negative,Negative
+53STUDID,Weird Lab,Negative,Negative
+53STUDID,Accu Stuff,Negative,Negative
+53STUDID,SAT Tec,Negative,Negative
+53STUDID,ddfs,Negative,Negative
+53STUDID,DST,Negative,Negative
+53STUDID,ABC,Negative,Negative
+53STUDID,LLJK,Negative,Negative
+54STUDID,Accu Stuff,Positive,Positive
+54STUDID,HCG,Positive,Positive
+54STUDID,ddfs,Positive,Positive
+54STUDID,LLJK,Positive,Positive
+54STUDID,Weird Lab,Positive,Positive
+54STUDID,ddfs,Negative,Positive
+54STUDID,ABC,Positive,Positive
+54STUDID,SAT Tec,Positive,Positive
+54STUDID,ABC,Negative,Positive
+54STUDID,ChemicalBrothers,Positive,Positive
+54STUDID,DST,Positive,Positive
+54STUDID,Biomangrooves,Positive,Positive
+55STUDID,DST,Negative,Negative
+55STUDID,ABC,Negative,Negative
+55STUDID,Accu Stuff,Negative,Negative
+55STUDID,HCG,Negative,Negative
+55STUDID,LLJK,Negative,Negative
+55STUDID,ddfs,Negative,Negative
+55STUDID,ChemicalBrothers,Negative,Negative
+55STUDID,SAT Tec,Negative,Negative
+55STUDID,Weird Lab,Negative,Negative
+55STUDID,Biomangrooves,Negative,Negative
+56STUDID,DST,Negative,Negative
+56STUDID,Biomangrooves,Negative,Negative
+56STUDID,ddfs,Negative,Negative
+56STUDID,SAT Tec,Negative,Negative
+56STUDID,ChemicalBrothers,Negative,Negative
+56STUDID,Accu Stuff,Negative,Negative
+56STUDID,LLJK,Negative,Negative
+56STUDID,HCG,Negative,Negative
+56STUDID,Weird Lab,Negative,Negative
+56STUDID,ABC,Negative,Negative
+57STUDID,ddfs,Negative,Negative
+57STUDID,Accu Stuff,Negative,Negative
+57STUDID,LLJK,Negative,Negative
+57STUDID,Biomangrooves,Negative,Negative
+57STUDID,ABC,Negative,Negative
+57STUDID,DST,Negative,Negative
+57STUDID,Weird Lab,Negative,Negative
+57STUDID,HCG,Negative,Negative
+57STUDID,ChemicalBrothers,Negative,Negative
+57STUDID,SAT Tec,Negative,Negative
+58STUDID,ChemicalBrothers,Positive,Positive
+58STUDID,DST,Positive,Positive
+58STUDID,ABC,Negative,Positive
+58STUDID,Biomangrooves,Positive,Positive
+58STUDID,LLJK,Negative,Positive
+58STUDID,SAT Tec,Negative,Positive
+58STUDID,ddfs,Negative,Positive
+58STUDID,HCG,Positive,Positive
+58STUDID,Accu Stuff,Negative,Positive
+58STUDID,Weird Lab,Positive,Positive
+59STUDID,Biomangrooves,Positive,Positive
+59STUDID,ChemicalBrothers,Positive,Positive
+59STUDID,DST,Positive,Positive
+59STUDID,LLJK,Positive,Positive
+59STUDID,ddfs,Negative,Positive
+59STUDID,HCG,Positive,Positive
+59STUDID,Accu Stuff,Positive,Positive
+59STUDID,Weird Lab,Positive,Positive
+59STUDID,ABC,Negative,Positive
+59STUDID,SAT Tec,Negative,Positive
+60STUDID,Weird Lab,Positive,Positive
+60STUDID,ChemicalBrothers,Positive,Positive
+60STUDID,ddfs,Positive,Positive
+60STUDID,Biomangrooves,Positive,Positive
+60STUDID,LLJK,Positive,Positive
+60STUDID,HCG,Positive,Positive
+60STUDID,ABC,Positive,Positive
+60STUDID,Accu Stuff,Positive,Positive
+60STUDID,SAT Tec,Positive,Positive
+60STUDID,DST,Positive,Positive
+61STUDID,Accu Stuff,Positive,Positive
+61STUDID,SAT Tec,Positive,Positive
+61STUDID,LLJK,Positive,Positive
+61STUDID,ddfs,Positive,Positive
+61STUDID,HCG,Positive,Positive
+61STUDID,Weird Lab,Positive,Positive
+61STUDID,Biomangrooves,Positive,Positive
+61STUDID,DST,Positive,Positive
+61STUDID,ABC,Positive,Positive
+61STUDID,ChemicalBrothers,Positive,Positive
+62STUDID,SAT Tec,Negative,Negative
+62STUDID,HCG,Negative,Negative
+62STUDID,Weird Lab,Negative,Negative
+62STUDID,DST,Negative,Negative
+62STUDID,ABC,Negative,Negative
+62STUDID,ChemicalBrothers,Negative,Negative
+62STUDID,ddfs,Negative,Negative
+62STUDID,Accu Stuff,Negative,Negative
+62STUDID,LLJK,Negative,Negative
+62STUDID,Biomangrooves,Negative,Negative
+63STUDID,HCG,Positive,Positive
+63STUDID,ddfs,Positive,Positive
+63STUDID,Weird Lab,Positive,Positive
+63STUDID,Biomangrooves,Positive,Positive
+63STUDID,ChemicalBrothers,Positive,Positive
+63STUDID,SAT Tec,Positive,Positive
+63STUDID,DST,Positive,Positive
+63STUDID,Accu Stuff,Positive,Positive
+63STUDID,LLJK,Positive,Positive
+63STUDID,ABC,Positive,Positive
+64STUDID,HCG,Negative,Negative
+64STUDID,Accu Stuff,Negative,Negative
+64STUDID,ChemicalBrothers,Negative,Negative
+64STUDID,DST,Negative,Negative
+64STUDID,ddfs,Negative,Negative
+64STUDID,Biomangrooves,Negative,Negative
+64STUDID,ABC,Negative,Negative
+64STUDID,LLJK,Negative,Negative
+64STUDID,Weird Lab,Negative,Negative
+64STUDID,SAT Tec,Negative,Negative
+65STUDID,HCG,Negative,Negative
+65STUDID,ChemicalBrothers,Negative,Negative
+65STUDID,Biomangrooves,Negative,Negative
+65STUDID,ABC,Negative,Negative
+65STUDID,Accu Stuff,Negative,Negative
+65STUDID,SAT Tec,Negative,Negative
+65STUDID,Weird Lab,Negative,Negative
+65STUDID,DST,Negative,Negative
+65STUDID,LLJK,Negative,Negative
+65STUDID,ddfs,Negative,Negative
+66STUDID,ddfs,Negative,Negative
+66STUDID,Weird Lab,Negative,Negative
+66STUDID,Biomangrooves,Negative,Negative
+66STUDID,SAT Tec,Negative,Negative
+66STUDID,Accu Stuff,Negative,Negative
+66STUDID,ChemicalBrothers,Negative,Negative
+66STUDID,LLJK,Negative,Negative
+66STUDID,ABC,Negative,Negative
+66STUDID,DST,Negative,Negative
+66STUDID,HCG,Negative,Negative
+67STUDID,ddfs,Positive,Positive
+67STUDID,ChemicalBrothers,Positive,Positive
+67STUDID,Accu Stuff,Positive,Positive
+67STUDID,LLJK,Positive,Positive
+67STUDID,ABC,Positive,Positive
+67STUDID,Weird Lab,Positive,Positive
+67STUDID,HCG,Positive,Positive
+67STUDID,Biomangrooves,Positive,Positive
+67STUDID,SAT Tec,Positive,Positive
+67STUDID,DST,Positive,Positive
+67STUDID,DST,Negative,Positive
+68STUDID,SAT Tec,Positive,Positive
+68STUDID,HCG,Positive,Positive
+68STUDID,Biomangrooves,Positive,Positive
+68STUDID,ddfs,Negative,Positive
+68STUDID,Weird Lab,Positive,Positive
+68STUDID,ChemicalBrothers,Positive,Positive
+68STUDID,ddfs,Positive,Positive
+68STUDID,DST,Positive,Positive
+68STUDID,LLJK,Positive,Positive
+68STUDID,ABC,Positive,Positive
+68STUDID,Accu Stuff,Positive,Positive
+68STUDID,ABC,Negative,Positive
+69STUDID,ChemicalBrothers,Negative,Negative
+69STUDID,HCG,Negative,Negative
+69STUDID,DST,Negative,Negative
+69STUDID,ABC,Negative,Negative
+69STUDID,Weird Lab,Negative,Negative
+69STUDID,ddfs,Negative,Negative
+69STUDID,Biomangrooves,Negative,Negative
+69STUDID,LLJK,Negative,Negative
+69STUDID,SAT Tec,Negative,Negative
+69STUDID,Accu Stuff,Negative,Negative
+70STUDID,Weird Lab,Positive,Positive
+70STUDID,DST,Positive,Positive
+70STUDID,ABC,Positive,Positive
+70STUDID,ChemicalBrothers,Positive,Positive
+70STUDID,LLJK,Positive,Positive
+70STUDID,SAT Tec,Negative,Positive
+70STUDID,ddfs,Positive,Positive
+70STUDID,Accu Stuff,Positive,Positive
+70STUDID,HCG,Positive,Positive
+70STUDID,Biomangrooves,Positive,Positive
+71STUDID,ddfs,Positive,Positive
+71STUDID,ABC,Positive,Positive
+71STUDID,Weird Lab,Positive,Positive
+71STUDID,HCG,Positive,Positive
+71STUDID,Biomangrooves,Positive,Positive
+71STUDID,LLJK,Positive,Positive
+71STUDID,ChemicalBrothers,Positive,Positive
+71STUDID,SAT Tec,Positive,Positive
+71STUDID,DST,Positive,Positive
+71STUDID,Accu Stuff,Positive,Positive
+72STUDID,Weird Lab,Negative,Negative
+72STUDID,Accu Stuff,Negative,Negative
+72STUDID,LLJK,Negative,Negative
+72STUDID,HCG,Negative,Negative
+72STUDID,Biomangrooves,Positive,Negative
+72STUDID,DST,Negative,Negative
+72STUDID,ABC,Negative,Negative
+72STUDID,SAT Tec,Negative,Negative
+72STUDID,ddfs,Negative,Negative
+72STUDID,ChemicalBrothers,Negative,Negative
+73STUDID,Accu Stuff,Negative,Negative
+73STUDID,DST,Negative,Negative
+73STUDID,ChemicalBrothers,Negative,Negative
+73STUDID,LLJK,Negative,Negative
+73STUDID,HCG,Negative,Negative
+73STUDID,ddfs,Negative,Negative
+73STUDID,SAT Tec,Negative,Negative
+73STUDID,Weird Lab,Negative,Negative
+73STUDID,Biomangrooves,Negative,Negative
+73STUDID,ABC,Negative,Negative
+74STUDID,LLJK,Negative,Negative
+74STUDID,ABC,Negative,Negative
+74STUDID,ChemicalBrothers,Negative,Negative
+74STUDID,HCG,Negative,Negative
+74STUDID,Biomangrooves,Positive,Negative
+74STUDID,Weird Lab,Negative,Negative
+74STUDID,SAT Tec,Negative,Negative
+74STUDID,ddfs,Negative,Negative
+74STUDID,DST,Negative,Negative
+74STUDID,Accu Stuff,Negative,Negative
+75STUDID,SAT Tec,Positive,Positive
+75STUDID,HCG,Positive,Positive
+75STUDID,ddfs,Positive,Positive
+75STUDID,ABC,Positive,Positive
+75STUDID,Accu Stuff,Positive,Positive
+75STUDID,Biomangrooves,Positive,Positive
+75STUDID,LLJK,Positive,Positive
+75STUDID,DST,Positive,Positive
+75STUDID,Weird Lab,Positive,Positive
+75STUDID,ChemicalBrothers,Positive,Positive
+76STUDID,LLJK,Negative,Negative
+76STUDID,Weird Lab,Negative,Negative
+76STUDID,ABC,Negative,Negative
+76STUDID,Biomangrooves,Positive,Negative
+76STUDID,ChemicalBrothers,Negative,Negative
+76STUDID,DST,Negative,Negative
+76STUDID,ddfs,Negative,Negative
+76STUDID,SAT Tec,Negative,Negative
+76STUDID,Accu Stuff,Negative,Negative
+76STUDID,HCG,Negative,Negative
+77STUDID,DST,Negative,Negative
+77STUDID,HCG,Negative,Negative
+77STUDID,ddfs,Negative,Negative
+77STUDID,Weird Lab,Negative,Negative
+77STUDID,Accu Stuff,Negative,Negative
+77STUDID,ChemicalBrothers,Negative,Negative
+77STUDID,SAT Tec,Negative,Negative
+77STUDID,ABC,Negative,Negative
+77STUDID,Biomangrooves,Negative,Negative
+77STUDID,LLJK,Negative,Negative
+78STUDID,Biomangrooves,Negative,Negative
+78STUDID,LLJK,Negative,Negative
+78STUDID,Accu Stuff,Negative,Negative
+78STUDID,DST,Negative,Negative
+78STUDID,ChemicalBrothers,Negative,Negative
+78STUDID,HCG,Negative,Negative
+78STUDID,ddfs,Negative,Negative
+78STUDID,SAT Tec,Negative,Negative
+78STUDID,Weird Lab,Negative,Negative
+78STUDID,Biomangrooves,Positive,Negative
+78STUDID,ABC,Negative,Negative
+79STUDID,SAT Tec,Negative,Negative
+79STUDID,ABC,Negative,Negative
+79STUDID,Weird Lab,Negative,Negative
+79STUDID,DST,Negative,Negative
+79STUDID,ddfs,Negative,Negative
+79STUDID,LLJK,Negative,Negative
+79STUDID,HCG,Negative,Negative
+79STUDID,Accu Stuff,Negative,Negative
+79STUDID,ChemicalBrothers,Negative,Negative
+79STUDID,Biomangrooves,Negative,Negative
+79STUDID,Biomangrooves,Positive,Negative
+80STUDID,Biomangrooves,Positive,Positive
+80STUDID,Weird Lab,Positive,Positive
+80STUDID,ABC,Positive,Positive
+80STUDID,ChemicalBrothers,Positive,Positive
+80STUDID,SAT Tec,Negative,Positive
+80STUDID,ddfs,Positive,Positive
+80STUDID,LLJK,Positive,Positive
+80STUDID,HCG,Positive,Positive
+80STUDID,DST,Positive,Positive
+80STUDID,Accu Stuff,Positive,Positive
+81STUDID,ddfs,Positive,Positive
+81STUDID,DST,Positive,Positive
+81STUDID,ABC,Positive,Positive
+81STUDID,Biomangrooves,Positive,Positive
+81STUDID,SAT Tec,Positive,Positive
+81STUDID,Weird Lab,Positive,Positive
+81STUDID,ChemicalBrothers,Positive,Positive
+81STUDID,Accu Stuff,Positive,Positive
+81STUDID,LLJK,Positive,Positive
+81STUDID,HCG,Positive,Positive
+82STUDID,HCG,Positive,Positive
+82STUDID,SAT Tec,Negative,Positive
+82STUDID,ABC,Positive,Positive
+82STUDID,Weird Lab,Positive,Positive
+82STUDID,Accu Stuff,Positive,Positive
+82STUDID,ChemicalBrothers,Positive,Positive
+82STUDID,Biomangrooves,Positive,Positive
+82STUDID,ddfs,Positive,Positive
+82STUDID,DST,Positive,Positive
+82STUDID,LLJK,Positive,Positive
+83STUDID,DST,Positive,Positive
+83STUDID,LLJK,Positive,Positive
+83STUDID,SAT Tec,Negative,Positive
+83STUDID,Accu Stuff,Positive,Positive
+83STUDID,ABC,Positive,Positive
+83STUDID,Biomangrooves,Positive,Positive
+83STUDID,ddfs,Positive,Positive
+83STUDID,Weird Lab,Positive,Positive
+83STUDID,HCG,Positive,Positive
+83STUDID,ChemicalBrothers,Positive,Positive
+84STUDID,ChemicalBrothers,Positive,Positive
+84STUDID,LLJK,Positive,Positive
+84STUDID,ABC,Positive,Positive
+84STUDID,SAT Tec,Positive,Positive
+84STUDID,Weird Lab,Positive,Positive
+84STUDID,ddfs,Negative,Positive
+84STUDID,DST,Positive,Positive
+84STUDID,ddfs,Positive,Positive
+84STUDID,Biomangrooves,Positive,Positive
+84STUDID,Accu Stuff,Positive,Positive
+84STUDID,HCG,Positive,Positive
+84STUDID,SAT Tec,Negative,Positive
+85STUDID,HCG,Positive,Positive
+85STUDID,Accu Stuff,Positive,Positive
+85STUDID,DST,Positive,Positive
+85STUDID,ddfs,Positive,Positive
+85STUDID,SAT Tec,Positive,Positive
+85STUDID,ABC,Positive,Positive
+85STUDID,Weird Lab,Positive,Positive
+85STUDID,ChemicalBrothers,Positive,Positive
+85STUDID,Biomangrooves,Positive,Positive
+85STUDID,LLJK,Positive,Positive
+86STUDID,Weird Lab,Positive,Positive
+86STUDID,ChemicalBrothers,Positive,Positive
+86STUDID,SAT Tec,Negative,Positive
+86STUDID,Biomangrooves,Positive,Positive
+86STUDID,Accu Stuff,Positive,Positive
+86STUDID,DST,Positive,Positive
+86STUDID,ddfs,Positive,Positive
+86STUDID,ABC,Positive,Positive
+86STUDID,LLJK,Positive,Positive
+86STUDID,HCG,Positive,Positive
+87STUDID,Biomangrooves,Negative,Negative
+87STUDID,HCG,Negative,Negative
+87STUDID,ABC,Negative,Negative
+87STUDID,SAT Tec,Negative,Negative
+87STUDID,Weird Lab,Negative,Negative
+87STUDID,LLJK,Negative,Negative
+87STUDID,ddfs,Negative,Negative
+87STUDID,ChemicalBrothers,Negative,Negative
+87STUDID,Accu Stuff,Negative,Negative
+87STUDID,DST,Negative,Negative
+88STUDID,ChemicalBrothers,Negative,Negative
+88STUDID,ABC,Negative,Negative
+88STUDID,DST,Negative,Negative
+88STUDID,Accu Stuff,Negative,Negative
+88STUDID,ddfs,Negative,Negative
+88STUDID,LLJK,Negative,Negative
+88STUDID,HCG,Negative,Negative
+88STUDID,Biomangrooves,Negative,Negative
+88STUDID,SAT Tec,Negative,Negative
+88STUDID,Weird Lab,Negative,Negative
+89STUDID,Weird Lab,Negative,Negative
+89STUDID,ABC,Negative,Negative
+89STUDID,LLJK,Negative,Negative
+89STUDID,ddfs,Negative,Negative
+89STUDID,Accu Stuff,Negative,Negative
+89STUDID,DST,Negative,Negative
+89STUDID,ChemicalBrothers,Negative,Negative
+89STUDID,SAT Tec,Negative,Negative
+89STUDID,Biomangrooves,Negative,Negative
+89STUDID,HCG,Negative,Negative
+90STUDID,ChemicalBrothers,Negative,Negative
+90STUDID,HCG,Negative,Negative
+90STUDID,ddfs,Negative,Negative
+90STUDID,SAT Tec,Negative,Negative
+90STUDID,Biomangrooves,Negative,Negative
+90STUDID,LLJK,Negative,Negative
+90STUDID,Accu Stuff,Negative,Negative
+90STUDID,Weird Lab,Negative,Negative
+90STUDID,DST,Negative,Negative
+90STUDID,ABC,Negative,Negative
+91STUDID,ABC,Negative,Negative
+91STUDID,ddfs,Negative,Negative
+91STUDID,LLJK,Negative,Negative
+91STUDID,Weird Lab,Negative,Negative
+91STUDID,ChemicalBrothers,Negative,Negative
+91STUDID,Biomangrooves,Negative,Negative
+91STUDID,Accu Stuff,Negative,Negative
+91STUDID,HCG,Negative,Negative
+91STUDID,SAT Tec,Negative,Negative
+91STUDID,DST,Negative,Negative
+92STUDID,SAT Tec,Negative,Negative
+92STUDID,ddfs,Negative,Negative
+92STUDID,DST,Negative,Negative
+92STUDID,Biomangrooves,Positive,Negative
+92STUDID,HCG,Negative,Negative
+92STUDID,ABC,Negative,Negative
+92STUDID,Accu Stuff,Negative,Negative
+92STUDID,Biomangrooves,Negative,Negative
+92STUDID,LLJK,Negative,Negative
+92STUDID,Weird Lab,Negative,Negative
+92STUDID,ChemicalBrothers,Negative,Negative
+93STUDID,ChemicalBrothers,Positive,Negative
+93STUDID,SAT Tec,Negative,Negative
+93STUDID,Accu Stuff,Negative,Negative
+93STUDID,HCG,Positive,Negative
+93STUDID,ABC,Positive,Negative
+93STUDID,ddfs,Positive,Negative
+93STUDID,HCG,Negative,Negative
+93STUDID,Biomangrooves,Positive,Negative
+93STUDID,DST,Negative,Negative
+93STUDID,Weird Lab,Negative,Negative
+93STUDID,LLJK,Negative,Negative
+94STUDID,ABC,Negative,Negative
+94STUDID,Accu Stuff,Negative,Negative
+94STUDID,SAT Tec,Negative,Negative
+94STUDID,Biomangrooves,Positive,Negative
+94STUDID,DST,Negative,Negative
+94STUDID,ddfs,Negative,Negative
+94STUDID,ChemicalBrothers,Negative,Negative
+94STUDID,HCG,Negative,Negative
+94STUDID,Biomangrooves,Negative,Negative
+94STUDID,Weird Lab,Negative,Negative
+94STUDID,LLJK,Negative,Negative
+95STUDID,Weird Lab,Positive,Positive
+95STUDID,Biomangrooves,Positive,Positive
+95STUDID,ABC,Positive,Positive
+95STUDID,ddfs,Positive,Positive
+95STUDID,ChemicalBrothers,Positive,Positive
+95STUDID,HCG,Positive,Positive
+95STUDID,DST,Positive,Positive
+95STUDID,Accu Stuff,Positive,Positive
+95STUDID,LLJK,Positive,Positive
+95STUDID,SAT Tec,Positive,Positive
+96STUDID,ABC,Negative,Negative
+96STUDID,Accu Stuff,Negative,Negative
+96STUDID,DST,Negative,Negative
+96STUDID,HCG,Negative,Negative
+96STUDID,SAT Tec,Negative,Negative
+96STUDID,Biomangrooves,Positive,Negative
+96STUDID,ddfs,Negative,Negative
+96STUDID,LLJK,Negative,Negative
+96STUDID,Weird Lab,Negative,Negative
+96STUDID,ChemicalBrothers,Negative,Negative
+97STUDID,HCG,Positive,Positive
+97STUDID,ddfs,Positive,Positive
+97STUDID,ABC,Positive,Positive
+97STUDID,SAT Tec,Negative,Positive
+97STUDID,Biomangrooves,Positive,Positive
+97STUDID,ChemicalBrothers,Positive,Positive
+97STUDID,Weird Lab,Positive,Positive
+97STUDID,DST,Positive,Positive
+97STUDID,HCG,Negative,Positive
+97STUDID,LLJK,Positive,Positive
+97STUDID,Accu Stuff,Negative,Positive
+97STUDID,Accu Stuff,Positive,Positive
+98STUDID,Accu Stuff,Negative,Negative
+98STUDID,LLJK,Negative,Negative
+98STUDID,ddfs,Negative,Negative
+98STUDID,ChemicalBrothers,Negative,Negative
+98STUDID,DST,Negative,Negative
+98STUDID,Biomangrooves,Positive,Negative
+98STUDID,Biomangrooves,Negative,Negative
+98STUDID,SAT Tec,Negative,Negative
+98STUDID,ABC,Negative,Negative
+98STUDID,HCG,Negative,Negative
+98STUDID,Weird Lab,Negative,Negative
+99STUDID,Biomangrooves,Positive,Positive
+99STUDID,LLJK,Positive,Positive
+99STUDID,ChemicalBrothers,Positive,Positive
+99STUDID,ddfs,Positive,Positive
+99STUDID,DST,Positive,Positive
+99STUDID,HCG,Positive,Positive
+99STUDID,HCG,Negative,Positive
+99STUDID,ABC,Positive,Positive
+99STUDID,SAT Tec,Positive,Positive
+99STUDID,Weird Lab,Positive,Positive
+99STUDID,Accu Stuff,Positive,Positive

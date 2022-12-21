@@ -17,6 +17,9 @@ group_means_concordence(data_var, mean_var, var1, var2, var3)
 
 \item{var3}{A bifactor variable with "Positive" and "Negative" results.}
 }
+\value{
+Mean of a numeric column based on groups defined by combination of three reference columns
+}
 \description{
 Calculate group means of a continuous variable of interest in all possible combinations if agreements between three reference columns
 }

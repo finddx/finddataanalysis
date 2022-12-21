@@ -31,5 +31,7 @@ Executes multi_sen_spe function and creates forest plots.
 }
 \examples{
 df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
-multi_sen_spe_out_forest(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, labels = "Index Tests", index_names = c("a", "b", "c"))
+plots <- multi_sen_spe_out_forest(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, labels = "Index Tests", index_names = c("a", "b", "c"))
+plots[[1]]
+plots[[2]]
 }

@@ -181,7 +181,7 @@ The index test classification is not affected.
 #' @param conf.level confidence level
 #' @param var_name_suffix_cut the suffix based on which the reference test column name to be cut. This will result in suffix + threshold
 #'
-#' @return
+#' @return sensitivity and specificity based on differnt thresholds to classify a reference positive or negative
 #' 
 #' @export
 ROC_calculate <- function(data_var, index, ref, conf.level = 0.95, var_name_suffix_cut){
