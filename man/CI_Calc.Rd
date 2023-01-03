@@ -13,6 +13,9 @@ CI_Calc(alpha, proportion, n)
 
 \item{n}{sample size}
 }
+\value{
+confidence interval lower and upper bounds
+}
 \description{
 Calculates the confidence interval of a given proportion with normal approximation.
 }

@@ -26,6 +26,9 @@ multi_sen_spe_out_forest(
 
 \item{labels}{An optional text for the axis label}
 }
+\value{
+Interactive forest plots in a list
+}
 \description{
 Executes multi_sen_spe function and creates forest plots.
 }

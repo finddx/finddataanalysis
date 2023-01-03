@@ -11,7 +11,7 @@
 #' @param index_names An optional list containing names of the index tests
 #' @param labels An optional text for the axis label
 #' 
-#' @return
+#' @return Interactive forest plots in a list
 #' 
 #' @export
 #' @import ggplot2

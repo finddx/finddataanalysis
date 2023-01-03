@@ -8,7 +8,7 @@
 #' @param proportion the proportion
 #' @param n sample size
 #'
-#' @return
+#' @return confidence interval lower and upper bounds
 #' 
 #' @importFrom checkmate expect_number
 #' @importFrom stats qnorm
