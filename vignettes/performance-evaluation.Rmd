@@ -164,7 +164,7 @@ plots[[2]]
 
 # performance_eval_auto
 
-Executes an automatized analysis of performance evaluation. The function calculates sensitivity, specificity, balanced accuracy, diagnostic odds ratio, negative and positive predictive values. It generates downloadable tables and interactive graphs based on the parameters that are entered. There are also options to get a simple, unformatted, version of the table containing the result.
+Executes an automatized analysis of performance evaluation. The function calculates sensitivity, specificity, balanced accuracy, diagnostic odds ratio, negative and positive predictive values. It generates downloadable tables and interactive graphs based on the parameters that are entered. There are also options to get a simple, unformatted version of the table containing the result.
 For long data, a grouping variable needs to be defined. The column name feeds into dplyr later on, and should be entered without quotation marks.  
 For wide data column names containing index tests should be entered as a list.
 The reference should always be in a separate column.
@@ -174,21 +174,26 @@ The reference should always be in a separate column.
 
 ```{r example-performance_eval_auto}
 df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+# All outputs
 eval_output <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = TRUE, table_output = TRUE, file_name = "MyEvaluationExample")
-eval_output$sen_plot
+eval_output$sen_plot 
 eval_output$spe_plot
 eval_output$table
 
+# Forest plot outputs
 eval_output_only_forest <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = TRUE, table_output = FALSE)
 eval_output_only_forest$sen_plot
 eval_output_only_forest$spe_plot
 eval_output_only_forest$table #NULL
 
+# A simple data frame output where the table is not formatted. This form is computer friendly.
 eval_output_simple_df <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = FALSE, table_output = FALSE)
 
 eval_output_simple_df
 
 
+# Performance Evaluation by Groups
 data(my_dataset)
 head(my_dataset)
 eval_output <- performance_eval_auto(data_var = my_dataset, list_index = "Result", ref = "RefTest", conf.level = 0.95, labels = "Test", forest_plot = FALSE, table_output = TRUE, file_name = "MyEvaluationExample", data_long = TRUE, group_var = Test_Name )
@@ -197,6 +202,26 @@ eval_output <- performance_eval_auto(data_var = my_dataset, list_index = "Result
 
   
 
+  
+
+# compare_sen_spe
+
+Comparison of sensitivities or specificities between two independent (i.e. unpaired) groups.
+    
+
+  
+
+```{r example-compare_sen_spe}
+result.df <- data.frame(Tests = c("Test1", "Test2"), TP = c(82, 140), FN = c(18, 60))
+result.df$N <- result.df$TP +result.df$FN
+result.df$sen <- result.df$TP/result.df$N
+compare_sen_spe(s1 = result.df$sen[1], s2 = result.df$sen[2], n1 = result.df$N[1], n2 = result.df$N[2],two.sided = TRUE)
+```
+
+  
+
+    
+  
   
   
 

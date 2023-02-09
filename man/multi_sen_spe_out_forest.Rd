@@ -30,7 +30,7 @@ multi_sen_spe_out_forest(
 Interactive forest plots in a list
 }
 \description{
-Executes multi_sen_spe function and creates forest plots.
+Executes multi_sen_spe function and creates forest plots automatically.
 }
 \examples{
 df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))

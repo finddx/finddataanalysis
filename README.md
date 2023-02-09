@@ -19,33 +19,98 @@ You can install the development version of finddataanalysis from
 devtools::install_github("berkosarFIND/finddataanalysis")
 ```
 
-## Performance analysis
+## Performance Evaluations
 
 This is a basic example which shows you how to calculate the sensitivity
-and specificity of a diagnostic test.
+and specificity of a diagnostic test using the automatized function
 
 ``` r
 library(finddataanalysis)
+#> Warning: replacing previous import 'ggplot2::last_plot' by 'plotly::last_plot'
+#> when loading 'finddataanalysis'
+#> Warning: replacing previous import 'plotly::rename' by 'plyr::rename' when
+#> loading 'finddataanalysis'
 library(DT)
-df <- data.frame(Index = c(rep("Positive", 20), rep("Negative", 20)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
-dtable <- sens_spe(data_var = df, index = "Index", ref = "Reference", conf.level = 0.95)
-DT::datatable(dtable)
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
+### Generating All outputs
 
-Here is a forest plot that you can generate:
+``` r
+eval_output <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = TRUE, table_output = TRUE, file_name = "MyEvaluationExample")
+eval_output$sen_plot 
+```
 
-    #> Loading required package: grid
-    #> Loading required package: magrittr
-    #> Loading required package: checkmate
-    #> 
-    #> Attaching package: 'dplyr'
-    #> The following objects are masked from 'package:stats':
-    #> 
-    #>     filter, lag
-    #> The following objects are masked from 'package:base':
-    #> 
-    #>     intersect, setdiff, setequal, union
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
+``` r
+eval_output$spe_plot
+```
+
+<img src="man/figures/README-unnamed-chunk-2-2.png" width="100%" />
+
+``` r
+eval_output$table
+```
+
+<img src="man/figures/README-unnamed-chunk-2-3.png" width="100%" />
+
+### Generating Forest Plot Outputs
+
+``` r
+eval_output_only_forest <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = TRUE, table_output = FALSE)
+eval_output_only_forest$sen_plot
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
+
+``` r
+eval_output_only_forest$spe_plot
+```
+
+<img src="man/figures/README-unnamed-chunk-3-2.png" width="100%" />
+
+``` r
+eval_output_only_forest$table  # Should give NULL
+#> NULL
+```
+
+### Generating a simple data frame output where the table is not formatted, especially considering the confidence intervals. This form is computer friendly.
+
+``` r
+eval_output_simple_df <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = FALSE, table_output = FALSE)
+
+eval_output_simple_df
+#>    N TP FP FN TN Sensitivity Specificity SensLower SensUpper SpeLower SpeUpper
+#> 1 40 10 10  0 20         100       66.67     72.25    100.00    48.78    80.77
+#> 2 40  5  0  5 30          50      100.00     23.66     76.34    88.65   100.00
+#> 3 40  9  0  1 30          90      100.00     59.58     98.21    88.65   100.00
+#>   Balanced_Accuracy BAlower BAupper DOR DORUpper DORLower PPV    NPV Accuracy
+#> 1             83.34   60.52   90.38 Inf      Inf      NaN  50 100.00     75.0
+#> 2             75.00   56.15   88.17 Inf      Inf      NaN 100  85.71     87.5
+#> 3             95.00   74.11   99.10 Inf      Inf      NaN 100  96.77     97.5
+#>       Test
+#> 1     Tgs1
+#> 2      AFD
+#> 3 SimpleDx
+```
+
+### Performance Evaluation by Groups
+
+You can do the subgroup analysis automatically by defining a group
+variable (*group_var*). Please note that, this parameter should not be
+specified in quotation parks. E.g.: **variable** instead of
+**“variable”**
+
+``` r
+data(my_dataset)
+head(my_dataset)
+#>         ID Test_Name   Result  RefTest
+#> 1 01STUDID       ABC Negative Negative
+#> 2 01STUDID       DST Negative Negative
+#> 3 01STUDID       HCG Negative Negative
+#> 4 01STUDID      LLJK Negative Negative
+#> 5 01STUDID      ddfs Negative Negative
+#> 6 01STUDID Weird Lab Negative Negative
+eval_output <- performance_eval_auto(data_var = my_dataset, list_index = "Result", ref = "RefTest", conf.level = 0.95, labels = "Test", forest_plot = FALSE, table_output = TRUE, file_name = "MyEvaluationExample", data_long = TRUE, group_var = Test_Name )
+```

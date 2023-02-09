@@ -2,7 +2,7 @@
 
 #' multi_sen_spe with forest plot output
 #' 
-#' Executes multi_sen_spe function and creates forest plots. 
+#' Executes multi_sen_spe function and creates forest plots automatically. 
 #' 
 #' @param data_var Data table containing tests results
 #' @param list_index A list of index tests with "Negative" and "Positive" results

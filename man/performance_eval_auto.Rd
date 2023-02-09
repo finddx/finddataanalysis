@@ -42,28 +42,33 @@ performance_eval_auto(
 \item{group_var}{The variable name where the groups are defined. Enter without quotation marks (e.g. ColName instead of "ColName"). Not used with wide data format.}
 }
 \value{
-performance evaluation resuls as plots, formatted table, or simple data frame
+performance evaluation results as plots, formatted table, or simple data frame
 }
 \description{
 Calculates diagnostic accuracy characteristics and generates report quality tables and figures. Executes multi_sen_spe_out_forest, multi_sen_spe_dt_out, and returns a list object with two forest plots and a DT data table for display.The function works with wide and long formats.
 }
 \examples{
 df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)))
+
+# All outputs
 eval_output <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = TRUE, table_output = TRUE, file_name = "MyEvaluationExample")
-eval_output$sen_plot
+eval_output$sen_plot 
 eval_output$spe_plot
 eval_output$table
 
+# Forest plot outputs
 eval_output_only_forest <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = TRUE, table_output = FALSE)
 eval_output_only_forest$sen_plot
 eval_output_only_forest$spe_plot
 eval_output_only_forest$table #NULL
 
+# A simple data frame output where the table is not formatted. This form is computer friendly.
 eval_output_simple_df <- performance_eval_auto(data_var = df, list_index = c("Index1", "Index2", "Index3"), ref = "Reference", conf.level = 0.95, index_names = c("Tgs1", "AFD", "SimpleDx"), labels = "Test", forest_plot = FALSE, table_output = FALSE)
 
 eval_output_simple_df
 
 
+# Performance Evaluation by Groups
 data(my_dataset)
 head(my_dataset)
 eval_output <- performance_eval_auto(data_var = my_dataset, list_index = "Result", ref = "RefTest", conf.level = 0.95, labels = "Test", forest_plot = FALSE, table_output = TRUE, file_name = "MyEvaluationExample", data_long = TRUE, group_var = Test_Name )
