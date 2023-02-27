@@ -31,7 +31,7 @@ temperature_groups <- function(data.var, temperature ){
                                               data.var[,temperature] >= 36 & data.var[,temperature]<37  ~ "36-36.9",
                                              data.var[,temperature] >= 37 & data.var[,temperature]<38  ~ "37-37.9",
                                              data.var[,temperature] >= 38 & data.var[,temperature]<39  ~ "38-38.9",
-                                             data.var[,temperature] >= 30  ~ "≥39"))
+                                             data.var[,temperature] >= 39  ~ "≥39"))
     return(data.var)
 }
 ```
