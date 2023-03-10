@@ -64,8 +64,13 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
   DOR_hci <- round(exp(log(DOR) + z*se_dor), 2)
 
   PPV	<- round((TP / (TP + FP))*100, 2)
+  ppv_CI	<- scoreci(x = TP, n  = (TP + FP), conf.level = conf.level)
   NPV	<- round((TN / (TN + FN))*100,2)
+  npv_CI	<- scoreci(x = TN, n  = (TN + FN), conf.level = conf.level)
+
   ACC	<- round(((TP + TN) / (TP + FP + FN + TN))*100,2)
+  acc_CI	<- scoreci(x = (TP + TN), n  = (TP + FP + FN + TN), conf.level = conf.level)
+
   N 		<- TP + TN + FP + FN
 
   data_to_return_1	<- data.frame(N = N, TP = TP, FP = FP, FN = FN, TN = TN,
@@ -81,8 +86,14 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
                                  DORUpper = DOR_hci,
                                  DORLower = DOR_lci,
                                  PPV = PPV,
+                                 PPVLower = (ppv_CI$conf.int[1])*100,
+                                 PPVUpper = (ppv_CI$conf.int[2])*100,
                                  NPV = NPV,
-                                 Accuracy = ACC)
+                                 NPVLower = (npv_CI$conf.int[1])*100,
+                                 NPVUpper = (npv_CI$conf.int[2])*100,
+                                 Accuracy = ACC,
+                                 ACCLower = (acc_CI$conf.int[1])*100,
+                                 ACCUpper = (acc_CI$conf.int[2])*100)
   return(data_to_return_1)
 }
 
@@ -154,9 +165,12 @@ table <- sens_spe_for_forest(data_var = data_var, index = index, ref = ref, conf
   spe_ci_text  <- paste0('[', format(table$SpeLower, nsmall = 1), '-', format(table$SpeUpper, nsmall = 1), ']')
   BA_ci_text   <- paste0('[', format(table$BAlower, nsmall = 1), '-', format(table$BAupper, nsmall = 1), ']')
   DOR_ci_text   <- paste0('[', format(table$DORLower, nsmall = 1), '-', format(table$DORUpper, nsmall = 1), ']')
+  ppv_ci_text <- paste0('[', format(table$PPVLower, nsmall = 1), '-', format(table$PPVUpper, nsmall = 1), ']')
+  npv_ci_text  <- paste0('[', format(table$NPVLower, nsmall = 1), '-', format(table$NPVUpper, nsmall = 1), ']')
+  acc_ci_text   <- paste0('[', format(table$ACCLower, nsmall = 1), '-', format(table$ACCUpper, nsmall = 1), ']')
 
 
-  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, `DOR` = table$DOR, `DOR [95%CI]` = DOR_ci_text, PPV = table$PPV, NPV = table$NPV, Accuracy = table$Accuracy )
+  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, `DOR` = table$DOR, `DOR [95%CI]` = DOR_ci_text, PPV = table$PPV, `PPV [95%CI]` = ppv_ci_text, NPV = table$NPV, `NPV [95%CI]` = npv_ci_text, Accuracy = table$Accuracy, `Accuracy [95%CI]` = acc_ci_text )
   names_tp <- names(data_to_return_1)
   data_to_return_1  <- data.frame(t(data_to_return_1))
   colnames(data_to_return_1) <- names_tp

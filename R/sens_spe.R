@@ -31,9 +31,12 @@ table <- sens_spe_for_forest(data_var = data_var, index = index, ref = ref, conf
   spe_ci_text  <- paste0('[', format(table$SpeLower, nsmall = 1), '-', format(table$SpeUpper, nsmall = 1), ']')
   BA_ci_text   <- paste0('[', format(table$BAlower, nsmall = 1), '-', format(table$BAupper, nsmall = 1), ']')
   DOR_ci_text   <- paste0('[', format(table$DORLower, nsmall = 1), '-', format(table$DORUpper, nsmall = 1), ']')
+  ppv_ci_text <- paste0('[', format(table$PPVLower, nsmall = 1), '-', format(table$PPVUpper, nsmall = 1), ']')
+  npv_ci_text  <- paste0('[', format(table$NPVLower, nsmall = 1), '-', format(table$NPVUpper, nsmall = 1), ']')
+  acc_ci_text   <- paste0('[', format(table$ACCLower, nsmall = 1), '-', format(table$ACCUpper, nsmall = 1), ']')
 
 
-  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, `DOR` = table$DOR, `DOR [95%CI]` = DOR_ci_text, PPV = table$PPV, NPV = table$NPV, Accuracy = table$Accuracy )
+  data_to_return_1	<- c(N = table$N, TP = table$TP, FP = table$FP, FN = table$FN, TN = table$TN, `Sensitivity` = table$Sensitivity, `Sensitivity [95%CI]` = sens_ci_text, `Specificity` = table$Specificity, `Specificity [95%CI]` = spe_ci_text, `Balanced Accuracy` = table$Balanced_Accuracy, `B. Accuracy [95%CI]` = BA_ci_text, `DOR` = table$DOR, `DOR [95%CI]` = DOR_ci_text, PPV = table$PPV, `PPV [95%CI]` = ppv_ci_text, NPV = table$NPV, `NPV [95%CI]` = npv_ci_text, Accuracy = table$Accuracy, `Accuracy [95%CI]` = acc_ci_text )
   names_tp <- names(data_to_return_1)
   data_to_return_1  <- data.frame(t(data_to_return_1))
   colnames(data_to_return_1) <- names_tp

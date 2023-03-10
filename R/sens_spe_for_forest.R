@@ -57,8 +57,13 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
   DOR_hci <- round(exp(log(DOR) + z*se_dor), 2)
 
   PPV	<- round((TP / (TP + FP))*100, 2)
+  ppv_CI	<- scoreci(x = TP, n  = (TP + FP), conf.level = conf.level)
   NPV	<- round((TN / (TN + FN))*100,2)
+  npv_CI	<- scoreci(x = TN, n  = (TN + FN), conf.level = conf.level)
+
   ACC	<- round(((TP + TN) / (TP + FP + FN + TN))*100,2)
+  acc_CI	<- scoreci(x = (TP + TN), n  = (TP + FP + FN + TN), conf.level = conf.level)
+
   N 		<- TP + TN + FP + FN
 
   data_to_return_1	<- data.frame(N = N, TP = TP, FP = FP, FN = FN, TN = TN,
@@ -74,8 +79,14 @@ sens_spe_for_forest <- function(data_var, index, ref, conf.level = 0.95){
                                  DORUpper = DOR_hci,
                                  DORLower = DOR_lci,
                                  PPV = PPV,
+                                 PPVLower = (ppv_CI$conf.int[1])*100,
+                                 PPVUpper = (ppv_CI$conf.int[2])*100,
                                  NPV = NPV,
-                                 Accuracy = ACC)
+                                 NPVLower = (npv_CI$conf.int[1])*100,
+                                 NPVUpper = (npv_CI$conf.int[2])*100,
+                                 Accuracy = ACC,
+                                 ACCLower = (acc_CI$conf.int[1])*100,
+                                 ACCUpper = (acc_CI$conf.int[2])*100)
   return(data_to_return_1)
 }
 
