@@ -221,6 +221,35 @@ compare_sen_spe(s1 = result.df$sen[1], s2 = result.df$sen[2], n1 = result.df$N[1
   
 
     
+
+# nice_table
+
+    
+
+  
+
+```{r example-nice_table}
+library(dplyr)
+df <- data.frame(Index1 = c(rep("Positive", 20), rep("Negative", 20)), Index2 = c(rep("Positive", 5), rep("Negative", 35)), Index3 = c(rep("Positive", 9), rep("Negative", 31)), Reference = c(rep("Positive", 10), rep("Negative", 30)), Sex = rep(c("M","F", "F", "M"), 10))
+
+sex_ana <- df %>% group_by(Sex) %>% group_modify(~ performance_eval_auto(
+  data_var = (.x),
+  list_index =c("Index1", "Index2"),
+  ref = "Reference",
+  conf.level = 0.95,
+  index_names = NULL,
+  labels = "Test",
+  forest_plot = FALSE, #!!!
+  table_output = FALSE, #!!!
+  file_name = "performance_eval",
+  data_long = FALSE, #!!!
+  group_var = NULL
+))
+nice_table(sex_ana, "Sex")
+```
+
+  
+
   
   
   
