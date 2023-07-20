@@ -16,8 +16,15 @@ You can install the development version of finddataanalysis from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("berkosarFIND/finddataanalysis")
+devtools::install_github("finddx/finddataanalysis")
 ```
+
+## List of functions
+
+List of functions are included in the help. Run the following code in
+Console:
+
+    help( package ="finddataanalysis")
 
 ## Performance Evaluations
 
@@ -85,14 +92,14 @@ eval_output_simple_df
 #> 1 40 10 10  0 20         100       66.67     72.25    100.00    48.78    80.77
 #> 2 40  5  0  5 30          50      100.00     23.66     76.34    88.65   100.00
 #> 3 40  9  0  1 30          90      100.00     59.58     98.21    88.65   100.00
-#>   Balanced_Accuracy BAlower BAupper DOR DORUpper DORLower PPV    NPV Accuracy
-#> 1             83.34   60.52   90.38 Inf      Inf      NaN  50 100.00     75.0
-#> 2             75.00   56.15   88.17 Inf      Inf      NaN 100  85.71     87.5
-#> 3             95.00   74.11   99.10 Inf      Inf      NaN 100  96.77     97.5
-#>       Test
-#> 1     Tgs1
-#> 2      AFD
-#> 3 SimpleDx
+#>   Balanced_Accuracy BAlower BAupper DOR DORUpper DORLower PPV PPVLower PPVUpper
+#> 1             83.34   60.52   90.38 Inf      Inf      NaN  50    29.93    70.07
+#> 2             75.00   56.15   88.17 Inf      Inf      NaN 100    56.55   100.00
+#> 3             95.00   74.11   99.10 Inf      Inf      NaN 100    70.09   100.00
+#>      NPV NPVLower NPVUpper Accuracy ACCLower ACCUpper     Test
+#> 1 100.00    83.89   100.00     75.0    59.81    85.81     Tgs1
+#> 2  85.71    70.62    93.74     87.5    73.89    94.54      AFD
+#> 3  96.77    83.81    99.43     97.5    87.12    99.56 SimpleDx
 ```
 
 ### Performance Evaluation by Groups

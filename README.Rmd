@@ -26,8 +26,19 @@ You can install the development version of finddataanalysis from [GitHub](https:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("berkosarFIND/finddataanalysis")
+devtools::install_github("finddx/finddataanalysis")
 ```
+
+
+## List of functions
+
+List of functions are included in the help. Run the following code in Console: 
+```
+help( package ="finddataanalysis")
+```
+
+
+
 
 
 ## Performance Evaluations

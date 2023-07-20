@@ -357,6 +357,7 @@ multi_sen_spe_dt_out <- function(data_var, list_index, ref, conf.level = 0.95, i
     
   datatable(multi_sen_spe(data_var, list_index = list_index, ref = ref, index_names = index_names, conf.level=conf.level ),
                   extensions = 'Buttons',
+                  scrollX = TRUE,
                   options = list(dom = 'Blfrtip',
                                  buttons = list(
                                    list(extend = 'copy', filename = file_name),
@@ -724,6 +725,7 @@ nice_table <- function(data_var, group_name){
         return_table <- datatable(data_to_return_1,
           extensions = 'Buttons',
                 options = list(dom = 'Blfrtip',
+                               scrollX = TRUE,
                                buttons = list(
                                  list(extend = 'copy', filename = "subgroup.analysis"),
                                  list(extend = 'csv', filename = "subgroup.analysis"),
