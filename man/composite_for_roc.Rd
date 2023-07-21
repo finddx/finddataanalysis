@@ -19,5 +19,5 @@ composite_for_roc(ref_1, ref_2, test_refs, data_frame)
 Data table containing all possible composite references based on the thresholds applied
 }
 \description{
-Define multiple composite references to make a ROC style analysis but on the references.
+Define multiple composite references to make an analysis similar to a ROC curve but where diagnostic ability of a binary classifier system is assessed as THE REFERENCE discrimination threshold is varied.
 }

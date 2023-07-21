@@ -2,7 +2,7 @@
 % Please edit documentation in R/roc_calculate.R
 \name{ROC_calculate}
 \alias{ROC_calculate}
-\title{Title}
+\title{Calculate ROC-like characteristics (i.e. based on varying REFRENCE thresholds)}
 \usage{
 ROC_calculate(data_var, index, ref, conf.level = 0.95, var_name_suffix_cut)
 }
@@ -17,6 +17,9 @@ ROC_calculate(data_var, index, ref, conf.level = 0.95, var_name_suffix_cut)
 
 \item{var_name_suffix_cut}{the suffix based on which the reference test column name to be cut. This will result in suffix + threshold}
 }
+\value{
+sensitivity and specificity based on differnt thresholds to classify a reference positive or negative
+}
 \description{
-Calculates sensitivity and false positivity rate based on the multiple reference columns defined by the thresholds
+Calculates sensitivity and false positivity rate based on the multiple reference columns defined by the thresholds FOR an analysis similar to a ROC curve but where diagnostic ability of a binary classifier system is assessed as THE REFERENCE discrimination threshold is varied.
 }

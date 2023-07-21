@@ -51,7 +51,7 @@ temperature_groups(data.var = df, temperature = "Temperature")
 ```{r function-age_groups}
 #' Age groups
 #' 
-#' Creates a new categorical variable based on age.
+#' Creates a new categorical variable based on age. 
 #' 
 #' @param data.var Data table
 #' @param age Variable containing age in years.
@@ -61,38 +61,89 @@ temperature_groups(data.var = df, temperature = "Temperature")
 #' @param lim4 Age limit for categorization
 #' @param lim5 Age limit for categorization
 #'
-#' @return creates a columns with typical ranges
+#' @return Creates a columns with typical ranges. 
 #' 
 #' @import dplyr
+#' 
 #' @export
 age_groups <- function(data.var, age, lim1, lim2, lim3=NULL, lim4=NULL, lim5=NULL){
-  ifelse(is.null(lim3), 
-                 data.var <- data.var %>% mutate(AGE_CATEG = case_when(data.var[,age] < lim1  ~ paste0("<",lim1),
-                                              data.var[,age] >= lim1 & data.var[,age]<lim2  ~ paste0(lim1,"-",lim2-1),
-                                              data.var[,age] >= lim2  ~ paste0("≥",lim2))), 
-                 ifelse(is.null(lim4), data.var <- data.var %>% mutate(AGE_CATEG = case_when(data.var[,age] < lim1  ~ paste0("<",lim1),
-                                              data.var[,age] >= lim1 & data.var[,age]<lim2  ~ paste0(lim1,"-",lim2-1),
-                                             data.var[,age] >= lim2 & data.var[,age]<lim3  ~ paste0(lim2,"-",lim3-1),
-                                             data.var[,age] >= lim2  ~ paste0("≥",lim3))),
-                 ifelse(is.null(lim5), data.var <- data.var %>% mutate(AGE_CATEG = case_when(data.var[,age] < lim1  ~ paste0("<",lim1),
-                                              data.var[,age] >= lim1 & data.var[,age]<lim2  ~ paste0(lim1,"-",lim2-1),
-                                             data.var[,age] >= lim2 & data.var[,age]<lim3  ~ paste0(lim2,"-",lim3-1),
-                                             data.var[,age] >= lim3 & data.var[,age]<lim4  ~ paste0(lim3,"-",lim4-1),
-                                             data.var[,age] >= lim4  ~ paste0("≥",lim4))),
-                                      data.var <- data.var %>% mutate(AGE_CATEG = case_when(data.var[,age] < lim1  ~ paste0("<",lim1),
-                                              data.var[,age] >= lim1 & data.var[,age]<lim2  ~ paste0(lim1,"-",lim2-1),
-                                             data.var[,age] >= lim2 & data.var[,age]<lim3  ~ paste0(lim2,"-",lim3-1),
-                                             data.var[,age] >= lim3 & data.var[,age]<lim4  ~ paste0(lim3,"-",lim4-1),
-                                             data.var[,age] >= lim4 & data.var[,age]<lim5  ~ paste0(lim4,"-",lim5-1),
-                                             data.var[,age] >= lim5  ~ paste0("≥",lim5))))))
+   change <- 0
+  if ("age" %in% colnames(data.var)) {
 
+    colnames(data.var)[which(colnames(data.var)=="age")] <- "AGE"
+    age = "AGE"
+    change <- 1
+    } 
+
+  ifelse(
+    is.null(lim3),
+    data.var <-
+      data.var %>% mutate(
+        AGE_CATEG = case_when(
+          data.var[, age] < lim1  ~ paste0("<", lim1),
+          data.var[, age] >= lim1 &
+            data.var[, age] < lim2  ~ paste0(lim1, "-", lim2 - 1),
+          data.var[, age] >= lim2  ~ paste0("≥", lim2)
+        )
+      ),
+    ifelse(
+      is.null(lim4),
+      data.var <-
+        data.var %>% mutate(
+          AGE_CATEG = case_when(
+            data.var[, age] < lim1  ~ paste0("<", lim1),
+            data.var[, age] >= lim1 &
+              data.var[, age] < lim2  ~ paste0(lim1, "-", lim2 - 1),
+            data.var[, age] >= lim2 &
+              data.var[, age] < lim3  ~ paste0(lim2, "-", lim3 - 1),
+            data.var[, age] >= lim2  ~ paste0("≥", lim3)
+          )
+        ),
+      ifelse(
+        is.null(lim5),
+        data.var <-
+          data.var %>% mutate(
+            AGE_CATEG = case_when(
+              data.var[, age] < lim1  ~ paste0("<", lim1),
+              data.var[, age] >= lim1 &
+                data.var[, age] < lim2  ~ paste0(lim1, "-", lim2 - 1),
+              data.var[, age] >= lim2 &
+                data.var[, age] < lim3  ~ paste0(lim2, "-", lim3 - 1),
+              data.var[, age] >= lim3 &
+                data.var[, age] < lim4  ~ paste0(lim3, "-", lim4 - 1),
+              data.var[, age] >= lim4  ~ paste0("≥", lim4)
+            )
+          ),
+        data.var <-
+          data.var %>% mutate(
+            AGE_CATEG = case_when(
+              data.var[, age] < lim1  ~ paste0("<", lim1),
+              data.var[, age] >= lim1 &
+                data.var[, age] < lim2  ~ paste0(lim1, "-", lim2 - 1),
+              data.var[, age] >= lim2 &
+                data.var[, age] < lim3  ~ paste0(lim2, "-", lim3 - 1),
+              data.var[, age] >= lim3 &
+                data.var[, age] < lim4  ~ paste0(lim3, "-", lim4 - 1),
+              data.var[, age] >= lim4 &
+                data.var[, age] < lim5  ~ paste0(lim4, "-", lim5 - 1),
+              data.var[, age] >= lim5  ~ paste0("≥", lim5)
+            )
+          )
+      )
+    )
+  )
+    if(change ==1){
+      colnames(data.var)[which(colnames(data.var)=="AGE")] <- "age"
+    }
     return(data.var)
 }
 ```
+
+
   
 ```{r example-age_groups}
-df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 86)))
-age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18, lim4=45, lim5=60)
+df = data.frame(ID = c(1:20), age = round(runif(20, 3, 86)))
+age_groups(data.var = df, age = "age", lim1=5, lim2=11, lim3=18, lim4=45, lim5=60)
 df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 25)))
 age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18)
 
@@ -103,8 +154,119 @@ age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18)
 ```
   
 
+# age_dob_process
+    
+```{r function-age_dob_process}
+#' Age and DOB processing
+#' 
+#' The function first calculates the age based on the present age variable and if unavailable date of birth and enrollment/consent date, end then runs the age_groups function to divide into different categories.
+#' 
+#' @param data.var Data table
+#' @param age.var Variable containing age in years.
+#' @param dob.var Variable containing date of birth
+#' @param date.var Variable containing enrolment/consent date 
+#' @param lim1 Age limit for categorization
+#' @param lim2 Age limit for categorization
+#' @param lim3 Age limit for categorization
+#' @param lim4 Age limit for categorization
+#' @param lim5 Age limit for categorization
+#' 
+#' @import dplyr
+#' @import lubridate
+#' 
+#' @return Returns the data table with a calculated age column and categorized age column added. 
+#' @export
+
+age_dob_process <-
+  function(data.var, age.var, dob.var, date.var, lim1, lim2, lim3 = NULL, lim4 = NULL, lim5 = NULL) {
+    data1 <- data.var %>%
+    mutate(AGE_CALC = case_when(
+      
+      !is.na(data.var[,age.var]) ~ data.var[,age.var],
+      is.na(data.var[,age.var]) ~ as.numeric(difftime(as.Date(data.var[,date.var]), as.Date(data.var[,dob.var]), unit = "days")) / 365.25
+    ))
+    
+    datareturn <-
+      age_groups(
+        data.var = data1,
+        lim1 = lim1,
+        lim2 = lim2,
+        lim3 = lim3,
+        lim4 = lim4,
+        lim5 = lim5,
+        age = "AGE_CALC"
+      )
+    return(datareturn)
+  }
+```
+  
+```{r example-age_dob_process}
+library(dplyr)
+library(lubridate)
+
+
+my_data <- data.frame(
+  ID = c(1, 2, 3, 4, 5),
+  age = c(25, NA, 30, NA, NA),
+  dob = c("1980-01-15", "1995-03-22", "1975-08-10", "1988-11-05", "2000-09-30"),
+  date_enrollment = c("2023-05-10", "2022-12-01", "2022-02-18", "2023-02-05", "2021-07-20")
+)
+
+# Display the data
+print(my_data)
+
+# Apply the age_dob_process function to the data
+age_dob_process(data.var=my_data, age.var = "age", dob.var = "dob", date.var = "date_enrollment", lim1 = 30, lim2 = 40)
+
+
+```
+  
+```{r tests-age_dob_process}
+# Load the testthat package
+library(testthat)
+
+
+# Create a test data frame with some example data
+test_data <- data.frame(
+  ID = 1:5,
+  AGE = c(20, NA, 35, 45, NA),
+  DOB = as.Date(c("1990-01-01", "1985-05-10", "1980-03-15", "1975-11-20", "1995-09-05")),
+  DATE = as.Date(c("2022-01-01", "2022-03-20", "2022-04-15", "2022-06-10", "2022-08-30"))
+)
+
+# Define the expected output based on the test data
+expected_output <- data.frame(
+  ID = 1:5,
+  AGE = c(20, NA, 35, 45, NA),
+  DOB = as.Date(c("1990-01-01", "1985-05-10", "1980-03-15", "1975-11-20", "1995-09-05")),
+  DATE = as.Date(c("2022-01-01", "2022-03-20", "2022-04-15", "2022-06-10", "2022-08-30")),
+  AGE_CALC = c(20, 36.85969, 35, 45, 26.98426),
+  AGE_CATEG = c("<30", "30-39", "30-39", "≥40", "<30") #by limits 30 and 40
+)
+
+#Use the function
+  result <- age_dob_process(
+    data.var = test_data,
+    age.var = "AGE",
+    dob.var = "DOB",
+    date.var = "DATE",
+    lim1 = 30,
+    lim2 = 40,
+  )
+# Define the test case using testthat
+test_that("age_dob_process calculates age and age groups correctly", {
+  # Call the age_dob_process function with the test data
+
+  
+  # Check if the output matches the expected output
+  expect_equal(result, expected_output, tolerance = 0.1)
+})
+
+```
+  
+
 ```{r development-inflate, eval=FALSE}
 # Run but keep eval=FALSE to avoid infinite loop
 # Execute in the console directly
-fusen::inflate(flat_file = "dev/flat_variable_manipulations.Rmd", vignette_name = "Minimal")
+fusen::inflate(flat_file = "dev/flat_variable_manipulations.Rmd", vignette_name = "variablemanipulations")
 ```

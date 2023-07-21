@@ -24,7 +24,7 @@ devtools::install_github("finddx/finddataanalysis")
 List of functions are included in the help. Run the following code in
 Console:
 
-    help( package ="finddataanalysis")
+    help(package ="finddataanalysis")
 
 ## Performance Evaluations
 

@@ -138,7 +138,7 @@ Generates composite references based on 2/3 variables, one being tested for mult
 ```{r function-composite_for_roc}
 #' composite_for_roc
 #' 
-#' Define multiple composite references to make a ROC style analysis but on the references.
+#' Define multiple composite references to make an analysis similar to a ROC curve but where diagnostic ability of a binary classifier system is assessed as THE REFERENCE discrimination threshold is varied.
 #' 
 #' @param ref_1 Reference 1
 #' @param ref_2  Reference 2
@@ -164,16 +164,16 @@ composite_for_roc <- function(ref_1, ref_2, test_refs, data_frame){
 
 ```
   
-## Calculate ROC-like caharcterisitcs
+## Calculate ROC-like characteristics
 
-This function can be used to monitor sensitivity and specificity of an RDT in comparison to a reference that will be classified based on multiple thresholds.
+This function can be used to monitor sensitivity and specificity of an RDT in comparison against a reference value that will be classified based on multiple thresholds.
 This is useful in the case where a composite reference is generated based on multiple tests and one of the test results needs to be classified as positive or negative.
 The index test classification is not affected.
     
 ```{r function-ROC_calculate}
-#' Title
+#' Calculate ROC-like characteristics (i.e. based on varying REFRENCE thresholds)
 #' 
-#' Calculates sensitivity and false positivity rate based on the multiple reference columns defined by the thresholds
+#' Calculates sensitivity and false positivity rate based on the multiple reference columns defined by the thresholds for an analysis similar to a ROC curve but where diagnostic ability of a binary classifier system is assessed as THE REFERENCE discrimination threshold is varied.
 #' 
 #' @param data_var data table
 #' @param index index test column containing results: "Positive" or "Negative"

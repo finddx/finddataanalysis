@@ -1,0 +1,35 @@
+flat_composite_reference.Rmd:
+  path: dev/flat_composite_reference.Rmd
+  state: active
+  R:
+  - R/categorize_result.R
+  - R/categorize_result_pcr.R
+  - R/composite_for_roc.R
+  - R/composite_reference.R
+  - R/composite_reference_majority.R
+  - R/roc_calculate.R
+  tests: []
+  vignettes: vignettes/composite_reference.Rmd
+  inflate:
+    flat_file: dev/flat_composite_reference.Rmd
+    vignette_name: composite_reference
+    open_vignette: true
+    check: true
+    document: true
+    overwrite: ask
+flat_variable_manipulations.Rmd:
+  path: dev/flat_variable_manipulations.Rmd
+  state: active
+  R:
+  - R/age_dob_process.R
+  - R/age_groups.R
+  - R/temperature_groups.R
+  tests: tests/testthat/test-age_dob_process.R
+  vignettes: vignettes/variablemanipulations.Rmd
+  inflate:
+    flat_file: dev/flat_variable_manipulations.Rmd
+    vignette_name: variablemanipulations
+    open_vignette: true
+    check: true
+    document: true
+    overwrite: ask

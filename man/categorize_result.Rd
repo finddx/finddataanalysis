@@ -7,7 +7,7 @@
 categorize_result(dataframe, variable, thresholds)
 }
 \arguments{
-\item{dataframe}{The data table contaiing test results}
+\item{dataframe}{The data table containing test results}
 
 \item{variable}{A continuous variable}
 

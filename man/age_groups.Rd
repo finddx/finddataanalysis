@@ -22,14 +22,14 @@ age_groups(data.var, age, lim1, lim2, lim3 = NULL, lim4 = NULL, lim5 = NULL)
 \item{lim5}{Age limit for categorization}
 }
 \value{
-creates a columns with typical ranges
+Creates a columns with typical ranges.
 }
 \description{
 Creates a new categorical variable based on age.
 }
 \examples{
-df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 86)))
-age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18, lim4=45, lim5=60)
+df = data.frame(ID = c(1:20), age = round(runif(20, 3, 86)))
+age_groups(data.var = df, age = "age", lim1=5, lim2=11, lim3=18, lim4=45, lim5=60)
 df = data.frame(ID = c(1:20), AGE = round(runif(20, 3, 25)))
 age_groups(data.var = df, age = "AGE", lim1=5, lim2=11, lim3=18)
 

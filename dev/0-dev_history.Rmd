@@ -13,7 +13,7 @@ All commands that you use to use when developing packages...
 
 ```{r description, eval=FALSE}
 # Describe your package
-fusen::fill_description(
+fusen::fill_description(overwrite = TRUE,
   pkg = here::here(),
   fields = list(
     Title = "FIND Data Analysis Functions",
@@ -25,7 +25,7 @@ fusen::fill_description(
   )
 )
 # Define License with use_*_license()
-usethis::use_mit_license("Berra Erkosar")
+usethis::use_proprietary_license("Berra Erkosar")
 ```
 
 # Start using git
@@ -83,6 +83,9 @@ attachment::att_amend_desc()
 
 # Check the package
 devtools::check()
+
+#build manual
+devtools::build_manual()
 ```
 
 # Share the package
