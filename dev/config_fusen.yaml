@@ -17,6 +17,24 @@ flat_composite_reference.Rmd:
     check: true
     document: true
     overwrite: ask
+flat_concordence.Rmd:
+  path: dev/flat_concordence.Rmd
+  state: active
+  R:
+  - R/cohen_agreement.R
+  - R/format_colnames.R
+  - R/group_means_concordence.R
+  tests:
+  - tests/testthat/test-cohen_agreement.R
+  - tests/testthat/test-group_means_concordence.R
+  vignettes: vignettes/concordance.Rmd
+  inflate:
+    flat_file: dev/flat_concordence.Rmd
+    vignette_name: Concordance
+    open_vignette: true
+    check: true
+    document: true
+    overwrite: ask
 flat_variable_manipulations.Rmd:
   path: dev/flat_variable_manipulations.Rmd
   state: active
