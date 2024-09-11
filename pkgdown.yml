@@ -1,0 +1,10 @@
+pandoc: 3.1.11
+pkgdown: 2.1.0
+pkgdown_sha: ~
+articles:
+  composite_reference: composite_reference.html
+  concordance: concordance.html
+  dx_yield: dx_yield.html
+  performance-evaluation: performance-evaluation.html
+  variablemanipulations: variablemanipulations.html
+last_built: 2024-09-11T08:12Z
