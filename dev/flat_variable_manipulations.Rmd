@@ -96,7 +96,7 @@ age_groups <- function(data.var, age, lim1, lim2, lim3=NULL, lim4=NULL, lim5=NUL
               data.var[, age] < lim2  ~ paste0(lim1, "-", lim2 - 1),
             data.var[, age] >= lim2 &
               data.var[, age] < lim3  ~ paste0(lim2, "-", lim3 - 1),
-            data.var[, age] >= lim2  ~ paste0("≥", lim3)
+            data.var[, age] >= lim3  ~ paste0("≥", lim3)
           )
         ),
       ifelse(
